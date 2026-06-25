@@ -1,0 +1,123 @@
+[
+  {
+    "mentor_id": "m01",
+    "student_id": "e01",
+    "nombre": "Modelo de NLP para lengua Náhuatl",
+    "ano": 2023,
+    "poster": true,
+    "descripcion": "Desarrollo de un modelo de procesamiento de lenguaje natural adaptado para la lengua Náhuatl usando técnicas de IA con datos recopilados en comunidades de San Luis Potosí."
+  },
+  {
+    "mentor_id": "m06",
+    "student_id": "e02",
+    "nombre": "Acceso a salud en comunidades purépechas",
+    "ano": 2023,
+    "poster": true,
+    "descripcion": "Análisis de barreras en el acceso a servicios de salud en comunidades purépechas de Michoacán, con propuestas de intervención basadas en datos comunitarios."
+  },
+  {
+    "mentor_id": "m02",
+    "student_id": "e03",
+    "nombre": "Gobernanza indígena y participación política",
+    "ano": 2022,
+    "poster": true,
+    "descripcion": "Estudio de los mecanismos de gobernanza en comunidades indígenas de Puebla y su articulación con estructuras políticas formales."
+  },
+  {
+    "mentor_id": "m08",
+    "student_id": "e04",
+    "nombre": "Plataforma educativa intercultural digital",
+    "ano": 2024,
+    "poster": true,
+    "descripcion": "Diseño y prototipado de una plataforma digital para educación intercultural bilingüe dirigida a comunidades Huastecas."
+  },
+  {
+    "mentor_id": "m07",
+    "student_id": "e05",
+    "nombre": "Conocimiento tradicional y manejo forestal",
+    "ano": 2023,
+    "poster": true,
+    "descripcion": "Integración de conocimiento Rarámuri sobre manejo forestal con técnicas modernas de monitoreo ambiental en la Sierra Tarahumara."
+  },
+  {
+    "id": "r06",
+    "mentor_id": "m03",
+    "student_id": "e06",
+    "nombre": "Migración purépecha y redes de apoyo",
+    "ano": 2024,
+    "poster": true,
+    "descripcion": "Análisis de patrones migratorios en comunidades purépechas y el papel de redes de apoyo comunitarias transnacionales."
+  },
+  {
+    "mentor_id": "m04",
+    "student_id": "e07",
+    "nombre": "Economías locales y emprendimiento indígena",
+    "ano": 2022,
+    "poster": true,
+    "descripcion": "Estudio de iniciativas de emprendimiento en comunidades indígenas de Sinaloa y su impacto en el desarrollo económico local."
+  },
+  {
+    "mentor_id": "m02",
+    "student_id": "e08",
+    "nombre": "Violencia de género en contextos indígenas",
+    "ano": 2024,
+    "poster": true,
+    "descripcion": "Investigación sobre violencia de género en comunidades indígenas de Puebla, con enfoque en acceso a justicia y mecanismos comunitarios de protección."
+  },
+  {
+    "mentor_id": "m05",
+    "student_id": "e09",
+    "nombre": "IA para detección temprana de enfermedades",
+    "ano": 2025,
+    "poster": false,
+    "descripcion": "Desarrollo de herramientas de inteligencia artificial para la detección temprana de enfermedades prevalentes en comunidades indígenas de San Luis Potosí."
+  },
+  {
+    "mentor_id": "m10",
+    "student_id": "e10",
+    "nombre": "Digitalización de patrimonio cultural Totonaca",
+    "ano": 2025,
+    "poster": true,
+    "descripcion": "Proyecto de digitalización y preservación del patrimonio cultural Totonaca usando tecnologías de documentación y bases de datos comunitarias."
+  },
+  {
+    "mentor_id": "m08",
+    "student_id": "e11",
+    "nombre": "Educación bilingüe Náhuatl-Español",
+    "ano": 2024,
+    "poster": true,
+    "descripcion": "Desarrollo de materiales educativos bilingües Náhuatl-Español para escuelas primarias en la Montaña de Guerrero."
+  },
+  {
+    "mentor_id": "m09",
+    "student_id": "e12",
+    "nombre": "Análisis estadístico de políticas sociales",
+    "ano": 2023,
+    "poster": true,
+    "descripcion": "Aplicación de métodos estadísticos para evaluar el impacto de políticas sociales en comunidades Rarámuri de Chihuahua."
+  },
+  {
+    "mentor_id": "m07",
+    "student_id": "e13",
+    "nombre": "Agroecología y soberanía alimentaria purépecha",
+    "ano": 2025,
+    "poster": true,
+    "descripcion": "Investigación sobre prácticas agroecológicas tradicionales purépechas y su papel en la soberanía alimentaria regional."
+  },
+  {
+    "mentor_id": "m03",
+    "student_id": "e14",
+    "nombre": "Vivienda digna en comunidades Huastecas",
+    "ano": 2022,
+    "poster": true,
+    "descripcion": "Análisis de condiciones de vivienda en comunidades Huastecas de San Luis Potosí y propuestas de política pública para vivienda digna."
+  },
+  {
+    "mentor_id": "m01",
+    "student_id": "e15",
+    "nombre": "Conectividad digital en comunidades rurales",
+    "ano": 2025,
+    "poster": false,
+    "descripcion": "Estudio de brecha digital en comunidades rurales de Chiapas y diseño de estrategias para mejorar la conectividad e inclusión tecnológica."
+  }
+]

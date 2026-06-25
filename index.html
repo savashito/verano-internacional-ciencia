@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Verano Internacional de la Ciencia</title>
+  <meta name="description" content="Programa que conecta mujeres indígenas estudiantes e investigadoras en México con mentores internacionales para proyectos de investigación interdisciplinarios enraizados en comunidades.">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <h1>Verano Internacional de la Ciencia <span>| REDNACECYT–EAAMO</span></h1>
+      <nav>
+        <a href="#about">Acerca de</a>
+        <a href="#temas">Temas</a>
+        <a href="#mapa">Mapa</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <h2>Verano Internacional de la Ciencia</h2>
+    <p class="subtitle">
+      Construyendo ecosistemas de investigación equitativos con comunidades indígenas.
+      Un programa que conecta mujeres indígenas investigadoras en México con mentores internacionales
+      y redes de investigación interdisciplinaria.
+    </p>
+    <div class="stats-row">
+      <div class="stat">
+        <span class="number">71</span>
+        <span class="label">Estudiantes</span>
+      </div>
+      <div class="stat">
+        <span class="number">101</span>
+        <span class="label">Pósters y proyectos</span>
+      </div>
+      <div class="stat">
+        <span class="number">12</span>
+        <span class="label">Estados</span>
+      </div>
+      <div class="stat">
+        <span class="number">16</span>
+        <span class="label">Comunidades indígenas</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2 class="section-title">Acerca del Programa</h2>
+    <p class="section-desc">
+      El Verano Internacional de la Ciencia surgió en 2022 a través de colaboraciones entre
+      REDNACECYT, la iniciativa MD4SG/EAAMO e instituciones educativas de México, para apoyar
+      la participación equitativa en investigación de mujeres indígenas.
+    </p>
+    <div class="about-grid">
+      <div class="about-card">
+        <h3>Coordinación de Ecosistemas</h3>
+        <p>
+          El programa no opera como una simple iniciativa de mentoría, sino como un ecosistema
+          que coordina infraestructuras institucionales existentes: COECyT, universidades
+          interculturales, comunidades indígenas y redes de investigación internacionales.
+        </p>
+      </div>
+      <div class="about-card">
+        <h3>Investigación Enraizada</h3>
+        <p>
+          Las participantes desarrollan proyectos que emergen de las prioridades de sus
+          comunidades: salud pública, preservación lingüística, migración, sustentabilidad
+          ambiental, gobernanza indígena y tecnologías digitales.
+        </p>
+      </div>
+      <div class="about-card">
+        <h3>Mentoría Recíproca</h3>
+        <p>
+          La mentoría va más allá de la supervisión técnica. Los mentores aprenden del
+          conocimiento situado de las estudiantes, creando una relación de colaboración
+          interdisciplinaria que se sostiene a lo largo del tiempo.
+        </p>
+      </div>
+      <div class="about-card">
+        <h3>Redes Participantes</h3>
+        <p>
+          REDNACECYT proporciona legitimidad regional e infraestructura institucional.
+          EAAMO y MD4SG conectan a las participantes con comunidades de investigación
+          internacionales y oportunidades de difusión en conferencias.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="temas">
+    <h2 class="section-title">Temas de Investigación</h2>
+    <p class="section-desc">
+      Los proyectos abarcan una amplia gama de temas interdisciplinarios, todos enraizados
+      en prioridades comunitarias y sistemas de conocimiento indígena.
+    </p>
+    <div class="themes-grid">
+      <div class="theme-item">
+        <span class="theme-count">35</span>
+        <span class="theme-label">Cultura y Lengua Indígena</span>
+      </div>
+      <div class="theme-item">
+        <span class="theme-count">20</span>
+        <span class="theme-label">IA, Datos y Tecnología</span>
+      </div>
+      <div class="theme-item">
+        <span class="theme-count">15</span>
+        <span class="theme-label">Salud Pública</span>
+      </div>
+      <div class="theme-item">
+        <span class="theme-count">15</span>
+        <span class="theme-label">Gobernanza y Derechos</span>
+      </div>
+      <div class="theme-item">
+        <span class="theme-count">13</span>
+        <span class="theme-label">Educación e Inclusión</span>
+      </div>
+      <div class="theme-item">
+        <span class="theme-count">4</span>
+        <span class="theme-label">Medio Ambiente y Sustentabilidad</span>
+      </div>
+      <div class="theme-item">
+        <span class="theme-count">4</span>
+        <span class="theme-label">Economías Locales y Emprendimiento</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="mapa">
+    <h2 class="section-title">Mapa Interactivo</h2>
+    <p class="section-desc">
+      Distribución geográfica de estudiantes participantes por estado (2022–2025).
+      Haz clic en un estado para ver las investigaciones, estudiantes y mentores asociados.
+    </p>
+    <div class="map-container">
+      <div class="map-svg-wrap" id="map-wrap"></div>
+      <div class="map-tooltip" id="map-tooltip"></div>
+      <div class="map-legend">
+        <span>Estudiantes:</span>
+        <span class="legend-block" style="background:#e8e8e8"></span> 0
+        <span class="legend-block" style="background:#c6dbef"></span> 1–2
+        <span class="legend-block" style="background:#9ecae1"></span> 3–5
+        <span class="legend-block" style="background:#6baed6"></span> 6–9
+        <span class="legend-block" style="background:#3182bd"></span> 10–19
+        <span class="legend-block" style="background:#08519c"></span> 20+
+      </div>
+      <div class="detail-panel" id="detail-panel">
+        <div class="detail-header">
+          <h3 id="detail-title"></h3>
+          <button class="detail-close" onclick="cerrarDetalle()" aria-label="Cerrar">&times;</button>
+        </div>
+        <div class="detail-body" id="detail-body"></div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="footer-links">
+      <a href="https://www.rednacecyt.org/" target="_blank" rel="noopener">REDNACECYT</a>
+      <a href="https://www.eaamo.org/" target="_blank" rel="noopener">EAAMO</a>
+      <a href="https://www.md4sg.com/" target="_blank" rel="noopener">MD4SG</a>
+    </div>
+    <p>Verano Internacional de la Ciencia &copy; 2022–2025</p>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/mapa.js"></script>
+  <script src="js/app.js"></script>
+  <script>
+    fetch('assets/mexico.svg')
+      .then(r => r.text())
+      .then(svg => {
+        document.getElementById('map-wrap').innerHTML = svg;
+        inicializarMapa();
+      });
+  </script>
+</body>
+</html>

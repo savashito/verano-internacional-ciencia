@@ -1,0 +1,122 @@
+[
+  {
+    "id": "e01",
+    "nombre": "Itzel Xochitl Pérez",
+    "interes": "Preservación de lenguas indígenas mediante IA",
+    "estado": "San Luis Potosí",
+    "universidad": "Universidad Autónoma de San Luis Potosí",
+    "comunidad_indigena": "Náhuatl"
+  },
+  {
+    "id": "e02",
+    "nombre": "Yunuén Tzitziki García",
+    "interes": "Salud comunitaria en comunidades purépechas",
+    "estado": "Michoacán",
+    "universidad": "Universidad Intercultural Indígena de Michoacán",
+    "comunidad_indigena": "Purépecha"
+  },
+  {
+    "id": "e03",
+    "nombre": "María Guadalupe Hernández",
+    "interes": "Gobernanza indígena y derechos comunitarios",
+    "estado": "Puebla",
+    "universidad": "Benemérita Universidad Autónoma de Puebla",
+    "comunidad_indigena": "Náhuatl"
+  },
+  {
+    "id": "e04",
+    "nombre": "Rosa Elena Martínez",
+    "interes": "Tecnologías digitales para educación intercultural",
+    "estado": "San Luis Potosí",
+    "universidad": "Universidad Autónoma de San Luis Potosí",
+    "comunidad_indigena": "Huasteco (Teenek)"
+  },
+  {
+    "id": "e05",
+    "nombre": "Dení Citlalli López",
+    "interes": "Sustentabilidad ambiental y conocimiento tradicional",
+    "estado": "Chihuahua",
+    "universidad": "Universidad Autónoma de Chihuahua",
+    "comunidad_indigena": "Rarámuri"
+  },
+  {
+    "id": "e06",
+    "nombre": "Xóchitl Ameyalli Ruiz",
+    "interes": "Migración y políticas públicas",
+    "estado": "Michoacán",
+    "universidad": "Universidad Intercultural Indígena de Michoacán",
+    "comunidad_indigena": "Purépecha"
+  },
+  {
+    "id": "e07",
+    "nombre": "Tonatiuh Sánchez",
+    "interes": "Emprendimiento y economías locales",
+    "estado": "Sinaloa",
+    "universidad": "Universidad Autónoma de Sinaloa",
+    "comunidad_indigena": "Yoreme (Mayo)"
+  },
+  {
+    "id": "e08",
+    "nombre": "Nayeli Quetzal Flores",
+    "interes": "Violencia de género y acceso a justicia",
+    "estado": "Puebla",
+    "universidad": "Benemérita Universidad Autónoma de Puebla",
+    "comunidad_indigena": "Totonaca"
+  },
+  {
+    "id": "e09",
+    "nombre": "Citlalmina Díaz",
+    "interes": "Inteligencia artificial aplicada a salud pública",
+    "estado": "San Luis Potosí",
+    "universidad": "Universidad Autónoma de San Luis Potosí",
+    "comunidad_indigena": "Xi'iuy (Pame)"
+  },
+  {
+    "id": "e10",
+    "nombre": "Paola Ixchel Vargas",
+    "interes": "Preservación cultural y patrimonio",
+    "estado": "Veracruz",
+    "universidad": "Universidad Veracruzana Intercultural",
+    "comunidad_indigena": "Totonaca"
+  },
+  {
+    "id": "e11",
+    "nombre": "Marisol Yolotl Reyes",
+    "interes": "Educación bilingüe e inclusión",
+    "estado": "Guerrero",
+    "universidad": "Universidad Autónoma de Guerrero",
+    "comunidad_indigena": "Mixteco"
+  },
+  {
+    "id": "e12",
+    "nombre": "Kenia Tonantzin Cruz",
+    "interes": "Análisis de datos para políticas sociales",
+    "estado": "Chihuahua",
+    "universidad": "Universidad Autónoma de Chihuahua",
+    "comunidad_indigena": "Rarámuri"
+  },
+  {
+    "id": "e13",
+    "nombre": "Andrea Xilonen Morales",
+    "interes": "Soberanía alimentaria y agroecología",
+    "estado": "Michoacán",
+    "universidad": "Universidad Intercultural Indígena de Michoacán",
+    "comunidad_indigena": "Purépecha"
+  },
+  {
+    "id": "e14",
+    "nombre": "Sofía Iztaccíhuatl Romero",
+    "interes": "Vivienda y desarrollo comunitario",
+    "estado": "San Luis Potosí",
+    "universidad": "Universidad Autónoma de San Luis Potosí",
+    "comunidad_indigena": "Huasteco (Teenek)"
+  },
+  {
+    "id": "e15",
+    "nombre": "Lucía Tlaneci Guzmán",
+    "interes": "Tecnologías de la información para comunidades rurales",
+    "estado": "Chiapas",
+    "universidad": "Universidad Intercultural de Chiapas",
+    "comunidad_indigena": "Tseltal"
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "id": "m01",
+    "nombre": "Francisco Marmolejo-Cossío",
+    "disciplina": "Ciencias de la Computación / IA",
+    "pais": "EEUU",
+    "institucion": "Harvard"
+  },
+  {
+    "id": "m02",
+    "nombre": "Rubén Martínez Cárdenas",
+    "disciplina": "Economía y Política Pública",
+    "pais": "EEUU",
+    "institucion": "Boston Collage"
+
+  },
+  {
+    "id": "m03",
+    "nombre": "Imelda Flores Vázquez",
+    "disciplina": "Economía y Política Pública",
+    "pais": "EEUU"
+  },
+  {
+    "id": "m04",
+    "nombre": "Michelle González-Amador",
+    "disciplina": "Economía y Política Pública",
+    "pais": "EEUU"
+  },
+  {
+    "id": "m05",
+    "nombre": "Tilsa Oré Mónago",
+    "disciplina": "Ciencias de la Computación / IA",
+    "pais": "EEUU"
+  },
+  {
+    "id": "m06",
+    "nombre": "Ana García López",
+    "disciplina": "Salud Pública",
+    "pais": "San Luis Potosí"
+  },
+  {
+    "id": "m07",
+    "nombre": "Carlos Hernández Ruiz",
+    "disciplina": "Medio Ambiente y Sustentabilidad",
+    "pais": "Michoacán"
+  },
+  {
+    "id": "m08",
+    "nombre": "María Fernanda Torres",
+    "disciplina": "Educación y Humanidades",
+    "pais": "Puebla"
+  },
+  {
+    "id": "m09",
+    "nombre": "Roberto Sánchez Vega",
+    "disciplina": "Matemáticas y Ciencias Físicas",
+    "pais": "Chihuahua"
+  },
+  {
+    "id": "m10",
+    "nombre": "Laura Ramírez Ortega",
+    "disciplina": "Ciencias de la Computación / IA",
+    "pais": "EEUU"
+  }
+]
