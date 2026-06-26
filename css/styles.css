@@ -519,18 +519,91 @@ section {
   color: #1e8449;
 }
 
-a .badge-poster {
+.badge-link {
   cursor: pointer;
   transition: background 0.15s;
 }
 
-a .badge-poster:hover {
+.badge-link:hover {
   background: #a9dfbf;
+}
+
+.clickable-row {
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.clickable-row:hover {
+  background: #eaf2f8;
 }
 
 .badge-proyecto {
   background: #d6eaf8;
   color: #2471a3;
+}
+
+/* ── Poster Modal ─────────────────────────────── */
+
+.poster-modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 1000;
+  align-items: center;
+  justify-content: center;
+}
+
+.poster-modal.open {
+  display: flex;
+}
+
+.poster-modal-content {
+  position: relative;
+  background: var(--color-white);
+  border-radius: var(--radius);
+  width: 90vw;
+  height: 85vh;
+  max-width: 900px;
+  overflow: hidden;
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.3);
+}
+
+.poster-modal-close {
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  background: var(--color-white);
+  border: none;
+  font-size: 1.6rem;
+  cursor: pointer;
+  color: var(--color-text-light);
+  z-index: 10;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.15);
+  transition: background 0.15s;
+}
+
+.poster-modal-close:hover {
+  background: var(--color-bg);
+}
+
+#poster-modal-body {
+  width: 100%;
+  height: 100%;
+}
+
+#poster-modal-body iframe,
+#poster-modal-body img {
+  width: 100%;
+  height: 100%;
+  border: none;
+  object-fit: contain;
 }
 
 /* ── Footer ────────────────────────────────────── */

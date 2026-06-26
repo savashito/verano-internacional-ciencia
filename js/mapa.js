@@ -97,11 +97,14 @@ function renderDetalleTable() {
 
   sorted.forEach((d) => {
     const tipo = d.poster && d.poster_url
-      ? `<a href="${d.poster_url}" target="_blank" rel="noopener"><span class="badge badge-poster">Póster</span></a>`
+      ? `<span class="badge badge-poster badge-link" onclick="abrirPosterModal('${d.poster_url}')">Póster</span>`
       : d.poster
         ? '<span class="badge badge-poster">Póster</span>'
         : '<span class="badge badge-proyecto">Proyecto</span>';
-    html += `<tr>
+    const rowClick = d.poster_url
+      ? ` class="clickable-row" onclick="abrirPosterModal('${d.poster_url}')"`
+      : '';
+    html += `<tr${rowClick}>
       <td>
         <strong>${d.investigacion}</strong>
         <br><small style="color:#6c7a89">${d.descripcion}</small>
@@ -156,4 +159,27 @@ function cerrarDetalle() {
   const panel = document.getElementById('detail-panel');
   panel.classList.remove('open');
   document.querySelectorAll('#mexico-svg path.active').forEach((p) => p.classList.remove('active'));
+}
+
+function abrirPosterModal(url) {
+  const modal = document.getElementById('poster-modal');
+  const body = document.getElementById('poster-modal-body');
+  const isImage = /\.(jpg|jpeg|png|gif|webp)$/i.test(url);
+
+  if (isImage) {
+    body.innerHTML = `<img src="${url}" alt="Póster">`;
+  } else {
+    const viewerUrl = 'https://docs.google.com/gview?url=' + encodeURIComponent(url) + '&embedded=true';
+    body.innerHTML = `<iframe src="${viewerUrl}"></iframe>`;
+  }
+
+  modal.classList.add('open');
+}
+
+function cerrarPosterModal(e) {
+  const modal = document.getElementById('poster-modal');
+  if (!e || e.target === modal || e.target.classList.contains('poster-modal-close')) {
+    modal.classList.remove('open');
+    document.getElementById('poster-modal-body').innerHTML = '';
+  }
 }
