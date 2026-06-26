@@ -125,7 +125,7 @@ async function inicializarMapaMundial() {
     line.setAttribute('d', d);
     line.setAttribute('fill', 'none');
     line.setAttribute('stroke', '#2a7ab5');
-    line.setAttribute('stroke-width', '1.5');
+    line.setAttribute('stroke-width', '0.8');
     line.setAttribute('stroke-opacity', '0.8');
     line.setAttribute('stroke-linecap', 'round');
     line.setAttribute('class', 'conn-line');
@@ -260,7 +260,7 @@ async function inicializarMapaMundial() {
       conns.forEach((c) => {
         svg.querySelectorAll(`.conn-line[data-mentor="${c.mentor}"][data-pais="${pais}"]`).forEach((l) => {
           l.setAttribute('stroke', '#e67e22');
-          l.setAttribute('stroke-width', '4');
+          l.setAttribute('stroke-width', '2');
           l.setAttribute('stroke-opacity', '1');
         });
       });
@@ -279,9 +279,9 @@ async function inicializarMapaMundial() {
 
       conns.forEach((c) => {
         svg.querySelectorAll(`.conn-line[data-mentor="${c.mentor}"][data-pais="${pais}"]`).forEach((l) => {
-          l.setAttribute('stroke', '#c0392b');
-          l.setAttribute('stroke-width', '2.5');
-          l.setAttribute('stroke-opacity', '0.7');
+          l.setAttribute('stroke', '#2a7ab5');
+          l.setAttribute('stroke-width', '0.8');
+          l.setAttribute('stroke-opacity', '0.8');
         });
       });
     });
