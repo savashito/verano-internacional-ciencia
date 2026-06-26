@@ -52,10 +52,88 @@ function inicializarMapa() {
   });
 }
 
+let _detalleDatos = [];
+let _detalleSort = { col: null, asc: true };
+
+const SORT_COLUMNS = [
+  { key: 'investigacion', label: 'Investigación' },
+  { key: 'estudiante', label: 'Estudiante' },
+  { key: 'comunidad_indigena', label: 'Comunidad' },
+  { key: 'mentor', label: 'Mentor' },
+  { key: 'ano', label: 'Año' },
+  { key: 'poster', label: 'Tipo' },
+];
+
+function renderDetalleTable() {
+  const cuerpo = document.getElementById('detail-body');
+  const sorted = [..._detalleDatos];
+
+  if (_detalleSort.col) {
+    sorted.sort((a, b) => {
+      let va = a[_detalleSort.col];
+      let vb = b[_detalleSort.col];
+      if (typeof va === 'string') va = va.toLowerCase();
+      if (typeof vb === 'string') vb = vb.toLowerCase();
+      if (va < vb) return _detalleSort.asc ? -1 : 1;
+      if (va > vb) return _detalleSort.asc ? 1 : -1;
+      return 0;
+    });
+  }
+
+  let html = `<table>
+    <thead>
+      <tr>`;
+
+  SORT_COLUMNS.forEach(col => {
+    const arrow = _detalleSort.col === col.key
+      ? (_detalleSort.asc ? ' ▲' : ' ▼')
+      : '';
+    html += `<th class="sortable-th" data-sort="${col.key}">${col.label}${arrow}</th>`;
+  });
+
+  html += `</tr>
+    </thead>
+    <tbody>`;
+
+  sorted.forEach((d) => {
+    const tipo = d.poster && d.poster_url
+      ? `<a href="${d.poster_url}" target="_blank" rel="noopener"><span class="badge badge-poster">Póster</span></a>`
+      : d.poster
+        ? '<span class="badge badge-poster">Póster</span>'
+        : '<span class="badge badge-proyecto">Proyecto</span>';
+    html += `<tr>
+      <td>
+        <strong>${d.investigacion}</strong>
+        <br><small style="color:#6c7a89">${d.descripcion}</small>
+      </td>
+      <td>${d.estudiante}<br><small style="color:#6c7a89">${d.universidad}</small></td>
+      <td>${d.comunidad_indigena}</td>
+      <td>${d.mentor}${d.mentor_institucion ? '<br><small style="color:#6c7a89">' + d.mentor_institucion + '</small>' : ''}<br><small style="color:#6c7a89">${d.disciplina} · ${d.mentor_pais}</small></td>
+      <td>${d.ano}</td>
+      <td>${tipo}</td>
+    </tr>`;
+  });
+
+  html += '</tbody></table>';
+  cuerpo.innerHTML = html;
+
+  cuerpo.querySelectorAll('.sortable-th').forEach(th => {
+    th.addEventListener('click', () => {
+      const col = th.getAttribute('data-sort');
+      if (_detalleSort.col === col) {
+        _detalleSort.asc = !_detalleSort.asc;
+      } else {
+        _detalleSort.col = col;
+        _detalleSort.asc = true;
+      }
+      renderDetalleTable();
+    });
+  });
+}
+
 function mostrarDetalle(estado) {
   const panel = document.getElementById('detail-panel');
   const titulo = document.getElementById('detail-title');
-  const cuerpo = document.getElementById('detail-body');
 
   const datos = obtenerDatosEstado(estado);
   const numEstudiantes = contarEstudiantes(estado);
@@ -63,43 +141,11 @@ function mostrarDetalle(estado) {
   titulo.textContent = `${estado} — ${numEstudiantes} estudiante${numEstudiantes !== 1 ? 's' : ''}`;
 
   if (datos.length === 0) {
-    cuerpo.innerHTML = '<p class="detail-empty">No hay investigaciones registradas para este estado.</p>';
+    document.getElementById('detail-body').innerHTML = '<p class="detail-empty">No hay investigaciones registradas para este estado.</p>';
   } else {
-    let html = `<table>
-      <thead>
-        <tr>
-          <th>Investigación</th>
-          <th>Estudiante</th>
-          <th>Comunidad</th>
-          <th>Mentor</th>
-          <th>Año</th>
-          <th>Tipo</th>
-        </tr>
-      </thead>
-      <tbody>`;
-
-    datos.forEach((d) => {
-      const tipo = d.poster
-        ? '<span class="badge badge-poster">Póster</span>'
-        : '<span class="badge badge-proyecto">Proyecto</span>';
-      const posterLink = d.poster_url
-        ? `<br><a href="${d.poster_url}" target="_blank" rel="noopener" style="color:#2a7ab5;font-size:0.82rem">Ver póster</a>`
-        : '';
-      html += `<tr>
-        <td>
-          <strong>${d.investigacion}</strong>
-          <br><small style="color:#6c7a89">${d.descripcion}</small>${posterLink}
-        </td>
-        <td>${d.estudiante}<br><small style="color:#6c7a89">${d.universidad}</small></td>
-        <td>${d.comunidad_indigena}</td>
-        <td>${d.mentor}${d.mentor_institucion ? '<br><small style="color:#6c7a89">' + d.mentor_institucion + '</small>' : ''}<br><small style="color:#6c7a89">${d.disciplina} · ${d.mentor_pais}</small></td>
-        <td>${d.ano}</td>
-        <td>${tipo}</td>
-      </tr>`;
-    });
-
-    html += '</tbody></table>';
-    cuerpo.innerHTML = html;
+    _detalleDatos = datos;
+    _detalleSort = { col: null, asc: true };
+    renderDetalleTable();
   }
 
   panel.classList.add('open');

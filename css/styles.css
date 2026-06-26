@@ -475,6 +475,16 @@ section {
   white-space: nowrap;
 }
 
+.sortable-th {
+  cursor: pointer;
+  user-select: none;
+  transition: background 0.15s;
+}
+
+.sortable-th:hover {
+  background: var(--color-border);
+}
+
 .detail-body td {
   padding: 0.55rem 0.75rem;
   border-bottom: 1px solid var(--color-border);
@@ -507,6 +517,15 @@ section {
 .badge-poster {
   background: #d5f5e3;
   color: #1e8449;
+}
+
+a .badge-poster {
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+a .badge-poster:hover {
+  background: #a9dfbf;
 }
 
 .badge-proyecto {
