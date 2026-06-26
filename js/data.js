@@ -42,6 +42,9 @@ function generarMapaInteractivo() {
       interes: estudiante.interes,
       mentor: mentor ? mentor.nombre : 'N/A',
       disciplina: mentor ? mentor.disciplina : 'N/A',
+      mentor_pais: mentor ? mentor.pais : 'N/A',
+      mentor_institucion: mentor ? (mentor.institucion || '') : '',
+      mentor_region: mentor ? (mentor.region || '') : '',
     });
   });
 
@@ -64,6 +67,26 @@ function contarEstudiantes(nombreEstado) {
   return estudiantes.filter(
     (e) => normalizarEstado(e.estado) === normalizarEstado(nombreEstado)
   ).length;
+}
+
+function obtenerConexionesMundiales() {
+  return investigaciones.map((inv) => {
+    const estudiante = estudiantes.find((e) => e.id === inv.student_id);
+    const mentor = mentores.find((m) => m.id === inv.mentor_id);
+    if (!estudiante || !mentor) return null;
+    return {
+      estudiante: estudiante.nombre,
+      estado: estudiante.estado,
+      comunidad: estudiante.comunidad_indigena || '',
+      mentor: mentor.nombre,
+      pais: mentor.pais || '',
+      institucion: mentor.institucion || '',
+      disciplina: mentor.disciplina,
+      region: mentor.region || '',
+      investigacion: inv.nombre,
+      ano: inv.ano,
+    };
+  }).filter(Boolean);
 }
 
 function normalizarEstado(str) {

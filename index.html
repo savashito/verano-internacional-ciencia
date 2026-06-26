@@ -135,17 +135,31 @@
       Haz clic en un estado para ver las investigaciones, estudiantes y mentores asociados.
     </p>
     <div class="map-container">
-      <div class="map-svg-wrap" id="map-wrap"></div>
-      <div class="map-tooltip" id="map-tooltip"></div>
-      <div class="map-legend">
-        <span>Estudiantes:</span>
-        <span class="legend-block" style="background:#e8e8e8"></span> 0
-        <span class="legend-block" style="background:#c6dbef"></span> 1–2
-        <span class="legend-block" style="background:#9ecae1"></span> 3–5
-        <span class="legend-block" style="background:#6baed6"></span> 6–9
-        <span class="legend-block" style="background:#3182bd"></span> 10–19
-        <span class="legend-block" style="background:#08519c"></span> 20+
+      <div class="map-tabs">
+        <button class="map-tab active" data-tab="mexico" onclick="cambiarTab('mexico')">Estudiantes por Estado</button>
+        <button class="map-tab" data-tab="mundo" onclick="cambiarTab('mundo')">Conexiones Internacionales</button>
       </div>
+      <div class="map-panel active" id="panel-mexico">
+        <div class="map-svg-wrap" id="map-wrap"></div>
+        <div class="map-legend">
+          <span>Estudiantes:</span>
+          <span class="legend-block" style="background:#e8e8e8"></span> 0
+          <span class="legend-block" style="background:#c6dbef"></span> 1–2
+          <span class="legend-block" style="background:#9ecae1"></span> 3–5
+          <span class="legend-block" style="background:#6baed6"></span> 6–9
+          <span class="legend-block" style="background:#3182bd"></span> 10–19
+          <span class="legend-block" style="background:#08519c"></span> 20+
+        </div>
+      </div>
+      <div class="map-panel" id="panel-mundo">
+        <div class="map-svg-wrap" id="world-map-wrap"></div>
+        <div class="map-legend">
+          <span style="color:#1a4d6e;font-weight:600">&#9679;</span> País del mentor
+          <span style="color:#c0392b;font-weight:600">&#9679;</span> México (estudiantes)
+          <span style="color:#2a7ab5">&#9135;</span> Conexión mentor–estudiante
+        </div>
+      </div>
+      <div class="map-tooltip" id="map-tooltip"></div>
       <div class="detail-panel" id="detail-panel">
         <div class="detail-header">
           <h3 id="detail-title"></h3>
@@ -167,6 +181,7 @@
 
   <script src="js/data.js"></script>
   <script src="js/mapa.js"></script>
+  <script src="js/mundo.js"></script>
   <script src="js/app.js"></script>
   <script>
     fetch('assets/mexico.svg')
@@ -175,6 +190,18 @@
         document.getElementById('map-wrap').innerHTML = svg;
         inicializarMapa();
       });
+
+    async function cambiarTab(tab) {
+      document.querySelectorAll('.map-tab').forEach(t => t.classList.remove('active'));
+      document.querySelector(`.map-tab[data-tab="${tab}"]`).classList.add('active');
+      document.querySelectorAll('.map-panel').forEach(p => p.classList.remove('active'));
+      document.getElementById(`panel-${tab}`).classList.add('active');
+      cerrarDetalle();
+
+      if (tab === 'mundo' && !worldSvgLoaded) {
+        await inicializarMapaMundial();
+      }
+    }
   </script>
 </body>
 </html>

@@ -89,7 +89,7 @@ function mostrarDetalle(estado) {
         </td>
         <td>${d.estudiante}<br><small style="color:#6c7a89">${d.universidad}</small></td>
         <td>${d.comunidad_indigena}</td>
-        <td>${d.mentor}<br><small style="color:#6c7a89">${d.disciplina}</small></td>
+        <td>${d.mentor}${d.mentor_institucion ? '<br><small style="color:#6c7a89">' + d.mentor_institucion + '</small>' : ''}<br><small style="color:#6c7a89">${d.disciplina} · ${d.mentor_pais}</small></td>
         <td>${d.ano}</td>
         <td>${tipo}</td>
       </tr>`;

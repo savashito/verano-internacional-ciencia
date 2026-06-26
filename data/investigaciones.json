@@ -105,7 +105,31 @@
     "descripcion": "Investigación sobre prácticas agroecológicas tradicionales purépechas y su papel en la soberanía alimentaria regional."
   },
   {
-    "mentor_id": "m03",
+    "mentor_id": "m11",
+    "student_id": "e14",
+    "nombre": "Vivienda digna en comunidades Huastecas",
+    "ano": 2022,
+    "poster": true,
+    "descripcion": "Análisis de condiciones de vivienda en comunidades Huastecas de San Luis Potosí y propuestas de política pública para vivienda digna."
+  },
+  {
+    "mentor_id": "m13",
+    "student_id": "e14",
+    "nombre": "Vivienda digna en comunidades Huastecas",
+    "ano": 2022,
+    "poster": true,
+    "descripcion": "Análisis de condiciones de vivienda en comunidades Huastecas de San Luis Potosí y propuestas de política pública para vivienda digna."
+  },
+  {
+    "mentor_id": "m12",
+    "student_id": "e14",
+    "nombre": "Vivienda digna en comunidades Huastecas",
+    "ano": 2022,
+    "poster": true,
+    "descripcion": "Análisis de condiciones de vivienda en comunidades Huastecas de San Luis Potosí y propuestas de política pública para vivienda digna."
+  },
+  {
+    "mentor_id": "m11",
     "student_id": "e14",
     "nombre": "Vivienda digna en comunidades Huastecas",
     "ano": 2022,

@@ -4,33 +4,61 @@
     "nombre": "Francisco Marmolejo-Cossío",
     "disciplina": "Ciencias de la Computación / IA",
     "pais": "EEUU",
-    "institucion": "Harvard"
+    "institucion": "Harvard",
+    "region": "northeast"
+  },
+  {
+    "id": "m11",
+    "nombre": "Rodrigo Marmolejo-Cossío",
+    "disciplina": "Ciencias de la Computación / IA",
+    "pais": "EEUU",
+    "institucion": "University of Washinton",
+    "region": "northwest"
+  },
+  {
+    "id": "m12",
+    "nombre": "Jesus Marmolejo-Cossío",
+    "disciplina": "Ciencias de la Computación / IA",
+    "pais": "EEUU",
+    "institucion": "University of Arizona",
+    "region": "southwest"
+  },
+  {
+    "id": "m13",
+    "nombre": "Jesus Marmolejo-Cossío",
+    "disciplina": "Ciencias de la Computación / IA",
+    "pais": "EEUU",
+    "institucion": "University of Texas AM",
+    "region": "southeast"
   },
   {
     "id": "m02",
     "nombre": "Rubén Martínez Cárdenas",
     "disciplina": "Economía y Política Pública",
     "pais": "EEUU",
-    "institucion": "Boston Collage"
-
+    "institucion": "Boston Collage",
+    "region": "northeast"
   },
   {
     "id": "m03",
     "nombre": "Imelda Flores Vázquez",
     "disciplina": "Economía y Política Pública",
-    "pais": "EEUU"
+    "pais": "Colombia",
+    "institucion": "Universida de COlombia"
   },
   {
     "id": "m04",
     "nombre": "Michelle González-Amador",
     "disciplina": "Economía y Política Pública",
-    "pais": "EEUU"
+    "pais": "UK",
+    "institucion": "Universida de Bristol"
   },
   {
     "id": "m05",
     "nombre": "Tilsa Oré Mónago",
     "disciplina": "Ciencias de la Computación / IA",
-    "pais": "EEUU"
+    "pais": "EEUU",
+    "region": "northeast"
   },
   {
     "id": "m06",
@@ -60,6 +88,7 @@
     "id": "m10",
     "nombre": "Laura Ramírez Ortega",
     "disciplina": "Ciencias de la Computación / IA",
-    "pais": "EEUU"
+    "pais": "EEUU",
+    "region": "northeast"
   }
 ]
