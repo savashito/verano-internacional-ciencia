@@ -275,12 +275,81 @@ section {
   border-radius: var(--radius);
   padding: 1rem;
   overflow: hidden;
+  position: relative;
+}
+
+.zoom-controls {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  z-index: 10;
+}
+
+.zoom-btn {
+  width: 32px;
+  height: 32px;
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  background: var(--color-white);
+  color: var(--color-text);
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  transition: background 0.15s;
+}
+
+.zoom-btn:hover {
+  background: var(--color-bg);
 }
 
 .map-svg-wrap svg {
   width: 100%;
   height: auto;
   display: block;
+}
+
+.year-filter {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 0.5rem;
+}
+
+.year-filter-label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-text-light);
+}
+
+.year-btn {
+  padding: 4px 14px;
+  border: 1px solid var(--color-border);
+  border-radius: 20px;
+  background: var(--color-white);
+  color: var(--color-text-light);
+  font-size: 0.8rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.year-btn:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+}
+
+.year-btn.active {
+  background: var(--color-primary);
+  border-color: var(--color-primary);
+  color: var(--color-white);
 }
 
 #mexico-svg path {
@@ -313,7 +382,9 @@ section {
   opacity: 0;
   transition: opacity 0.15s;
   z-index: 200;
-  white-space: nowrap;
+  white-space: normal;
+  max-width: 300px;
+  line-height: 1.5;
 }
 
 .map-tooltip.visible {

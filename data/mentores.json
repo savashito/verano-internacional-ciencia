@@ -1,94 +1,24 @@
 [
-  {
-    "id": "m01",
-    "nombre": "Francisco Marmolejo-Cossío",
-    "disciplina": "Ciencias de la Computación / IA",
-    "pais": "EEUU",
-    "institucion": "Harvard",
-    "region": "northeast"
-  },
-  {
-    "id": "m11",
-    "nombre": "Rodrigo Marmolejo-Cossío",
-    "disciplina": "Ciencias de la Computación / IA",
-    "pais": "EEUU",
-    "institucion": "University of Washinton",
-    "region": "northwest"
-  },
-  {
-    "id": "m12",
-    "nombre": "Jesus Marmolejo-Cossío",
-    "disciplina": "Ciencias de la Computación / IA",
-    "pais": "EEUU",
-    "institucion": "University of Arizona",
-    "region": "southwest"
-  },
-  {
-    "id": "m13",
-    "nombre": "Jesus Marmolejo-Cossío",
-    "disciplina": "Ciencias de la Computación / IA",
-    "pais": "EEUU",
-    "institucion": "University of Texas AM",
-    "region": "southeast"
-  },
-  {
-    "id": "m02",
-    "nombre": "Rubén Martínez Cárdenas",
-    "disciplina": "Economía y Política Pública",
-    "pais": "EEUU",
-    "institucion": "Boston Collage",
-    "region": "northeast"
-  },
-  {
-    "id": "m03",
-    "nombre": "Imelda Flores Vázquez",
-    "disciplina": "Economía y Política Pública",
-    "pais": "Colombia",
-    "institucion": "Universida de COlombia"
-  },
-  {
-    "id": "m04",
-    "nombre": "Michelle González-Amador",
-    "disciplina": "Economía y Política Pública",
-    "pais": "UK",
-    "institucion": "Universida de Bristol"
-  },
-  {
-    "id": "m05",
-    "nombre": "Tilsa Oré Mónago",
-    "disciplina": "Ciencias de la Computación / IA",
-    "pais": "EEUU",
-    "region": "northeast"
-  },
-  {
-    "id": "m06",
-    "nombre": "Ana García López",
-    "disciplina": "Salud Pública",
-    "pais": "San Luis Potosí"
-  },
-  {
-    "id": "m07",
-    "nombre": "Carlos Hernández Ruiz",
-    "disciplina": "Medio Ambiente y Sustentabilidad",
-    "pais": "Michoacán"
-  },
-  {
-    "id": "m08",
-    "nombre": "María Fernanda Torres",
-    "disciplina": "Educación y Humanidades",
-    "pais": "Puebla"
-  },
-  {
-    "id": "m09",
-    "nombre": "Roberto Sánchez Vega",
-    "disciplina": "Matemáticas y Ciencias Físicas",
-    "pais": "Chihuahua"
-  },
-  {
-    "id": "m10",
-    "nombre": "Laura Ramírez Ortega",
-    "disciplina": "Ciencias de la Computación / IA",
-    "pais": "EEUU",
-    "region": "northeast"
-  }
+  { "id": 1, "nombre": "Francisco Marmolejo Cossío", "institucion": "Universidad de Harvard", "pais": "EEUU", "region": "northeast", "disciplina": "Mecanismos de diseño, economía" },
+  { "id": 2, "nombre": "Tilsa Ore Monago", "institucion": "Rice University", "pais": "EEUU", "region": "southeast", "disciplina": "Economía, equidad y acceso" },
+  { "id": 3, "nombre": "Imelda Flores Vazquez", "institucion": "Econometrica Inc.", "pais": "EEUU", "region": "southwest", "disciplina": "Econometría, políticas públicas" },
+  { "id": 4, "nombre": "Michelle González Amador", "institucion": "UNU-MERIT / Universidad de Maastricht", "pais": "Holanda", "disciplina": "Economía del desarrollo, educación" },
+  { "id": 5, "nombre": "Rubén Martínez Cárdenas", "institucion": "Universidad de York", "pais": "UK", "disciplina": "Ciencias sociales, políticas públicas" },
+  { "id": 6, "nombre": "Alejandro Robinson-Cortés", "institucion": "Universidad de Exeter", "pais": "UK", "disciplina": "Economía" },
+  { "id": 7, "nombre": "Salvador Ruiz Correa", "institucion": "IPICYT", "pais": "México", "disciplina": "Ciencias computacionales" },
+  { "id": 8, "nombre": "Alicia Prieto Langarica", "institucion": "Universidad Estatal de Youngstown", "pais": "EEUU", "region": "midwest", "disciplina": "Matemáticas aplicadas, biología matemática" },
+  { "id": 9, "nombre": "Diego M. Macall", "institucion": "Universitat Autònoma de Barcelona", "pais": "España", "disciplina": "Economía, medio ambiente" },
+  { "id": 10, "nombre": "Areli Vázquez Juárez", "institucion": "UNAM", "pais": "México", "disciplina": "Ciencias de la salud" },
+  { "id": 11, "nombre": "Agnes Medinaceli", "institucion": "Universidad de Oxford", "pais": "UK", "disciplina": "Desarrollo internacional, género" },
+  { "id": 12, "nombre": "Jorge Garcia Ponce", "institucion": "Universidad de Harvard", "pais": "EEUU", "region": "northeast", "disciplina": "Ciencias sociales" },
+  { "id": 13, "nombre": "Egidio Tentori", "institucion": "Universidad Cornell", "pais": "EEUU", "region": "northeast", "disciplina": "Gestión del agua, medio ambiente" },
+  { "id": 14, "nombre": "Flor Gerardou", "institucion": "Universidad de Falmouth", "pais": "UK", "disciplina": "Educación, género" },
+  { "id": 15, "nombre": "Blanca Guizar Moran", "institucion": "Universidad de Sunderland", "pais": "UK", "disciplina": "Ciencias sociales, género" },
+  { "id": 16, "nombre": "Angel Urbina Garcia", "institucion": "Universidad de Hull", "pais": "UK", "disciplina": "Educación, psicología" },
+  { "id": 17, "nombre": "Eleanor Brown", "institucion": "Universidad de York", "pais": "UK", "disciplina": "Educación" },
+  { "id": 18, "nombre": "María Ana Chavana Villalobos", "institucion": "Universidad de York", "pais": "UK", "disciplina": "Estudios interculturales, lenguas" },
+  { "id": 19, "nombre": "Santiago Correa Cardona", "institucion": "Universidad de Massachusetts", "pais": "EEUU", "region": "northeast", "disciplina": "Ciencias de la computación, salud" },
+  { "id": 20, "nombre": "Cristina Gorrostieta", "institucion": "Cogito", "pais": "EEUU", "region": "northeast", "disciplina": "Inteligencia artificial, salud mental" },
+  { "id": 21, "nombre": "Alejandro Quiroz", "institucion": "Universidad de Essex", "pais": "UK", "disciplina": "Ciencias políticas" },
+  { "id": 22, "nombre": "Lucas Gomez Tobon", "institucion": "Quantil", "pais": "Colombia", "disciplina": "Estadística, ciencia de datos" }
 ]

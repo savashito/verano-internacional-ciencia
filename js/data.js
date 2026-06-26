@@ -4,10 +4,11 @@ let investigaciones = [];
 let mapaInteractivo = { estados: [] };
 
 async function cargarDatos() {
+  const v = Date.now();
   const [mRes, eRes, iRes] = await Promise.all([
-    fetch('data/mentores.json'),
-    fetch('data/estudiantes.json'),
-    fetch('data/investigaciones.json'),
+    fetch('data/mentores.json?v=' + v),
+    fetch('data/estudiantes.json?v=' + v),
+    fetch('data/investigaciones.json?v=' + v),
   ]);
 
   mentores = await mRes.json();
@@ -36,6 +37,7 @@ function generarMapaInteractivo() {
       descripcion: inv.descripcion,
       ano: inv.ano,
       poster: inv.poster,
+      poster_url: inv.poster_url || '',
       estudiante: estudiante.nombre,
       comunidad_indigena: estudiante.comunidad_indigena || '',
       universidad: estudiante.universidad,

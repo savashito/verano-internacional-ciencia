@@ -1,122 +1,245 @@
 [
   {
-    "id": "e01",
-    "nombre": "Itzel Xochitl Pérez",
-    "interes": "Preservación de lenguas indígenas mediante IA",
-    "estado": "San Luis Potosí",
-    "universidad": "Universidad Autónoma de San Luis Potosí",
-    "comunidad_indigena": "Náhuatl"
-  },
-  {
-    "id": "e02",
-    "nombre": "Yunuén Tzitziki García",
-    "interes": "Salud comunitaria en comunidades purépechas",
+    "id": 1,
+    "nombre": "María Guadalupe García Alonso",
+    "universidad": "Universidad Autónoma de Chapingo",
+    "comunidad_indigena": "Cuanajo",
     "estado": "Michoacán",
-    "universidad": "Universidad Intercultural Indígena de Michoacán",
-    "comunidad_indigena": "Purépecha"
+    "interes": "Percepción y participación social en programas de restauración ambiental de la cuenca del Lago de Pátzcuaro",
+    "url_foto": "https://md4sg.com/images/rednacyt/Maria-Guadalupe-Garcia-Alonso.jpg"
   },
   {
-    "id": "e03",
-    "nombre": "María Guadalupe Hernández",
-    "interes": "Gobernanza indígena y derechos comunitarios",
-    "estado": "Puebla",
-    "universidad": "Benemérita Universidad Autónoma de Puebla",
-    "comunidad_indigena": "Náhuatl"
-  },
-  {
-    "id": "e04",
-    "nombre": "Rosa Elena Martínez",
-    "interes": "Tecnologías digitales para educación intercultural",
-    "estado": "San Luis Potosí",
-    "universidad": "Universidad Autónoma de San Luis Potosí",
-    "comunidad_indigena": "Huasteco (Teenek)"
-  },
-  {
-    "id": "e05",
-    "nombre": "Dení Citlalli López",
-    "interes": "Sustentabilidad ambiental y conocimiento tradicional",
-    "estado": "Chihuahua",
-    "universidad": "Universidad Autónoma de Chihuahua",
-    "comunidad_indigena": "Rarámuri"
-  },
-  {
-    "id": "e06",
-    "nombre": "Xóchitl Ameyalli Ruiz",
-    "interes": "Migración y políticas públicas",
+    "id": 2,
+    "nombre": "Viridiana Camacho Pánfilo",
+    "universidad": "En proceso de admisión al programa de posdoctorado",
+    "comunidad_indigena": "Purépecha",
     "estado": "Michoacán",
-    "universidad": "Universidad Intercultural Indígena de Michoacán",
-    "comunidad_indigena": "Purépecha"
+    "interes": "Los purépechas y el papel del padre de familia. Actores y práctica política en la primera mitad del siglo XIX",
+    "url_foto": "https://md4sg.com/images/rednacyt/Viridiana-Camacho-Panfilo.jpg"
   },
   {
-    "id": "e07",
-    "nombre": "Tonatiuh Sánchez",
-    "interes": "Emprendimiento y economías locales",
-    "estado": "Sinaloa",
+    "id": 3,
+    "nombre": "María Rosario Niniz Silva",
+    "universidad": "El Colegio de Michoacán",
+    "comunidad_indigena": "Purépecha",
+    "estado": "Michoacán",
+    "interes": "Discapacidad adquirida, dinámicas familiares y reposicionamiento de género en contexto de migración transnacional",
+    "url_foto": "https://md4sg.com/images/rednacyt/Maria-Rosario-Niniz-Silva.jpg"
+  },
+  {
+    "id": 4,
+    "nombre": "Ofelia López Mejía",
     "universidad": "Universidad Autónoma de Sinaloa",
-    "comunidad_indigena": "Yoreme (Mayo)"
+    "comunidad_indigena": "Mixteco",
+    "estado": "Sinaloa",
+    "interes": "Mujeres indígenas y representación política en el municipio de Elota, Sinaloa",
+    "url_foto": "https://md4sg.com/images/rednacyt/Ofelia-Lopez-Mejia.jpg"
   },
   {
-    "id": "e08",
-    "nombre": "Nayeli Quetzal Flores",
-    "interes": "Violencia de género y acceso a justicia",
-    "estado": "Puebla",
-    "universidad": "Benemérita Universidad Autónoma de Puebla",
-    "comunidad_indigena": "Totonaca"
-  },
-  {
-    "id": "e09",
-    "nombre": "Citlalmina Díaz",
-    "interes": "Inteligencia artificial aplicada a salud pública",
-    "estado": "San Luis Potosí",
-    "universidad": "Universidad Autónoma de San Luis Potosí",
-    "comunidad_indigena": "Xi'iuy (Pame)"
-  },
-  {
-    "id": "e10",
-    "nombre": "Paola Ixchel Vargas",
-    "interes": "Preservación cultural y patrimonio",
-    "estado": "Veracruz",
-    "universidad": "Universidad Veracruzana Intercultural",
-    "comunidad_indigena": "Totonaca"
-  },
-  {
-    "id": "e11",
-    "nombre": "Marisol Yolotl Reyes",
-    "interes": "Educación bilingüe e inclusión",
-    "estado": "Guerrero",
-    "universidad": "Universidad Autónoma de Guerrero",
-    "comunidad_indigena": "Mixteco"
-  },
-  {
-    "id": "e12",
-    "nombre": "Kenia Tonantzin Cruz",
-    "interes": "Análisis de datos para políticas sociales",
+    "id": 5,
+    "nombre": "Rosa Adriana Rivas Castillo",
+    "universidad": "Estudiante de licenciatura (próxima maestría)",
+    "comunidad_indigena": "Tarahumara y Tepehuan",
     "estado": "Chihuahua",
-    "universidad": "Universidad Autónoma de Chihuahua",
-    "comunidad_indigena": "Rarámuri"
+    "interes": "Impacto de la violencia en la salud mental de las mujeres rarámuris de la Sierra Tarahumara",
+    "url_foto": "https://md4sg.com/images/rednacyt/Rosa-Adriana-Rivas-Castillo.jpg"
   },
   {
-    "id": "e13",
-    "nombre": "Andrea Xilonen Morales",
-    "interes": "Soberanía alimentaria y agroecología",
-    "estado": "Michoacán",
-    "universidad": "Universidad Intercultural Indígena de Michoacán",
-    "comunidad_indigena": "Purépecha"
+    "id": 6,
+    "nombre": "Argelia Contreras Aguirre",
+    "universidad": "Universidad Pedagógica Nacional de Chihuahua",
+    "comunidad_indigena": "Rarámuri",
+    "estado": "Chihuahua",
+    "interes": "Necesidades en torno a la educación artística",
+    "url_foto": "https://md4sg.com/images/rednacyt/Argelia-Contreras-Aguirre.jpg"
   },
   {
-    "id": "e14",
-    "nombre": "Sofía Iztaccíhuatl Romero",
-    "interes": "Vivienda y desarrollo comunitario",
+    "id": 7,
+    "nombre": "Alma Benita Cruz González",
+    "universidad": "Estudiante de maestría en Medicina Social",
+    "comunidad_indigena": "Mazahua",
+    "estado": "Estado de México",
+    "interes": "Medicina tradicional en los servicios de salud de CESSA a través de la salud intercultural",
+    "url_foto": "https://md4sg.com/images/rednacyt/Alma-Benite-Cruz-Gonzalez.jpg"
+  },
+  {
+    "id": 8,
+    "nombre": "Flor Ángel Pérez Sánchez",
+    "universidad": "CITRO (en proceso de admisión a Maestría en Ecología Tropical)",
+    "comunidad_indigena": "Zapoteca",
+    "estado": "Veracruz",
+    "interes": "Percepción socioambiental del Corredor Interoceánico del Istmo de Tehuantepec",
+    "url_foto": "https://md4sg.com/images/rednacyt/Flor-Angel-Perez-Sanchez.jpg"
+  },
+  {
+    "id": 9,
+    "nombre": "Yasmín Cruz Cruz",
+    "universidad": "TNM (Instituto Tecnológico Nacional de México)",
+    "comunidad_indigena": "Náhuatl",
+    "estado": "Veracruz",
+    "interes": "Desarrollo de app móvil y minería de datos para detección del espectro autista",
+    "url_foto": "https://md4sg.com/images/rednacyt/Yasmin-Cruz-Cruz.png"
+  },
+  {
+    "id": 10,
+    "nombre": "Yésica Gómez Hernández",
+    "universidad": "Universidad Autónoma de Tlaxcala (en proceso de admisión al Doctorado)",
+    "comunidad_indigena": "Náhuatl",
+    "estado": "Puebla",
+    "interes": "Ser mujer, indígena y científica: trayectorias académicas y profesionales en condiciones étnicas, lingüísticas y de género",
+    "url_foto": "https://md4sg.com/images/rednacyt/Yesica-Gomez-Hernandez.jpg"
+  },
+  {
+    "id": 11,
+    "nombre": "Edna Marlene Martínez Hernández",
+    "universidad": "Universidad Autónoma de Nuevo León (UANL)",
+    "comunidad_indigena": "Tének",
     "estado": "San Luis Potosí",
-    "universidad": "Universidad Autónoma de San Luis Potosí",
-    "comunidad_indigena": "Huasteco (Teenek)"
+    "interes": "Barreras de comunicación en educación sanitaria sobre COVID-19 en comunidades indígenas de la Huasteca Potosina",
+    "url_foto": "https://md4sg.com/images/rednacyt/Edna-Marlene-Martinez-Hernandez.jpg"
   },
   {
-    "id": "e15",
-    "nombre": "Lucía Tlaneci Guzmán",
-    "interes": "Tecnologías de la información para comunidades rurales",
+    "id": 12,
+    "nombre": "Leydi Rojas Martínez",
+    "universidad": "Universidad Autónoma de Nuevo León (UANL)",
+    "comunidad_indigena": "Tének",
+    "estado": "San Luis Potosí",
+    "interes": "Acceso a servicios de salud durante la pandemia de COVID-19 en comunidades indígenas de la Huasteca Potosina",
+    "url_foto": "https://md4sg.com/images/rednacyt/Leydi-Rojas-Martinez.jpg"
+  },
+  {
+    "id": 13,
+    "nombre": "Anai Domingo Martínez",
+    "universidad": "Universidad Autónoma de San Luis Potosí (UASLP)",
+    "comunidad_indigena": "Tének",
+    "estado": "San Luis Potosí",
+    "interes": "Evaluación de intervención educativa para adolescentes indígenas sobre el Virus del Papiloma Humano",
+    "url_foto": "https://md4sg.com/images/rednacyt/Anai-Domingo-Martinez.jpg"
+  },
+  {
+    "id": 14,
+    "nombre": "María Guadalupe Márquez Hinojosa",
+    "universidad": "Universidad Autónoma de San Luis Potosí (UASLP)",
+    "comunidad_indigena": "Tének",
+    "estado": "San Luis Potosí",
+    "interes": "Nivel de conocimiento sobre el VPH en población indígena náhuatl tras intervención educativa",
+    "url_foto": "https://md4sg.com/images/rednacyt/Maria-Guadalupe-Marquez-Hinojosa.jpg"
+  },
+  {
+    "id": 15,
+    "nombre": "Iridiana Salinas Hernández",
+    "universidad": "Universidad Autónoma de Nuevo León (UANL)",
+    "comunidad_indigena": "Náhuatl",
+    "estado": "San Luis Potosí",
+    "interes": "Desigualdad económica como obstáculo para la calidad de vida en familias de Itztacapa Xilitla, S.L.P.",
+    "url_foto": "https://md4sg.com/images/rednacyt/Iridiana-Salinas-Hernandez.jpg"
+  },
+  {
+    "id": 16,
+    "nombre": "Idalia Rojas Martínez",
+    "universidad": "Especialidad en enfermería clínica avanzada (en proceso de admisión)",
+    "comunidad_indigena": "Tének",
+    "estado": "San Luis Potosí",
+    "interes": "Inclusión de enfermeras hablantes de lengua materna en atención a pueblos indígenas de la Huasteca Potosina",
+    "url_foto": "https://md4sg.com/images/rednacyt/Idalia-Rojas-Martinez.jpg"
+  },
+  {
+    "id": 17,
+    "nombre": "Claudia Martínez Martínez",
+    "universidad": "Universidad Autónoma de Nuevo León (UANL)",
+    "comunidad_indigena": "Tének",
+    "estado": "San Luis Potosí",
+    "interes": "Percepción de mujeres indígenas Tének sobre el acceso a la educación superior en México",
+    "url_foto": "https://md4sg.com/images/rednacyt/Claudia-Martinez.jpg"
+  },
+  {
+    "id": 18,
+    "nombre": "Adriana Santiago Marcelino",
+    "universidad": "Universidad Autónoma de San Luis Potosí (UASLP)",
+    "comunidad_indigena": "Tének",
+    "estado": "San Luis Potosí",
+    "interes": "Evaluación de los derechos de los niños en educación y salud en comunidad indígena",
+    "url_foto": "https://md4sg.com/images/rednacyt/Adriana-Santiago-Marcelino.jpg"
+  },
+  {
+    "id": 19,
+    "nombre": "Celeste Cristal Flores Cuevas",
+    "universidad": "El Colegio de San Luis",
+    "comunidad_indigena": "Mazateca",
+    "estado": "San Luis Potosí",
+    "interes": "Gestión cultural del agua en Loma Chapultepec, Huautla, Oaxaca",
+    "url_foto": "https://md4sg.com/images/rednacyt/Celeste-Kristal-Flores-Cuevas.jpg"
+  },
+  {
+    "id": 20,
+    "nombre": "Martha Yadira Jiménez Estrada",
+    "universidad": "Estudiante de Maestría en Estudios Interculturales",
+    "comunidad_indigena": "Zoque",
     "estado": "Chiapas",
-    "universidad": "Universidad Intercultural de Chiapas",
-    "comunidad_indigena": "Tseltal"
+    "interes": "Oralidad: Patrimonio Biocultural de los Zoques – historias bilingües en Zoque y Español",
+    "url_foto": "https://md4sg.com/images/rednacyt/Martha-Yadira-Jimenez-Estrada.jpg"
+  },
+  {
+    "id": "1_2022",
+    "nombre": "María Teresa Santiago Marcelino",
+    "universidad": "Universidad Autónoma de San Luis Potosí (UASLP)",
+    "comunidad_indigena": "Tének",
+    "estado": "San Luis Potosí",
+    "interes": "Derechos lingüísticos y uso de la lengua Tének en jóvenes de secundaria y preparatoria",
+    "url_foto": "https://conference2022.eaamo.org/copocyt/C1.jpg"
+  },
+  {
+    "id": "2_2022",
+    "nombre": "Nancy Santiago Santos",
+    "universidad": "Arquitectura (posgrado en curso)",
+    "comunidad_indigena": "Tének",
+    "estado": "San Luis Potosí",
+    "interes": "Vivienda social y adecuada para mujeres indígenas mayores en situación de violencia doméstica o abandono",
+    "url_foto": "https://conference2022.eaamo.org/copocyt/C2.jpg"
+  },
+  {
+    "id": "3_2022",
+    "nombre": "Eira Krystel González Pérez",
+    "universidad": "Licenciatura en Enfermería",
+    "comunidad_indigena": "Náhuatl",
+    "estado": "San Luis Potosí",
+    "interes": "Adherencia al tratamiento de Tuberculosis en comunidades indígenas de la Huasteca Potosina y uso de IA",
+    "url_foto": "https://conference2022.eaamo.org/copocyt/C3.jpg"
+  },
+  {
+    "id": "4_2022",
+    "nombre": "Idalia Rojas Martínez",
+    "universidad": "Licenciatura en Enfermería y Obstetricia",
+    "comunidad_indigena": "Tének",
+    "estado": "San Luis Potosí",
+    "interes": "Parto humanizado y derechos de las mujeres embarazadas en comunidades rurales de Tancanhuitz",
+    "url_foto": "https://conference2022.eaamo.org/copocyt/C4.jpg"
+  },
+  {
+    "id": "5_2022",
+    "nombre": "Leydi Rojas Martínez",
+    "universidad": "Universidad Autónoma de Nuevo León (UANL)",
+    "comunidad_indigena": "Tének",
+    "estado": "San Luis Potosí",
+    "interes": "Nutrición y factores asociados a la desnutrición en adultos mayores de comunidades indígenas",
+    "url_foto": "https://conference2022.eaamo.org/copocyt/C5.jpg"
+  },
+  {
+    "id": "6_2022",
+    "nombre": "Edna Marlene Martínez Hernández",
+    "universidad": "Licenciatura en Enfermería (posgrado en curso)",
+    "comunidad_indigena": "Tének",
+    "estado": "San Luis Potosí",
+    "interes": "Adherencia al tratamiento de Tuberculosis en comunidades indígenas y metodologías de IA para optimización de recursos médicos",
+    "url_foto": "https://conference2022.eaamo.org/copocyt/C6.jpg"
+  },
+  {
+    "id": "7_2022",
+    "nombre": "Xóchilt Rosales Terán",
+    "universidad": "Licenciatura en Derecho",
+    "comunidad_indigena": "Náhuatl",
+    "estado": "San Luis Potosí",
+    "interes": "Acceso a la justicia para mujeres indígenas: fraude inmobiliario en el municipio de Xilitla, S.L.P.",
+    "url_foto": "https://conference2022.eaamo.org/copocyt/C7.jpg"
   }
 ]

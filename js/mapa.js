@@ -82,10 +82,13 @@ function mostrarDetalle(estado) {
       const tipo = d.poster
         ? '<span class="badge badge-poster">Póster</span>'
         : '<span class="badge badge-proyecto">Proyecto</span>';
+      const posterLink = d.poster_url
+        ? `<br><a href="${d.poster_url}" target="_blank" rel="noopener" style="color:#2a7ab5;font-size:0.82rem">Ver póster</a>`
+        : '';
       html += `<tr>
         <td>
           <strong>${d.investigacion}</strong>
-          <br><small style="color:#6c7a89">${d.descripcion}</small>
+          <br><small style="color:#6c7a89">${d.descripcion}</small>${posterLink}
         </td>
         <td>${d.estudiante}<br><small style="color:#6c7a89">${d.universidad}</small></td>
         <td>${d.comunidad_indigena}</td>
