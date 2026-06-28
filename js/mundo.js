@@ -15,6 +15,7 @@ const PAIS_COORDS = {
   'Australia': { x: 785, y: 314.6 },
   'India': { x: 647.5, y: 196.3 },
   'Italia': { x: 481.2, y: 132.4 },
+  'Serbia': { x: 500, y: 120 },
 };
 
 const EEUU_REGION_COORDS = {
@@ -391,6 +392,7 @@ function paisToEnglish(pais) {
     'Argentina': 'Argentina',
     'Chile': 'Chile',
     'Holanda': 'Netherlands',
+    'Serbia': 'Serbia',
     'Japón': 'Japan',
     'Australia': 'Australia',
     'India': 'India',
