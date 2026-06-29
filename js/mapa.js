@@ -165,12 +165,23 @@ function abrirPosterModal(url) {
   const modal = document.getElementById('poster-modal');
   const body = document.getElementById('poster-modal-body');
   const isImage = /\.(jpg|jpeg|png|gif|webp)$/i.test(url);
+  const isExternal = url.startsWith('http');
+  const isPdf = /\.pdf$/i.test(url);
 
   if (isImage) {
     body.innerHTML = `<img src="${url}" alt="Póster">`;
-  } else {
+  } else if (isPdf && !isExternal) {
+    body.innerHTML = `<object data="${url}" type="application/pdf" width="100%" height="100%">
+      <p style="padding:2rem;text-align:center;color:#666">
+        No se puede mostrar el PDF.
+        <br><a href="${url}" target="_blank" rel="noopener" style="color:#2a7ab5;font-weight:600">Abrir en nueva pestaña</a>
+      </p>
+    </object>`;
+  } else if (isExternal) {
     const viewerUrl = 'https://docs.google.com/gview?url=' + encodeURIComponent(url) + '&embedded=true';
     body.innerHTML = `<iframe src="${viewerUrl}"></iframe>`;
+  } else {
+    body.innerHTML = `<iframe src="${url}"></iframe>`;
   }
 
   modal.classList.add('open');
