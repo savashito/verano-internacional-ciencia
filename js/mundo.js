@@ -48,7 +48,7 @@ const ESTADO_OFFSETS = {
   'Guerrero': { x: 200.2, y: 205.6 },
   'Chiapas': { x: 217.2, y: 207.6 },
   'Estado de México': { x: 202, y: 198 },
-  'Nuevo León': { x: 298, y: 175 },
+  'Nuevo León': { x: 203, y: 183 },
   'Colima': { x: 192, y: 197 },
   'Morelos': { x: 204, y: 199 },
   'Quintana Roo': { x: 232, y: 192 },
@@ -216,7 +216,7 @@ async function inicializarMapaMundial() {
     const midY = (paisCoord.y + estadoCoord.y) / 2;
     const nx = -dy / dist;
     const ny = dx / dist;
-    const offset = arcHeight + idx * 3;
+    const offset = arcHeight + idx * 1.5;
     const cpX = midX + nx * offset;
     const cpY = midY + ny * offset - arcHeight * 0.2;
 
