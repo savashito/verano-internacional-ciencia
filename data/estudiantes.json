@@ -242,36 +242,688 @@
     "interes": "Acceso a la justicia para mujeres indígenas: fraude inmobiliario en el municipio de Xilitla, S.L.P.",
     "url_foto": "https://conference2022.eaamo.org/copocyt/C7.jpg"
   },
-  {"id": "1_2024", "nombre": "Martha Martínez Hernández", "universidad": "Benemérita Universidad Autónoma de Puebla (BUAP)", "comunidad_indigena": "Náhuatl", "estado": "Puebla", "interes": "Intervención en Náhuatl sobre educación sexual en adolescentes de Pueblos Originarios", "url_foto": null},
-  {"id": "2_2024", "nombre": "Marilú López Nava", "universidad": "Universidad Intercultural del Estado de Puebla", "comunidad_indigena": "Náhuatl", "estado": "Puebla", "interes": "Factores socioeconómicos que inciden en la elaboración de artesanías de canastas en Ixtolco de Morelos", "url_foto": null},
-  {"id": "3_2024", "nombre": "María de los Ángeles Anel Vázquez Nieto", "universidad": "Doctorado en Procesos Territoriales", "comunidad_indigena": "Totonaca", "estado": "Puebla", "interes": "Patrimonio cultural ambiental y economía solidaria: estrategias para desarrollo local en San Felipe Tepatlán", "url_foto": null},
-  {"id": "4_2024", "nombre": "Atanacia Bautista Vázquez", "universidad": "Benemérita Universidad Autónoma de Puebla (BUAP)", "comunidad_indigena": "Totonaca", "estado": "Puebla", "interes": "Determinantes sociales que influyen en la realización de citología cervical en mujeres indígenas", "url_foto": null},
-  {"id": "5_2024", "nombre": "María Guadalupe García Alonso", "universidad": "Universidad Autónoma Chapingo", "comunidad_indigena": "Cuanajo", "estado": "Michoacán", "interes": "Percepción de la población indígena sobre programas de restauración ambiental de la cuenca del lago de Pátzcuaro", "url_foto": null},
-  {"id": "6_2024", "nombre": "Aide García Villa", "universidad": "Universidad Autónoma Chapingo", "comunidad_indigena": "Tzurumutaro", "estado": "Michoacán", "interes": "Análisis del impacto de la COVID-19 en el sector económico y social de la comunidad indígena mestiza de Janitzio Michoacán", "url_foto": null},
-  {"id": "7_2024", "nombre": "Maritza Salvador Gaona", "universidad": "Universidad Michoacana de San Nicolás de Hidalgo", "comunidad_indigena": "Tzurumutaro", "estado": "Michoacán", "interes": "Competitividad de los productores de Mezcal de Etúcuaro, Michoacán", "url_foto": null},
-  {"id": "8_2024", "nombre": "María Verónica Gabriel Luciano", "universidad": "Doctorado en Ciencias para la Sostenibilidad e Interculturalidad", "comunidad_indigena": "Purépecha", "estado": "Michoacán", "interes": "Etnopiscicultura de especies nativas del Lago de Pátzcuaro en Santa Fe de la Laguna", "url_foto": null},
-  {"id": "9_2024", "nombre": "Cruz Reyes Reyes", "universidad": "Universidad de Sinaloa", "comunidad_indigena": "Mixteca", "estado": "Sinaloa", "interes": "Análisis interseccional sobre el derecho de acceso e impartición de justicia en mujeres indígenas de Sinaloa", "url_foto": null},
-  {"id": "10_2024", "nombre": "Anai Zuñiga Perez", "universidad": "Centro de Estudios Superiores en Ciencias Jurídicas y Criminológicas", "comunidad_indigena": "Ralámuli", "estado": "Chihuahua", "interes": "Investigación sobre la mejora del ámbito laboral indígena y apropiación cultural de iconografía de pueblos originarios", "url_foto": null},
-  {"id": "11_2024", "nombre": "Bertha Alicia Carrillo Castro", "universidad": "Universidad Autónoma de Chihuahua", "comunidad_indigena": "Tarahumara", "estado": "Chihuahua", "interes": "Intervención para conducta anticonceptiva en adolescentes ralámuli de asentamientos urbanos de Chihuahua", "url_foto": null},
-  {"id": "12_2024", "nombre": "Mildred Estefanía Briceño López", "universidad": "Universidad Pedagógica Nacional del Estado de Chihuahua", "comunidad_indigena": "Rarámuri", "estado": "Chihuahua", "interes": "Educación transformadora para la equidad: desigualdad económica, movilidad y diversidad algorítmica en comunidades marginadas", "url_foto": null},
-  {"id": "13_2024", "nombre": "Argelia Contreras Aguirre", "universidad": "Universidad Pedagógica Nacional", "comunidad_indigena": "Rarámuri", "estado": "Chihuahua", "interes": "Proceso de transición lingüística en niños rarámuri", "url_foto": null},
-  {"id": "14_2024", "nombre": "Alejandra Rivas Castillo", "universidad": "Licenciatura en Pedagogía", "comunidad_indigena": "Tarahumara", "estado": "Chihuahua", "interes": "La educación virtual o a distancia en estudiantes de población vulnerable", "url_foto": null},
-  {"id": "15_2024", "nombre": "Anai Domingo Martinez", "universidad": "Universidad Autónoma de San Luis Potosí (UASLP)", "comunidad_indigena": "Tének", "estado": "San Luis Potosí", "interes": "Nivel de conocimientos de los adolescentes indígenas Tének sobre el Virus del Papiloma Humano", "url_foto": null},
-  {"id": "16_2024", "nombre": "Celeste Kristal Flores Cuevas", "universidad": "El Colegio de San Luis (COLSAN)", "comunidad_indigena": "Mazateca", "estado": "San Luis Potosí", "interes": "Modelo integral para la restauración ecológica y prevención de incendios en comunidades Mazatecas de Oaxaca", "url_foto": null},
-  {"id": "17_2024", "nombre": "Claudia Martínez Martínez", "universidad": "Universidad Autónoma de Nuevo León (UANL)", "comunidad_indigena": "Tének", "estado": "San Luis Potosí", "interes": "El acceso a la educación superior de las mujeres indígenas de la Zona Huasteca en la región Tének, SLP", "url_foto": null},
-  {"id": "18_2024", "nombre": "Edna Marlene Martínez Hernández", "universidad": "Universidad Autónoma de Nuevo León (UANL)", "comunidad_indigena": "Tének", "estado": "San Luis Potosí", "interes": "Percepción de la salud mental en adultos mayores de una comunidad indígena", "url_foto": null},
-  {"id": "19_2024", "nombre": "Eira Krystel González Pérez", "universidad": "YAAN (en proceso de selección de Maestría en Docencia)", "comunidad_indigena": "Matlapa", "estado": "San Luis Potosí", "interes": "Desigualdades educacionales: factores que impactan el rendimiento académico", "url_foto": null},
-  {"id": "20_2024", "nombre": "Elba Nora Hernández Antonio", "universidad": "Universidad de Guadalajara (UDG)", "comunidad_indigena": "Náhuatl", "estado": "San Luis Potosí", "interes": "Rutinas y funcionalidad de familias con algún integrante con diabetes tipo 2", "url_foto": null},
-  {"id": "21_2024", "nombre": "Iridiana Salinas Hernández", "universidad": "Universidad Autónoma de Nuevo León (UANL)", "comunidad_indigena": "Náhuatl", "estado": "San Luis Potosí", "interes": "Estrategias para la eficacia en los procesos de recaudación del H. Ayuntamiento de Xilitla, San Luis Potosí", "url_foto": null},
-  {"id": "22_2024", "nombre": "Leydi Rojas Martínez", "universidad": "Universidad Autónoma de Nuevo León (UANL)", "comunidad_indigena": "Tének", "estado": "San Luis Potosí", "interes": "Barreras culturales, lingüísticas y económicas en el acceso a la salud mental en jóvenes indígenas", "url_foto": null},
-  {"id": "23_2024", "nombre": "Lluvia Cristal Antonio Hernández", "universidad": "Universidad Intercultural (UVM en proceso)", "comunidad_indigena": "Tének", "estado": "San Luis Potosí", "interes": "Creación de una aplicación educativa-interactiva para mejorar la comprensión matemática en telesecundaria", "url_foto": null},
-  {"id": "24_2024", "nombre": "María del Rosario Félix Gaspar", "universidad": "Universidad Autónoma del Estado de México", "comunidad_indigena": "Uxtuapan", "estado": "San Luis Potosí", "interes": "Embarazo adolescente en una comunidad indígena", "url_foto": null},
-  {"id": "25_2024", "nombre": "María Guadalupe Márquez Hinojosa", "universidad": "Universidad Autónoma de San Luis Potosí (UASLP)", "comunidad_indigena": "Tének", "estado": "San Luis Potosí", "interes": "Nivel de conocimientos sobre el VPH en una población indígena hablante de lengua Náhuatl posterior a una intervención educativa", "url_foto": null},
-  {"id": "26_2024", "nombre": "Maritza Jazmin Ortiz Cruz", "universidad": "Universidad Intercultural de San Luis Potosí (UICSLP)", "comunidad_indigena": "Náhuatl", "estado": "San Luis Potosí", "interes": "Agroemprendimiento comunitario en Jalpilla, Axtla de Terrazas", "url_foto": null},
-  {"id": "27_2024", "nombre": "Mireya Godinez Martínez", "universidad": "Universidad Intercultural de San Luis Potosí (UICSLP)", "comunidad_indigena": "Náhuatl", "estado": "San Luis Potosí", "interes": "Uso de tecnologías web para acercar conocimientos en lengua nativa a la comunidad estudiantil", "url_foto": null},
-  {"id": "28_2024", "nombre": "Nora Hilda Ramírez Hernández", "universidad": "Universidad Intercultural de Tamazunchale", "comunidad_indigena": "Náhuatl", "estado": "San Luis Potosí", "interes": "Gastronomía y tradiciones de la Huasteca Hidalguense para preservación de la cultura originaria", "url_foto": null},
-  {"id": "29_2024", "nombre": "Samantha Nohemi Luis Santiago", "universidad": "Universidad Intercultural de San Luis Potosí (UICSLP)", "comunidad_indigena": "Tének", "estado": "San Luis Potosí", "interes": "El machismo como factor limitante en el libre desarrollo de la mujer", "url_foto": null},
-  {"id": "30_2024", "nombre": "Xochitl Martínez Olvera", "universidad": "Benemérita Universidad Autónoma de Puebla (BUAP)", "comunidad_indigena": "Tének", "estado": "San Luis Potosí", "interes": "Relación del apoyo social y estilos de vida del adulto mayor con y sin deterioro cognitivo", "url_foto": null},
-  {"id": "31_2024", "nombre": "Eduarda Hernandez Hernandez", "universidad": "Universidad Autónoma de San Luis Potosí (UASLP)", "comunidad_indigena": "Náhuatl", "estado": "San Luis Potosí", "interes": "Condiciones que potencian la vulnerabilidad de las mujeres Nahuas frente a la violencia obstétrica", "url_foto": null},
-  {"id": "32_2024", "nombre": "Flor Ángel Pérez Sánchez", "universidad": "Centro de Investigaciones Tropicales (CITRO)", "comunidad_indigena": "Zapoteca", "estado": "Veracruz", "interes": "Percepción socioambiental del proyecto Corredor Interoceánico del Istmo de Tehuantepec en el tramo Ubero a Mogoñe, Oaxaca", "url_foto": null}
+  {
+    "id": "1_2024",
+    "nombre": "Martha Martínez Hernández",
+    "universidad": "Benemérita Universidad Autónoma de Puebla (BUAP)",
+    "comunidad_indigena": "Náhuatl",
+    "estado": "Puebla",
+    "interes": "Intervención en Náhuatl sobre educación sexual en adolescentes de Pueblos Originarios",
+    "url_foto": null
+  },
+  {
+    "id": "2_2024",
+    "nombre": "Marilú López Nava",
+    "universidad": "Universidad Intercultural del Estado de Puebla",
+    "comunidad_indigena": "Náhuatl",
+    "estado": "Puebla",
+    "interes": "Factores socioeconómicos que inciden en la elaboración de artesanías de canastas en Ixtolco de Morelos",
+    "url_foto": null
+  },
+  {
+    "id": "3_2024",
+    "nombre": "María de los Ángeles Anel Vázquez Nieto",
+    "universidad": "Doctorado en Procesos Territoriales",
+    "comunidad_indigena": "Totonaca",
+    "estado": "Puebla",
+    "interes": "Patrimonio cultural ambiental y economía solidaria: estrategias para desarrollo local en San Felipe Tepatlán",
+    "url_foto": null
+  },
+  {
+    "id": "4_2024",
+    "nombre": "Atanacia Bautista Vázquez",
+    "universidad": "Benemérita Universidad Autónoma de Puebla (BUAP)",
+    "comunidad_indigena": "Totonaca",
+    "estado": "Puebla",
+    "interes": "Determinantes sociales que influyen en la realización de citología cervical en mujeres indígenas",
+    "url_foto": null
+  },
+  {
+    "id": "5_2024",
+    "nombre": "María Guadalupe García Alonso",
+    "universidad": "Universidad Autónoma Chapingo",
+    "comunidad_indigena": "Cuanajo",
+    "estado": "Michoacán",
+    "interes": "Percepción de la población indígena sobre programas de restauración ambiental de la cuenca del lago de Pátzcuaro",
+    "url_foto": null
+  },
+  {
+    "id": "6_2024",
+    "nombre": "Aide García Villa",
+    "universidad": "Universidad Autónoma Chapingo",
+    "comunidad_indigena": "Tzurumutaro",
+    "estado": "Michoacán",
+    "interes": "Análisis del impacto de la COVID-19 en el sector económico y social de la comunidad indígena mestiza de Janitzio Michoacán",
+    "url_foto": null
+  },
+  {
+    "id": "7_2024",
+    "nombre": "Maritza Salvador Gaona",
+    "universidad": "Universidad Michoacana de San Nicolás de Hidalgo",
+    "comunidad_indigena": "Tzurumutaro",
+    "estado": "Michoacán",
+    "interes": "Competitividad de los productores de Mezcal de Etúcuaro, Michoacán",
+    "url_foto": null
+  },
+  {
+    "id": "8_2024",
+    "nombre": "María Verónica Gabriel Luciano",
+    "universidad": "Doctorado en Ciencias para la Sostenibilidad e Interculturalidad",
+    "comunidad_indigena": "Purépecha",
+    "estado": "Michoacán",
+    "interes": "Etnopiscicultura de especies nativas del Lago de Pátzcuaro en Santa Fe de la Laguna",
+    "url_foto": null
+  },
+  {
+    "id": "9_2024",
+    "nombre": "Cruz Reyes Reyes",
+    "universidad": "Universidad de Sinaloa",
+    "comunidad_indigena": "Mixteca",
+    "estado": "Sinaloa",
+    "interes": "Análisis interseccional sobre el derecho de acceso e impartición de justicia en mujeres indígenas de Sinaloa",
+    "url_foto": null
+  },
+  {
+    "id": "10_2024",
+    "nombre": "Anai Zuñiga Perez",
+    "universidad": "Centro de Estudios Superiores en Ciencias Jurídicas y Criminológicas",
+    "comunidad_indigena": "Ralámuli",
+    "estado": "Chihuahua",
+    "interes": "Investigación sobre la mejora del ámbito laboral indígena y apropiación cultural de iconografía de pueblos originarios",
+    "url_foto": null
+  },
+  {
+    "id": "11_2024",
+    "nombre": "Bertha Alicia Carrillo Castro",
+    "universidad": "Universidad Autónoma de Chihuahua",
+    "comunidad_indigena": "Tarahumara",
+    "estado": "Chihuahua",
+    "interes": "Intervención para conducta anticonceptiva en adolescentes ralámuli de asentamientos urbanos de Chihuahua",
+    "url_foto": null
+  },
+  {
+    "id": "12_2024",
+    "nombre": "Mildred Estefanía Briceño López",
+    "universidad": "Universidad Pedagógica Nacional del Estado de Chihuahua",
+    "comunidad_indigena": "Rarámuri",
+    "estado": "Chihuahua",
+    "interes": "Educación transformadora para la equidad: desigualdad económica, movilidad y diversidad algorítmica en comunidades marginadas",
+    "url_foto": null
+  },
+  {
+    "id": "13_2024",
+    "nombre": "Argelia Contreras Aguirre",
+    "universidad": "Universidad Pedagógica Nacional",
+    "comunidad_indigena": "Rarámuri",
+    "estado": "Chihuahua",
+    "interes": "Proceso de transición lingüística en niños rarámuri",
+    "url_foto": null
+  },
+  {
+    "id": "14_2024",
+    "nombre": "Alejandra Rivas Castillo",
+    "universidad": "Licenciatura en Pedagogía",
+    "comunidad_indigena": "Tarahumara",
+    "estado": "Chihuahua",
+    "interes": "La educación virtual o a distancia en estudiantes de población vulnerable",
+    "url_foto": null
+  },
+  {
+    "id": "15_2024",
+    "nombre": "Anai Domingo Martinez",
+    "universidad": "Universidad Autónoma de San Luis Potosí (UASLP)",
+    "comunidad_indigena": "Tének",
+    "estado": "San Luis Potosí",
+    "interes": "Nivel de conocimientos de los adolescentes indígenas Tének sobre el Virus del Papiloma Humano",
+    "url_foto": null
+  },
+  {
+    "id": "16_2024",
+    "nombre": "Celeste Kristal Flores Cuevas",
+    "universidad": "El Colegio de San Luis (COLSAN)",
+    "comunidad_indigena": "Mazateca",
+    "estado": "San Luis Potosí",
+    "interes": "Modelo integral para la restauración ecológica y prevención de incendios en comunidades Mazatecas de Oaxaca",
+    "url_foto": null
+  },
+  {
+    "id": "17_2024",
+    "nombre": "Claudia Martínez Martínez",
+    "universidad": "Universidad Autónoma de Nuevo León (UANL)",
+    "comunidad_indigena": "Tének",
+    "estado": "San Luis Potosí",
+    "interes": "El acceso a la educación superior de las mujeres indígenas de la Zona Huasteca en la región Tének, SLP",
+    "url_foto": null
+  },
+  {
+    "id": "18_2024",
+    "nombre": "Edna Marlene Martínez Hernández",
+    "universidad": "Universidad Autónoma de Nuevo León (UANL)",
+    "comunidad_indigena": "Tének",
+    "estado": "San Luis Potosí",
+    "interes": "Percepción de la salud mental en adultos mayores de una comunidad indígena",
+    "url_foto": null
+  },
+  {
+    "id": "19_2024",
+    "nombre": "Eira Krystel González Pérez",
+    "universidad": "YAAN (en proceso de selección de Maestría en Docencia)",
+    "comunidad_indigena": "Matlapa",
+    "estado": "San Luis Potosí",
+    "interes": "Desigualdades educacionales: factores que impactan el rendimiento académico",
+    "url_foto": null
+  },
+  {
+    "id": "20_2024",
+    "nombre": "Elba Nora Hernández Antonio",
+    "universidad": "Universidad de Guadalajara (UDG)",
+    "comunidad_indigena": "Náhuatl",
+    "estado": "San Luis Potosí",
+    "interes": "Rutinas y funcionalidad de familias con algún integrante con diabetes tipo 2",
+    "url_foto": null
+  },
+  {
+    "id": "21_2024",
+    "nombre": "Iridiana Salinas Hernández",
+    "universidad": "Universidad Autónoma de Nuevo León (UANL)",
+    "comunidad_indigena": "Náhuatl",
+    "estado": "San Luis Potosí",
+    "interes": "Estrategias para la eficacia en los procesos de recaudación del H. Ayuntamiento de Xilitla, San Luis Potosí",
+    "url_foto": null
+  },
+  {
+    "id": "22_2024",
+    "nombre": "Leydi Rojas Martínez",
+    "universidad": "Universidad Autónoma de Nuevo León (UANL)",
+    "comunidad_indigena": "Tének",
+    "estado": "San Luis Potosí",
+    "interes": "Barreras culturales, lingüísticas y económicas en el acceso a la salud mental en jóvenes indígenas",
+    "url_foto": null
+  },
+  {
+    "id": "23_2024",
+    "nombre": "Lluvia Cristal Antonio Hernández",
+    "universidad": "Universidad Intercultural (UVM en proceso)",
+    "comunidad_indigena": "Tének",
+    "estado": "San Luis Potosí",
+    "interes": "Creación de una aplicación educativa-interactiva para mejorar la comprensión matemática en telesecundaria",
+    "url_foto": null
+  },
+  {
+    "id": "24_2024",
+    "nombre": "María del Rosario Félix Gaspar",
+    "universidad": "Universidad Autónoma del Estado de México",
+    "comunidad_indigena": "Uxtuapan",
+    "estado": "San Luis Potosí",
+    "interes": "Embarazo adolescente en una comunidad indígena",
+    "url_foto": null
+  },
+  {
+    "id": "25_2024",
+    "nombre": "María Guadalupe Márquez Hinojosa",
+    "universidad": "Universidad Autónoma de San Luis Potosí (UASLP)",
+    "comunidad_indigena": "Tének",
+    "estado": "San Luis Potosí",
+    "interes": "Nivel de conocimientos sobre el VPH en una población indígena hablante de lengua Náhuatl posterior a una intervención educativa",
+    "url_foto": null
+  },
+  {
+    "id": "26_2024",
+    "nombre": "Maritza Jazmin Ortiz Cruz",
+    "universidad": "Universidad Intercultural de San Luis Potosí (UICSLP)",
+    "comunidad_indigena": "Náhuatl",
+    "estado": "San Luis Potosí",
+    "interes": "Agroemprendimiento comunitario en Jalpilla, Axtla de Terrazas",
+    "url_foto": null
+  },
+  {
+    "id": "27_2024",
+    "nombre": "Mireya Godinez Martínez",
+    "universidad": "Universidad Intercultural de San Luis Potosí (UICSLP)",
+    "comunidad_indigena": "Náhuatl",
+    "estado": "San Luis Potosí",
+    "interes": "Uso de tecnologías web para acercar conocimientos en lengua nativa a la comunidad estudiantil",
+    "url_foto": null
+  },
+  {
+    "id": "28_2024",
+    "nombre": "Nora Hilda Ramírez Hernández",
+    "universidad": "Universidad Intercultural de Tamazunchale",
+    "comunidad_indigena": "Náhuatl",
+    "estado": "San Luis Potosí",
+    "interes": "Gastronomía y tradiciones de la Huasteca Hidalguense para preservación de la cultura originaria",
+    "url_foto": null
+  },
+  {
+    "id": "29_2024",
+    "nombre": "Samantha Nohemi Luis Santiago",
+    "universidad": "Universidad Intercultural de San Luis Potosí (UICSLP)",
+    "comunidad_indigena": "Tének",
+    "estado": "San Luis Potosí",
+    "interes": "El machismo como factor limitante en el libre desarrollo de la mujer",
+    "url_foto": null
+  },
+  {
+    "id": "30_2024",
+    "nombre": "Xochitl Martínez Olvera",
+    "universidad": "Benemérita Universidad Autónoma de Puebla (BUAP)",
+    "comunidad_indigena": "Tének",
+    "estado": "San Luis Potosí",
+    "interes": "Relación del apoyo social y estilos de vida del adulto mayor con y sin deterioro cognitivo",
+    "url_foto": null
+  },
+  {
+    "id": "31_2024",
+    "nombre": "Eduarda Hernandez Hernandez",
+    "universidad": "Universidad Autónoma de San Luis Potosí (UASLP)",
+    "comunidad_indigena": "Náhuatl",
+    "estado": "San Luis Potosí",
+    "interes": "Condiciones que potencian la vulnerabilidad de las mujeres Nahuas frente a la violencia obstétrica",
+    "url_foto": null
+  },
+  {
+    "id": "32_2024",
+    "nombre": "Flor Ángel Pérez Sánchez",
+    "universidad": "Centro de Investigaciones Tropicales (CITRO)",
+    "comunidad_indigena": "Zapoteca",
+    "estado": "Veracruz",
+    "interes": "Percepción socioambiental del proyecto Corredor Interoceánico del Istmo de Tehuantepec en el tramo Ubero a Mogoñe, Oaxaca",
+    "url_foto": null
+  },
+  {
+    "id": "1_2025",
+    "nombre": "Idalia Rojas Martínez",
+    "universidad": "Universidad Autónoma de Nuevo León (UANL)",
+    "comunidad_indigena": "Tének",
+    "estado": "Nuevo León",
+    "interes": "Diseño de una estrategia educativa preoperatoria intercultural para pacientes indígenas náhuatl en un hospital público",
+    "url_foto": null
+  },
+  {
+    "id": "2_2025",
+    "nombre": "Leydi Rojas Martínez",
+    "universidad": "Universidad Autónoma de Nuevo León (UANL)",
+    "comunidad_indigena": "Tének",
+    "estado": "Nuevo León",
+    "interes": "Relación de la inseguridad alimentaria y la calidad de vida de población indígena de zonas urbanas y rurales del norte de México",
+    "url_foto": null
+  },
+  {
+    "id": "3_2025",
+    "nombre": "Edna Marlene Martínez",
+    "universidad": "Universidad Autónoma de Nuevo León (UANL)",
+    "comunidad_indigena": "Tének",
+    "estado": "Nuevo León",
+    "interes": "Prevalencia de depresión, ansiedad y estrés en población indígena urbana del estado de Nuevo León",
+    "url_foto": null
+  },
+  {
+    "id": "4_2025",
+    "nombre": "Aidé García Villa",
+    "universidad": "El Colegio de Michoacán (COLMICH)",
+    "comunidad_indigena": "Tzurumútaro",
+    "estado": "Michoacán",
+    "interes": "Diseñar estrategias para el desarrollo de turismo sustentable en las comunidades de Uranden y Tzentzenguaro",
+    "url_foto": null
+  },
+  {
+    "id": "5_2025",
+    "nombre": "Dulce Sonia Oreano Hernández",
+    "universidad": "Universidad Nacional Autónoma de México (UNAM)",
+    "comunidad_indigena": "Botenguedhó",
+    "estado": "Michoacán",
+    "interes": "Comunidades indígenas expuestas a riesgo hidrogeomorfológico: el manejo de datos no sistemáticos en microcuencas no aforadas",
+    "url_foto": null
+  },
+  {
+    "id": "6_2025",
+    "nombre": "Elsa Sánchez García",
+    "universidad": "Instituto de Geofísica-Michoacán (UNAM)",
+    "comunidad_indigena": "Santa Ana Nichi",
+    "estado": "Michoacán",
+    "interes": "Asesoría y mentoría para fomentar la participación de las mujeres y estudiantes indígenas en las Ciencias de la Tierra y las Ciencias Espaciales",
+    "url_foto": null
+  },
+  {
+    "id": "7_2025",
+    "nombre": "Esthela Rodríguez García",
+    "universidad": "Instituto de Ecología (INECOL)",
+    "comunidad_indigena": "Purépecha",
+    "estado": "Michoacán",
+    "interes": "Fuego y territorio: análisis exploratorio de la vulnerabilidad socioecológica al fuego en comunidades indígenas de Michoacán",
+    "url_foto": null
+  },
+  {
+    "id": "8_2025",
+    "nombre": "Jessica Cristina Acuapa Juárez",
+    "universidad": "Universidad Autónoma de Nuevo León (UANL)",
+    "comunidad_indigena": "Purépecha",
+    "estado": "Michoacán",
+    "interes": "Modelo de intervención intercultural para el desarrollo de la autonomía del aprendizaje en estudiantes de contextos rurales e indígenas",
+    "url_foto": null
+  },
+  {
+    "id": "9_2025",
+    "nombre": "Johanna Jannet Balderas Alejandre",
+    "universidad": "Universidad Michoacana de San Nicolás de Hidalgo (UMSNH)",
+    "comunidad_indigena": "San Francisco Pichátaro",
+    "estado": "Michoacán",
+    "interes": "Incentivar carreras STEAM en alumnas de educación media superior en la comunidad de San Francisco Pichátaro, Michoacán",
+    "url_foto": null
+  },
+  {
+    "id": "10_2025",
+    "nombre": "María Guadalupe García Alonso",
+    "universidad": "Universidad Intercultural Indígena de Michoacán (UIIM)",
+    "comunidad_indigena": "Cuanajo",
+    "estado": "Michoacán",
+    "interes": "Impacto socio-ambiental en la construcción del puente en la Comunidad Indígena de Jarácuaro, Michoacán en el año de 1980",
+    "url_foto": null
+  },
+  {
+    "id": "11_2025",
+    "nombre": "María Verónica Gabriel Luciano",
+    "universidad": "Maestría en Producción Agrícola Sustentable",
+    "comunidad_indigena": "Tarasco",
+    "estado": "Michoacán",
+    "interes": "Piscicultura participativa de especies endémicas del Lago de Pátzcuaro",
+    "url_foto": null
+  },
+  {
+    "id": "12_2025",
+    "nombre": "Maritza Salvador Gaona",
+    "universidad": "Universidad Intercultural Indígena de Michoacán (UIIM)",
+    "comunidad_indigena": "Tzurumútaro",
+    "estado": "Michoacán",
+    "interes": "Estrategias para el fortalecimiento de la cadena productiva del mezcal en la comunidad de Oponguio, Michoacán",
+    "url_foto": null
+  },
+  {
+    "id": "13_2025",
+    "nombre": "Monserrat de la Luz Moreno Romero",
+    "universidad": "Universidad Intercultural Indígena de Michoacán (UIIM)",
+    "comunidad_indigena": "Erongarícuaro",
+    "estado": "Michoacán",
+    "interes": "Registro de Saberes y Técnicas Artesanales del Exhibidor Sesi Jagnari de Erongarícuaro, Michoacán para su Promoción y Difusión",
+    "url_foto": null
+  },
+  {
+    "id": "14_2025",
+    "nombre": "Viridiana Camacho Pánfilo",
+    "universidad": "Centro Nicolaíta de Estudios de los Pueblos Originarios",
+    "comunidad_indigena": "Purépecha",
+    "estado": "Michoacán",
+    "interes": "Mejorar la gobernanza comunitaria y las prácticas archivísticas en los pueblos P'urhépecha de Michoacán",
+    "url_foto": null
+  },
+  {
+    "id": "15_2025",
+    "nombre": "Ana Karen González Calleja",
+    "universidad": "Universidad Intercultural del Estado de Puebla",
+    "comunidad_indigena": "Totonaca",
+    "estado": "Puebla",
+    "interes": "El agua dentro del chuchutsipij desde la visión de los totonacos de Ecatlán, Puebla",
+    "url_foto": null
+  },
+  {
+    "id": "16_2025",
+    "nombre": "Martha Martínez Hernández",
+    "universidad": "Universidad Autónoma de Guanajuato",
+    "comunidad_indigena": "Contla",
+    "estado": "Puebla",
+    "interes": "Efecto de una Intervención en Náhuatl sobre la Autoeficacia del Uso del Condón en Adolescentes de Pueblos Originarios",
+    "url_foto": null
+  },
+  {
+    "id": "17_2025",
+    "nombre": "Fernanda Sebastián Sánchez",
+    "universidad": "Universidad Autónoma de Coahuila",
+    "comunidad_indigena": "San Andrés Tlayehualancingo",
+    "estado": "Puebla",
+    "interes": "Estudio de campo de la medicina tradicional de la población Totonakú de Ahuacatlán, Puebla",
+    "url_foto": null
+  },
+  {
+    "id": "18_2025",
+    "nombre": "Viridiana Regino Castillo",
+    "universidad": "Maestría en Gobernanza, identidad y desarrollo sustentable de regiones indígenas",
+    "comunidad_indigena": "Nahua",
+    "estado": "Puebla",
+    "interes": "Cooperación voluntaria y ayuda mutua en la economía social y solidaria en los pueblos originarios del estado de Puebla",
+    "url_foto": null
+  },
+  {
+    "id": "19_2025",
+    "nombre": "María de los Ángeles Anel Vázquez Nieto",
+    "universidad": "Benemérita Universidad Autónoma de Puebla (BUAP)",
+    "comunidad_indigena": "Pachoc, San Felipe Tepatlán",
+    "estado": "Puebla",
+    "interes": "Participación Comunitaria y Economía Social y Solidaria: Estrategias para Promover el Buen Vivir Rural en Comunidades Totonacas",
+    "url_foto": null
+  },
+  {
+    "id": "20_2025",
+    "nombre": "Yesica Gómez Hernández",
+    "universidad": "Benemérita Universidad Autónoma de Puebla (BUAP)",
+    "comunidad_indigena": "Náhuatl",
+    "estado": "Puebla",
+    "interes": "Políticas públicas y trayectorias en educación superior y posgrado de mujeres indígenas: un análisis crítico e interseccional",
+    "url_foto": null
+  },
+  {
+    "id": "21_2025",
+    "nombre": "Atanacia Bautista Vázquez",
+    "universidad": "Benemérita Universidad Autónoma de Puebla (BUAP)",
+    "comunidad_indigena": "Escatachuchut, Ixtepec",
+    "estado": "Puebla",
+    "interes": "Validación de materiales para toma de decisiones basadas en redes sociales en adolescencia tardía",
+    "url_foto": null
+  },
+  {
+    "id": "22_2025",
+    "nombre": "Lidia Lizbeth Hernández Cubas",
+    "universidad": "Universidad de Granada",
+    "comunidad_indigena": "Triqui",
+    "estado": "Sinaloa",
+    "interes": "Tecnología accesible para la salud: desarrollo de biosensores LIG de bajo costo para comunidades con acceso médico limitado",
+    "url_foto": null
+  },
+  {
+    "id": "23_2025",
+    "nombre": "Ofelia López Mejía",
+    "universidad": "Universidad Autónoma de Sinaloa",
+    "comunidad_indigena": "Juan Escutia, Cuquila, Tlaxiaco",
+    "estado": "Sinaloa",
+    "interes": "Prevención de la trata de personas en comunidades indígenas en México",
+    "url_foto": null
+  },
+  {
+    "id": "24_2025",
+    "nombre": "Karen Edith Rojas López",
+    "universidad": "Universidad Autónoma de Guerrero",
+    "comunidad_indigena": "La Soledad, Xochistlahuaca",
+    "estado": "Guerrero",
+    "interes": "Identificación de recursos con potencialidad para fomentar el turismo comunitario en Xochistlahuaca, Guerrero",
+    "url_foto": null
+  },
+  {
+    "id": "25_2025",
+    "nombre": "Eduarda Flores Chávez",
+    "universidad": "Universidad de Colima",
+    "comunidad_indigena": "Mixteca",
+    "estado": "Colima",
+    "interes": "Impacto psicosocial de la migración en mujeres jornaleras",
+    "url_foto": null
+  },
+  {
+    "id": "26_2025",
+    "nombre": "Adahí Soledad Hernández Rodríguez",
+    "universidad": "Universidad de Tangamanga, Axtla de Terrazas",
+    "comunidad_indigena": "Las Lomas",
+    "estado": "San Luis Potosí",
+    "interes": "Desigualdad educativa existente en las comunidades indígenas",
+    "url_foto": null
+  },
+  {
+    "id": "27_2025",
+    "nombre": "Adriana Hernández Santiago",
+    "universidad": "Benemérita Universidad Autónoma de Puebla (BUAP)",
+    "comunidad_indigena": "Los Cues, Nahua",
+    "estado": "San Luis Potosí",
+    "interes": "Los desafíos que enfrentan las comunidades marginadas: La lucha por preservar el valor de su cultura, vestimenta, historia y el arte del bordado náhuatl",
+    "url_foto": null
+  },
+  {
+    "id": "28_2025",
+    "nombre": "Ana Nephtali Santiago Bueno",
+    "universidad": "Benemérita Universidad Autónoma de Puebla (BUAP)",
+    "comunidad_indigena": "El Tepetate",
+    "estado": "San Luis Potosí",
+    "interes": "Derechos humanos que tienen los pueblos y comunidades indígenas",
+    "url_foto": null
+  },
+  {
+    "id": "29_2025",
+    "nombre": "Angélica Velázquez Hernández",
+    "universidad": "CINVESTAV-IPN",
+    "comunidad_indigena": "Acoyotla",
+    "estado": "San Luis Potosí",
+    "interes": "Preservación y Difusión de la Lengua Materna desde los Saberes y Prácticas Ancestrales como una Forma de Inclusión Comunitaria",
+    "url_foto": null
+  },
+  {
+    "id": "30_2025",
+    "nombre": "Celeste Kristal Flores Cuevas",
+    "universidad": "Fundación Rigoberta Menchú Tum",
+    "comunidad_indigena": "Mazateca (Enná)",
+    "estado": "San Luis Potosí",
+    "interes": "Diagnóstico comunitario del impacto socioambiental en poblaciones mazatecas afectadas por incendios forestales",
+    "url_foto": null
+  },
+  {
+    "id": "31_2025",
+    "nombre": "Eduarda Hernández Hernández",
+    "universidad": "Universidad Autónoma de Nuevo León (UANL)",
+    "comunidad_indigena": "Atehuac, Tamazunchale",
+    "estado": "San Luis Potosí",
+    "interes": "Acceso a la salud: Un sueño para las personas indígenas",
+    "url_foto": null
+  },
+  {
+    "id": "32_2025",
+    "nombre": "Fátima Márquez Hinojosa",
+    "universidad": "Universidad Autónoma de San Luis Potosí (UASLP)",
+    "comunidad_indigena": "El Crucerito, Tancanhuitz",
+    "estado": "San Luis Potosí",
+    "interes": "Fortalecimiento de la educación financiera y estrategias de ahorro en una comunidad indígena de San Luis Potosí",
+    "url_foto": null
+  },
+  {
+    "id": "33_2025",
+    "nombre": "Keila Madai Rodríguez Acosta",
+    "universidad": "Universidad Autónoma de San Luis Potosí (UASLP)",
+    "comunidad_indigena": "Tamazunchale",
+    "estado": "San Luis Potosí",
+    "interes": "Mujeres que crean futuro: visibilización y fortalecimiento del emprendimiento indígena en Tancanhuitz",
+    "url_foto": null
+  },
+  {
+    "id": "34_2025",
+    "nombre": "María Guadalupe Márquez Hinojosa",
+    "universidad": "Universidad de Guadalajara",
+    "comunidad_indigena": "El Crucerito, Tancanhuitz",
+    "estado": "San Luis Potosí",
+    "interes": "Nivel de conocimientos sobre el VPH en mujeres indígenas hablantes de náhuatl versus mujeres no indígenas en SLP",
+    "url_foto": null
+  },
+  {
+    "id": "35_2025",
+    "nombre": "Samantha Nohemí Luis Santiago",
+    "universidad": "Universidad Autónoma de Nuevo León (UANL)",
+    "comunidad_indigena": "Las Víboras",
+    "estado": "San Luis Potosí",
+    "interes": "El impacto de la cultura tributaria en jóvenes de 16 a 18 años de la comunidad indígena Las Víboras",
+    "url_foto": null
+  },
+  {
+    "id": "36_2025",
+    "nombre": "Yulissa Guerrero Olivares",
+    "universidad": "Universidad Popular Autónoma de Veracruz (UPAV)",
+    "comunidad_indigena": "El Bazuche",
+    "estado": "San Luis Potosí",
+    "interes": "Factores que influyen en la deserción escolar en comunidades indígenas de la Huasteca Potosina",
+    "url_foto": null
+  },
+  {
+    "id": "37_2025",
+    "nombre": "Flor Ángel Pérez Sánchez",
+    "universidad": "Centro de Investigaciones Tropicales (CITRO)",
+    "comunidad_indigena": "Heroica Cd. Juchitán de Zaragoza",
+    "estado": "Veracruz",
+    "interes": "Percepción social sobre los conflictos socioambientales del megaproyecto del Corredor Interoceánico del Istmo de Tehuantepec",
+    "url_foto": null
+  },
+  {
+    "id": "38_2025",
+    "nombre": "Tamara Tonali",
+    "universidad": "Universidad Veracruzana",
+    "comunidad_indigena": "Coetzala, Veracruz",
+    "estado": "Veracruz",
+    "interes": "Modelos Cooperativos Sostenibles para el Desarrollo Económico Colectivo y la Dignificación de Mujeres Indígenas en las Altas Montañas de Veracruz",
+    "url_foto": null
+  },
+  {
+    "id": "39_2025",
+    "nombre": "Yasmín Cruz Cruz",
+    "universidad": "Instituto Tecnológico de Misantla",
+    "comunidad_indigena": "Tonalapan",
+    "estado": "Veracruz",
+    "interes": "Mapeo estratégico de actividades económicas y sociales para el desarrollo comunitario en comunidades indígenas",
+    "url_foto": null
+  },
+  {
+    "id": "40_2025",
+    "nombre": "MC. Nohema Pérez España",
+    "universidad": "CENIDET (Tecnológico Nacional de México)",
+    "comunidad_indigena": "Mixteca",
+    "estado": "Morelos",
+    "interes": "Identificación de áreas de oportunidad para la mejora de la gobernanza de datos en una institución de educación superior",
+    "url_foto": null
+  },
+  {
+    "id": "41_2025",
+    "nombre": "Itzel López Florentino",
+    "universidad": "Universidad Intercultural Indígena de Michoacán (UIIM)",
+    "comunidad_indigena": "Isla de Janitzio",
+    "estado": "Michoacán",
+    "interes": "Evaluación del diseño, gestión y administración de proyectos destinados a la sostenibilidad en la Isla de Janitzio (2016–2024)",
+    "url_foto": null
+  },
+  {
+    "id": "42_2025",
+    "nombre": "Perla Gutiérrez",
+    "universidad": "Universidad Intercultural Indígena de Michoacán (UIIM)",
+    "comunidad_indigena": "Ihuatzio",
+    "estado": "Michoacán",
+    "interes": "Gestión de conocimientos agrícolas sostenibles en infancias de la comunidad indígena de Ihuatzio a través de un huerto educativo",
+    "url_foto": null
+  },
+  {
+    "id": "43_2025",
+    "nombre": "Landi Chulín",
+    "universidad": "Universidad Autónoma del Estado de Quintana Roo",
+    "comunidad_indigena": "Maya",
+    "estado": "Quintana Roo",
+    "interes": "Formación docente desde una perspectiva epistemológica nativa y plural para la aplicación crítica de las Reformas Constitucionales en educación",
+    "url_foto": null
+  },
+  {
+    "id": "44_2025",
+    "nombre": "Lucía Gómez",
+    "universidad": "Universidad Autónoma Chapingo",
+    "comunidad_indigena": "Tsotsil",
+    "estado": "Chiapas",
+    "interes": "Acceso a la información pública con pertinencia cultural y su impacto en el buen vivir de los pueblos indígenas",
+    "url_foto": null
+  }
 ]

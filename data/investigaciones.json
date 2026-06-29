@@ -1,61 +1,833 @@
 [
-  { "student_id": 1, "mentor_id": 9, "nombre": "Perception and social participation in the environmental restoration programs of the basin of Lake Patzcuaro", "descripcion": "Percepción y participación social en programas de restauración ambiental de la cuenca del Lago de Pátzcuaro, Michoacán", "ano": 2023, "poster": true },
-  { "student_id": 2, "mentor_id": 1, "nombre": "Los purépechas y el papel del padre de familia", "descripcion": "Los actores y la práctica política de los pueblos purépechas de Michoacán en la primera mitad del siglo XIX", "ano": 2023, "poster": true },
-  { "student_id": 3, "mentor_id": 11, "nombre": "Discapacidad adquirida y migración transnacional", "descripcion": "Discapacidad adquirida, dinámicas familiares y reposicionamiento de género en un contexto de migración transnacional purépecha en EE.UU.", "ano": 2023, "poster": true },
-  { "student_id": 4, "mentor_id": 14, "nombre": "Mujeres indígenas y representación política en Elota", "descripcion": "Mujeres indígenas mixtecos y representación política en el municipio de Elota, Sinaloa", "ano": 2023, "poster": true },
-  { "student_id": 5, "mentor_id": 21, "nombre": "Violencia y salud mental en mujeres rarámuris", "descripcion": "Impacto de la violencia en la salud mental de las mujeres rarámuris de la Sierra Tarahumara en Chihuahua", "ano": 2023, "poster": true },
-  { "student_id": 6, "mentor_id": 20, "nombre": "Educación artística en comunidades Rarámuri", "descripcion": "Abordar algunas necesidades en torno a la educación artística en la comunidad Rarámuri", "ano": 2023, "poster": true },
-  { "student_id": 7, "mentor_id": 8, "nombre": "Medicina tradicional y salud intercultural en CESSA", "descripcion": "Medicina tradicional en los servicios de salud de CESSA, Amealco, a través de la salud intercultural", "ano": 2023, "poster": true },
-  { "student_id": 8, "mentor_id": 2, "nombre": "Percepción socioambiental del Corredor Interoceánico", "descripcion": "Percepción socioambiental del proyecto Corredor Interoceánico del Istmo de Tehuantepec en el tramo Ubero a Mogoñe, Oaxaca", "ano": 2023, "poster": true },
-  { "student_id": 9, "mentor_id": 19, "nombre": "App móvil para detección del espectro autista", "descripcion": "Desarrollo de una aplicación móvil y análisis con minería de datos para la detección del espectro autista", "ano": 2023, "poster": true },
-  { "student_id": 10, "mentor_id": 16, "nombre": "Ser mujer, indígena y científica", "descripcion": "Análisis de trayectorias académicas y profesionales basado en condiciones étnicas, lingüísticas y de género", "ano": 2023, "poster": true },
-  { "student_id": 11, "mentor_id": 4, "nombre": "Barreras de comunicación en educación sanitaria COVID-19", "descripcion": "Barreras y desafíos de comunicación en la educación sanitaria sobre COVID-19 en comunidades indígenas de la Huasteca Potosina", "ano": 2023, "poster": true },
-  { "student_id": 12, "mentor_id": 7, "nombre": "Acceso a salud durante COVID-19 en la Huasteca Potosina", "descripcion": "Acceso a servicios de salud durante la pandemia de COVID-19 en comunidades indígenas de la Huasteca Potosina", "ano": 2023, "poster": true },
-  { "student_id": 13, "mentor_id": 22, "nombre": "Intervención educativa sobre VPH en adolescentes Tének", "descripcion": "Evaluación de una intervención educativa para adolescentes indígenas sobre el nivel de conocimiento acerca del Virus del Papiloma Humano", "ano": 2023, "poster": true },
-  { "student_id": 14, "mentor_id": 10, "nombre": "Conocimiento sobre el VPH en población náhuatl", "descripcion": "Nivel de conocimiento sobre el VPH en una población indígena de habla náhuatl después de una intervención educativa", "ano": 2023, "poster": true },
-  { "student_id": 15, "mentor_id": 3, "nombre": "Desigualdad económica en Itztacapa Xilitla", "descripcion": "La desigualdad económica como obstáculo para una mejor calidad de vida en las familias de la comunidad de Itztacapa Xilitla, S.L.P.", "ano": 2023, "poster": true },
-  { "student_id": 16, "mentor_id": 6, "nombre": "Enfermeras indígenas en la Huasteca Potosina", "descripcion": "Inclusión de enfermeras hablantes de lengua materna para la atención de los pueblos indígenas de la Huasteca Potosina", "ano": 2023, "poster": true },
-  { "student_id": 17, "mentor_id": 5, "nombre": "Percepción sobre acceso a educación superior Tének", "descripcion": "La percepción de las mujeres indígenas de la Zona Huasteca Tének sobre el acceso a la educación superior en México", "ano": 2023, "poster": true },
-  { "student_id": 18, "mentor_id": 5, "nombre": "Derechos de los niños en educación y salud indígena", "descripcion": "Evaluación de los derechos de los niños en la educación y la salud en la comunidad indígena", "ano": 2023, "poster": true },
-  { "student_id": 19, "mentor_id": 13, "nombre": "Gestión cultural del agua en Loma Chapultepec", "descripcion": "Entre la comunidad y la gestión cultural del agua en Loma Chapultepec, Huautla, Oaxaca", "ano": 2023, "poster": true },
-  { "student_id": 20, "mentor_id": 18, "nombre": "Oralidad: Patrimonio Biocultural de los Zoques", "descripcion": "Creación de historias bilingües en Zoque y Español para preservar las tradiciones orales de la comunidad Zoque", "ano": 2023, "poster": true },
-  { "student_id": "1_2022", "mentor_id": 4, "nombre": "Perception and Knowledge of Linguistic Rights in Tének Youth", "descripcion": "Estudio sobre el uso de la lengua Tének en jóvenes de secundaria y preparatoria, clasificando patrones lingüísticos y culturales en tres indicadores: uso lingüístico, derechos lingüísticos e identidad étnica", "ano": 2022, "poster": true, "poster_url": "https://conference2022.eaamo.org/dc/dc_copocyt_maria_teresa_santiago.pdf" },
-  { "student_id": "2_2022", "mentor_id": 5, "nombre": "Equitable Housing for Indigenous Tenek Communities", "descripcion": "Investigación sobre vivienda adecuada y asequible para mujeres indígenas mayores que sufren violencia doméstica o abandono, con enfoque en infraestructura sanitaria y autoconstrucción", "ano": 2022, "poster": true, "poster_url": "https://conference2022.eaamo.org/dc/dc_copocyt_nancy_santiago_santos.jpg" },
-  { "student_id": "3_2022", "mentor_id": 1, "nombre": "Contextualizing Tuberculosis Medication Adherence in Indigenous Communities of the Huasteca Potosina: A Roadmap to Adequate AI-facilitated Approaches", "descripcion": "Proyecto de salud pública sobre la adherencia al tratamiento de Tuberculosis en comunidades indígenas, explorando metodologías basadas en IA para optimizar el acceso y seguimiento médico", "ano": 2022, "poster": true, "poster_url": "https://conference2022.eaamo.org/dc/dc_copocyt_marlene_martinez.pdf" },
-  { "student_id": "4_2022", "mentor_id": 2, "nombre": "Learning about Humanizing Childbirth from Pregnant Women in a Rural Community of Tancanhuitz, S.L.P.", "descripcion": "Investigación sobre el conocimiento que tienen las mujeres embarazadas respecto al parto humanizado y sus derechos legales, con talleres educativos en comunidades rurales Tének", "ano": 2022, "poster": true, "poster_url": "https://conference2022.eaamo.org/dc/dc_copocyt_idalia_rojas_martinez.pdf" },
-  { "student_id": "5_2022", "mentor_id": 2, "nombre": "Factors Associated with Senior Adult Malnutrition in an Indigenous Community of Tancanhuitz, S.L.P.", "descripcion": "Estudio de salud pública sobre los factores que contribuyen a la desnutrición en adultos mayores de una comunidad indígena, con propuestas de medidas para mejorar su calidad de vida", "ano": 2022, "poster": true, "poster_url": "https://conference2022.eaamo.org/dc/dc_copocyt_leydi_rojas.pdf" },
-  { "student_id": "6_2022", "mentor_id": 1, "nombre": "Contextualizing Tuberculosis Medication Adherence in Indigenous Communities (II)", "descripcion": "Investigación sobre el acceso al tratamiento de Tuberculosis en comunidades rurales indígenas y la viabilidad de metodologías de IA para optimizar recursos médicos y de personal", "ano": 2022, "poster": true, "poster_url": "https://conference2022.eaamo.org/dc/dc_copocyt_marlene_martinez.pdf" },
-  { "student_id": "7_2022", "mentor_id": 5, "nombre": "Dignified Housing: the Case of Housing Fraud against Indigenous Women in the Municipality of Xilitla, S.L.P, Mexico", "descripcion": "Análisis del acceso a la justicia para mujeres indígenas víctimas de fraude inmobiliario en Xilitla, S.L.P., con énfasis en el impacto económico y psicológico en madres solteras", "ano": 2022, "poster": true, "poster_url": "https://conference2022.eaamo.org/dc/dc_copocyt_ruben_martinez_cardenas.pdf" },
-  { "student_id": "1_2024", "mentor_id": 6, "nombre": "Efecto preliminar de una intervención en Náhuatl sobre educación sexual en adolescentes de Pueblos Originarios", "descripcion": "Efecto preliminar de una intervención en Náhuatl sobre educación sexual en adolescentes de Pueblos Originarios", "ano": 2024, "poster": true },
-  { "student_id": "2_2024", "mentor_id": 1, "nombre": "Factores socioeconómicos que inciden en la elaboración de artesanías de canastas en Ixtolco de Morelos, Cuautempan, Puebla", "descripcion": "Factores socioeconómicos que inciden en la elaboración de artesanías de canastas en Ixtolco de Morelos, Cuautempan, Puebla", "ano": 2024, "poster": true },
-  { "student_id": "3_2024", "mentor_id": 26, "nombre": "Patrimonio cultural ambiental y economía solidaria: estrategias para un desarrollo local en San Felipe Tepatlán", "descripcion": "Patrimonio cultural ambiental y economía solidaria: estrategias para un desarrollo local en San Felipe Tepatlán", "ano": 2024, "poster": true },
-  { "student_id": "4_2024", "mentor_id": 23, "nombre": "Determinantes sociales que influyen en la realización de citología cervical en mujeres indígenas", "descripcion": "Determinantes sociales que influyen en la realización de citología cervical en mujeres indígenas", "ano": 2024, "poster": true },
-  { "student_id": "5_2024", "mentor_id": 11, "nombre": "Percepción de la población indígena sobre programas de restauración ambiental de la cuenca del lago de Pátzcuaro, Michoacán", "descripcion": "Percepción de la población indígena sobre programas de restauración ambiental de la cuenca del lago de Pátzcuaro, Michoacán", "ano": 2024, "poster": true },
-  { "student_id": "6_2024", "mentor_id": 30, "nombre": "Análisis del impacto de la COVID-19 en el sector económico y social de la comunidad indígena mestiza de Janitzio Michoacán 2022-2023 y respuesta comunitaria", "descripcion": "Análisis del impacto de la COVID-19 en el sector económico y social de la comunidad indígena mestiza de Janitzio Michoacán 2022-2023 y respuesta comunitaria", "ano": 2024, "poster": true },
-  { "student_id": "7_2024", "mentor_id": 2, "nombre": "Competitividad de los productores de Mezcal de Etúcuaro, Michoacán", "descripcion": "Competitividad de los productores de Mezcal de Etúcuaro, Michoacán", "ano": 2024, "poster": true },
-  { "student_id": "8_2024", "mentor_id": 7, "nombre": "Etnopiscicultura de Algansea lacustris y Chirostoma estor, especies nativas del Lago de Pátzcuaro en la comunidad de Santa Fe de la Laguna", "descripcion": "Etnopiscicultura de Algansea lacustris y Chirostoma estor, especies nativas del Lago de Pátzcuaro en la comunidad de Santa Fe de la Laguna", "ano": 2024, "poster": true },
-  { "student_id": "9_2024", "mentor_id": 39, "nombre": "Análisis interseccional sobre el derecho de acceso e impartición de justicia en mujeres indígenas de Sinaloa", "descripcion": "Análisis interseccional sobre el derecho de acceso e impartición de justicia en mujeres indígenas de Sinaloa", "ano": 2024, "poster": true },
-  { "student_id": "10_2024", "mentor_id": 5, "nombre": "Napawika, investigación sobre la mejora del ámbito laboral indígena", "descripcion": "Napawika, investigación sobre la mejora del ámbito laboral indígena", "ano": 2024, "poster": true },
-  { "student_id": "11_2024", "mentor_id": 28, "nombre": "Intervención 'bue-espera' para una conducta anticonceptiva en adolescentes ralámuli de asentamientos urbanos de la ciudad de Chihuahua", "descripcion": "Intervención 'bue-espera' para una conducta anticonceptiva en adolescentes ralámuli de asentamientos urbanos de la ciudad de Chihuahua", "ano": 2024, "poster": true },
-  { "student_id": "12_2024", "mentor_id": 5, "nombre": "Educación transformadora para la equidad: desigualdad económica, movilidad y diversidad algorítmica en comunidades marginadas", "descripcion": "Educación transformadora para la equidad: desigualdad económica, movilidad y diversidad algorítmica en comunidades marginadas", "ano": 2024, "poster": true },
-  { "student_id": "13_2024", "mentor_id": 18, "nombre": "Proceso de transición lingüística en niños rarámuri", "descripcion": "Proceso de transición lingüística en niños rarámuri", "ano": 2024, "poster": true },
-  { "student_id": "14_2024", "mentor_id": 3, "nombre": "La educación virtual o a distancia en estudiantes de población vulnerable", "descripcion": "La educación virtual o a distancia en estudiantes de población vulnerable", "ano": 2024, "poster": true },
-  { "student_id": "15_2024", "mentor_id": 41, "nombre": "Nivel de conocimientos de los adolescentes indígenas Tének sobre el Virus del Papiloma Humano", "descripcion": "Nivel de conocimientos de los adolescentes indígenas Tének sobre el Virus del Papiloma Humano", "ano": 2024, "poster": true },
-  { "student_id": "16_2024", "mentor_id": 29, "nombre": "Modelo integral para la restauración ecológica y prevención de incendios en comunidades Mazatecas de Oaxaca", "descripcion": "Modelo integral para la restauración ecológica y prevención de incendios en comunidades Mazatecas de Oaxaca", "ano": 2024, "poster": true },
-  { "student_id": "17_2024", "mentor_id": 4, "nombre": "El acceso a la educación superior de las mujeres indígenas de la Zona Huasteca en la región Tének, SLP", "descripcion": "El acceso a la educación superior de las mujeres indígenas de la Zona Huasteca en la región Tének, SLP", "ano": 2024, "poster": true },
-  { "student_id": "18_2024", "mentor_id": 4, "nombre": "Percepción de la salud mental en adultos mayores de una comunidad indígena", "descripcion": "Percepción de la salud mental en adultos mayores de una comunidad indígena", "ano": 2024, "poster": true },
-  { "student_id": "19_2024", "mentor_id": 7, "nombre": "Desigualdades educacionales: factores que impactan el rendimiento académico", "descripcion": "Desigualdades educacionales: factores que impactan el rendimiento académico", "ano": 2024, "poster": true },
-  { "student_id": "20_2024", "mentor_id": 35, "nombre": "Rutinas y funcionalidad de familias con algún integrante con diabetes tipo 2", "descripcion": "Rutinas y funcionalidad de familias con algún integrante con diabetes tipo 2", "ano": 2024, "poster": true },
-  { "student_id": "21_2024", "mentor_id": 40, "nombre": "Estrategias para la eficacia en los procesos de recaudación del H. Ayuntamiento de Xilitla, San Luis Potosí", "descripcion": "Estrategias para la eficacia en los procesos de recaudación del H. Ayuntamiento de Xilitla, San Luis Potosí", "ano": 2024, "poster": true },
-  { "student_id": "22_2024", "mentor_id": 38, "nombre": "Voces silenciadas: Cómo las barreras culturales, lingüísticas y económicas afectan el acceso a la salud mental en jóvenes indígenas", "descripcion": "Voces silenciadas: Cómo las barreras culturales, lingüísticas y económicas afectan el acceso a la salud mental en jóvenes indígenas", "ano": 2024, "poster": true },
-  { "student_id": "23_2024", "mentor_id": 19, "nombre": "Creación de una Aplicación Educativa-Interactiva para mejorar la comprensión matemática de los alumnos de Telesecundaria Melchor Ocampo", "descripcion": "Creación de una Aplicación Educativa-Interactiva para mejorar la comprensión matemática de los alumnos de Telesecundaria Melchor Ocampo", "ano": 2024, "poster": true },
-  { "student_id": "24_2024", "mentor_id": 3, "nombre": "Embarazo adolescente en una comunidad indígena", "descripcion": "Embarazo adolescente en una comunidad indígena", "ano": 2024, "poster": true },
-  { "student_id": "25_2024", "mentor_id": 44, "nombre": "Nivel de conocimientos sobre el VPH en una población indígena hablante de lengua Náhuatl posterior a una intervención educativa", "descripcion": "Nivel de conocimientos sobre el VPH en una población indígena hablante de lengua Náhuatl posterior a una intervención educativa", "ano": 2024, "poster": true },
-  { "student_id": "26_2024", "mentor_id": 43, "nombre": "Agroemprendimiento Comunitario", "descripcion": "Agroemprendimiento Comunitario", "ano": 2024, "poster": true },
-  { "student_id": "27_2024", "mentor_id": 25, "nombre": "Xipano no chaj: lengua nativa en internet", "descripcion": "Xipano no chaj: lengua nativa en internet", "ano": 2024, "poster": true },
-  { "student_id": "28_2024", "mentor_id": 34, "nombre": "Gastronomía y tradiciones de la Huasteca Hidalguense", "descripcion": "Gastronomía y tradiciones de la Huasteca Hidalguense", "ano": 2024, "poster": true },
-  { "student_id": "29_2024", "mentor_id": 33, "nombre": "El machismo como factor limitante en el libre desarrollo de la mujer", "descripcion": "El machismo como factor limitante en el libre desarrollo de la mujer", "ano": 2024, "poster": true },
-  { "student_id": "30_2024", "mentor_id": 16, "nombre": "Relación del apoyo social y estilos de vida del adulto mayor con y sin deterioro cognitivo", "descripcion": "Relación del apoyo social y estilos de vida del adulto mayor con y sin deterioro cognitivo", "ano": 2024, "poster": true },
-  { "student_id": "31_2024", "mentor_id": 42, "nombre": "Condiciones que potencian la vulnerabilidad de las mujeres Nahuas frente a la violencia obstétrica", "descripcion": "Condiciones que potencian la vulnerabilidad de las mujeres Nahuas frente a la violencia obstétrica", "ano": 2024, "poster": true },
-  { "student_id": "32_2024", "mentor_id": 24, "nombre": "Percepción socioambiental del proyecto Corredor Interoceánico del Istmo de Tehuantepec en el tramo Ubero a Mogoñe, Oaxaca", "descripcion": "Percepción socioambiental del proyecto Corredor Interoceánico del Istmo de Tehuantepec en el tramo Ubero a Mogoñe, Oaxaca", "ano": 2024, "poster": true }
+  {
+    "student_id": 1,
+    "mentor_id": 9,
+    "nombre": "Perception and social participation in the environmental restoration programs of the basin of Lake Patzcuaro",
+    "descripcion": "Percepción y participación social en programas de restauración ambiental de la cuenca del Lago de Pátzcuaro, Michoacán",
+    "ano": 2023,
+    "poster": true
+  },
+  {
+    "student_id": 2,
+    "mentor_id": 1,
+    "nombre": "Los purépechas y el papel del padre de familia",
+    "descripcion": "Los actores y la práctica política de los pueblos purépechas de Michoacán en la primera mitad del siglo XIX",
+    "ano": 2023,
+    "poster": true
+  },
+  {
+    "student_id": 3,
+    "mentor_id": 11,
+    "nombre": "Discapacidad adquirida y migración transnacional",
+    "descripcion": "Discapacidad adquirida, dinámicas familiares y reposicionamiento de género en un contexto de migración transnacional purépecha en EE.UU.",
+    "ano": 2023,
+    "poster": true
+  },
+  {
+    "student_id": 4,
+    "mentor_id": 14,
+    "nombre": "Mujeres indígenas y representación política en Elota",
+    "descripcion": "Mujeres indígenas mixtecos y representación política en el municipio de Elota, Sinaloa",
+    "ano": 2023,
+    "poster": true
+  },
+  {
+    "student_id": 5,
+    "mentor_id": 21,
+    "nombre": "Violencia y salud mental en mujeres rarámuris",
+    "descripcion": "Impacto de la violencia en la salud mental de las mujeres rarámuris de la Sierra Tarahumara en Chihuahua",
+    "ano": 2023,
+    "poster": true
+  },
+  {
+    "student_id": 6,
+    "mentor_id": 20,
+    "nombre": "Educación artística en comunidades Rarámuri",
+    "descripcion": "Abordar algunas necesidades en torno a la educación artística en la comunidad Rarámuri",
+    "ano": 2023,
+    "poster": true
+  },
+  {
+    "student_id": 7,
+    "mentor_id": 8,
+    "nombre": "Medicina tradicional y salud intercultural en CESSA",
+    "descripcion": "Medicina tradicional en los servicios de salud de CESSA, Amealco, a través de la salud intercultural",
+    "ano": 2023,
+    "poster": true
+  },
+  {
+    "student_id": 8,
+    "mentor_id": 2,
+    "nombre": "Percepción socioambiental del Corredor Interoceánico",
+    "descripcion": "Percepción socioambiental del proyecto Corredor Interoceánico del Istmo de Tehuantepec en el tramo Ubero a Mogoñe, Oaxaca",
+    "ano": 2023,
+    "poster": true
+  },
+  {
+    "student_id": 9,
+    "mentor_id": 19,
+    "nombre": "App móvil para detección del espectro autista",
+    "descripcion": "Desarrollo de una aplicación móvil y análisis con minería de datos para la detección del espectro autista",
+    "ano": 2023,
+    "poster": true
+  },
+  {
+    "student_id": 10,
+    "mentor_id": 16,
+    "nombre": "Ser mujer, indígena y científica",
+    "descripcion": "Análisis de trayectorias académicas y profesionales basado en condiciones étnicas, lingüísticas y de género",
+    "ano": 2023,
+    "poster": true
+  },
+  {
+    "student_id": 11,
+    "mentor_id": 4,
+    "nombre": "Barreras de comunicación en educación sanitaria COVID-19",
+    "descripcion": "Barreras y desafíos de comunicación en la educación sanitaria sobre COVID-19 en comunidades indígenas de la Huasteca Potosina",
+    "ano": 2023,
+    "poster": true
+  },
+  {
+    "student_id": 12,
+    "mentor_id": 7,
+    "nombre": "Acceso a salud durante COVID-19 en la Huasteca Potosina",
+    "descripcion": "Acceso a servicios de salud durante la pandemia de COVID-19 en comunidades indígenas de la Huasteca Potosina",
+    "ano": 2023,
+    "poster": true
+  },
+  {
+    "student_id": 13,
+    "mentor_id": 22,
+    "nombre": "Intervención educativa sobre VPH en adolescentes Tének",
+    "descripcion": "Evaluación de una intervención educativa para adolescentes indígenas sobre el nivel de conocimiento acerca del Virus del Papiloma Humano",
+    "ano": 2023,
+    "poster": true
+  },
+  {
+    "student_id": 14,
+    "mentor_id": 10,
+    "nombre": "Conocimiento sobre el VPH en población náhuatl",
+    "descripcion": "Nivel de conocimiento sobre el VPH en una población indígena de habla náhuatl después de una intervención educativa",
+    "ano": 2023,
+    "poster": true
+  },
+  {
+    "student_id": 15,
+    "mentor_id": 3,
+    "nombre": "Desigualdad económica en Itztacapa Xilitla",
+    "descripcion": "La desigualdad económica como obstáculo para una mejor calidad de vida en las familias de la comunidad de Itztacapa Xilitla, S.L.P.",
+    "ano": 2023,
+    "poster": true
+  },
+  {
+    "student_id": 16,
+    "mentor_id": 6,
+    "nombre": "Enfermeras indígenas en la Huasteca Potosina",
+    "descripcion": "Inclusión de enfermeras hablantes de lengua materna para la atención de los pueblos indígenas de la Huasteca Potosina",
+    "ano": 2023,
+    "poster": true
+  },
+  {
+    "student_id": 17,
+    "mentor_id": 5,
+    "nombre": "Percepción sobre acceso a educación superior Tének",
+    "descripcion": "La percepción de las mujeres indígenas de la Zona Huasteca Tének sobre el acceso a la educación superior en México",
+    "ano": 2023,
+    "poster": true
+  },
+  {
+    "student_id": 18,
+    "mentor_id": 5,
+    "nombre": "Derechos de los niños en educación y salud indígena",
+    "descripcion": "Evaluación de los derechos de los niños en la educación y la salud en la comunidad indígena",
+    "ano": 2023,
+    "poster": true
+  },
+  {
+    "student_id": 19,
+    "mentor_id": 13,
+    "nombre": "Gestión cultural del agua en Loma Chapultepec",
+    "descripcion": "Entre la comunidad y la gestión cultural del agua en Loma Chapultepec, Huautla, Oaxaca",
+    "ano": 2023,
+    "poster": true
+  },
+  {
+    "student_id": 20,
+    "mentor_id": 18,
+    "nombre": "Oralidad: Patrimonio Biocultural de los Zoques",
+    "descripcion": "Creación de historias bilingües en Zoque y Español para preservar las tradiciones orales de la comunidad Zoque",
+    "ano": 2023,
+    "poster": true
+  },
+  {
+    "student_id": "1_2022",
+    "mentor_id": 4,
+    "nombre": "Perception and Knowledge of Linguistic Rights in Tének Youth",
+    "descripcion": "Estudio sobre el uso de la lengua Tének en jóvenes de secundaria y preparatoria, clasificando patrones lingüísticos y culturales en tres indicadores: uso lingüístico, derechos lingüísticos e identidad étnica",
+    "ano": 2022,
+    "poster": true,
+    "poster_url": "https://conference2022.eaamo.org/dc/dc_copocyt_maria_teresa_santiago.pdf"
+  },
+  {
+    "student_id": "2_2022",
+    "mentor_id": 5,
+    "nombre": "Equitable Housing for Indigenous Tenek Communities",
+    "descripcion": "Investigación sobre vivienda adecuada y asequible para mujeres indígenas mayores que sufren violencia doméstica o abandono, con enfoque en infraestructura sanitaria y autoconstrucción",
+    "ano": 2022,
+    "poster": true,
+    "poster_url": "https://conference2022.eaamo.org/dc/dc_copocyt_nancy_santiago_santos.jpg"
+  },
+  {
+    "student_id": "3_2022",
+    "mentor_id": 1,
+    "nombre": "Contextualizing Tuberculosis Medication Adherence in Indigenous Communities of the Huasteca Potosina: A Roadmap to Adequate AI-facilitated Approaches",
+    "descripcion": "Proyecto de salud pública sobre la adherencia al tratamiento de Tuberculosis en comunidades indígenas, explorando metodologías basadas en IA para optimizar el acceso y seguimiento médico",
+    "ano": 2022,
+    "poster": true,
+    "poster_url": "https://conference2022.eaamo.org/dc/dc_copocyt_marlene_martinez.pdf"
+  },
+  {
+    "student_id": "4_2022",
+    "mentor_id": 2,
+    "nombre": "Learning about Humanizing Childbirth from Pregnant Women in a Rural Community of Tancanhuitz, S.L.P.",
+    "descripcion": "Investigación sobre el conocimiento que tienen las mujeres embarazadas respecto al parto humanizado y sus derechos legales, con talleres educativos en comunidades rurales Tének",
+    "ano": 2022,
+    "poster": true,
+    "poster_url": "https://conference2022.eaamo.org/dc/dc_copocyt_idalia_rojas_martinez.pdf"
+  },
+  {
+    "student_id": "5_2022",
+    "mentor_id": 2,
+    "nombre": "Factors Associated with Senior Adult Malnutrition in an Indigenous Community of Tancanhuitz, S.L.P.",
+    "descripcion": "Estudio de salud pública sobre los factores que contribuyen a la desnutrición en adultos mayores de una comunidad indígena, con propuestas de medidas para mejorar su calidad de vida",
+    "ano": 2022,
+    "poster": true,
+    "poster_url": "https://conference2022.eaamo.org/dc/dc_copocyt_leydi_rojas.pdf"
+  },
+  {
+    "student_id": "6_2022",
+    "mentor_id": 1,
+    "nombre": "Contextualizing Tuberculosis Medication Adherence in Indigenous Communities (II)",
+    "descripcion": "Investigación sobre el acceso al tratamiento de Tuberculosis en comunidades rurales indígenas y la viabilidad de metodologías de IA para optimizar recursos médicos y de personal",
+    "ano": 2022,
+    "poster": true,
+    "poster_url": "https://conference2022.eaamo.org/dc/dc_copocyt_marlene_martinez.pdf"
+  },
+  {
+    "student_id": "7_2022",
+    "mentor_id": 5,
+    "nombre": "Dignified Housing: the Case of Housing Fraud against Indigenous Women in the Municipality of Xilitla, S.L.P, Mexico",
+    "descripcion": "Análisis del acceso a la justicia para mujeres indígenas víctimas de fraude inmobiliario en Xilitla, S.L.P., con énfasis en el impacto económico y psicológico en madres solteras",
+    "ano": 2022,
+    "poster": true,
+    "poster_url": "https://conference2022.eaamo.org/dc/dc_copocyt_ruben_martinez_cardenas.pdf"
+  },
+  {
+    "student_id": "1_2024",
+    "mentor_id": 6,
+    "nombre": "Efecto preliminar de una intervención en Náhuatl sobre educación sexual en adolescentes de Pueblos Originarios",
+    "descripcion": "Efecto preliminar de una intervención en Náhuatl sobre educación sexual en adolescentes de Pueblos Originarios",
+    "ano": 2024,
+    "poster": true
+  },
+  {
+    "student_id": "2_2024",
+    "mentor_id": 1,
+    "nombre": "Factores socioeconómicos que inciden en la elaboración de artesanías de canastas en Ixtolco de Morelos, Cuautempan, Puebla",
+    "descripcion": "Factores socioeconómicos que inciden en la elaboración de artesanías de canastas en Ixtolco de Morelos, Cuautempan, Puebla",
+    "ano": 2024,
+    "poster": true
+  },
+  {
+    "student_id": "3_2024",
+    "mentor_id": 26,
+    "nombre": "Patrimonio cultural ambiental y economía solidaria: estrategias para un desarrollo local en San Felipe Tepatlán",
+    "descripcion": "Patrimonio cultural ambiental y economía solidaria: estrategias para un desarrollo local en San Felipe Tepatlán",
+    "ano": 2024,
+    "poster": true
+  },
+  {
+    "student_id": "4_2024",
+    "mentor_id": 23,
+    "nombre": "Determinantes sociales que influyen en la realización de citología cervical en mujeres indígenas",
+    "descripcion": "Determinantes sociales que influyen en la realización de citología cervical en mujeres indígenas",
+    "ano": 2024,
+    "poster": true
+  },
+  {
+    "student_id": "5_2024",
+    "mentor_id": 11,
+    "nombre": "Percepción de la población indígena sobre programas de restauración ambiental de la cuenca del lago de Pátzcuaro, Michoacán",
+    "descripcion": "Percepción de la población indígena sobre programas de restauración ambiental de la cuenca del lago de Pátzcuaro, Michoacán",
+    "ano": 2024,
+    "poster": true
+  },
+  {
+    "student_id": "6_2024",
+    "mentor_id": 30,
+    "nombre": "Análisis del impacto de la COVID-19 en el sector económico y social de la comunidad indígena mestiza de Janitzio Michoacán 2022-2023 y respuesta comunitaria",
+    "descripcion": "Análisis del impacto de la COVID-19 en el sector económico y social de la comunidad indígena mestiza de Janitzio Michoacán 2022-2023 y respuesta comunitaria",
+    "ano": 2024,
+    "poster": true
+  },
+  {
+    "student_id": "7_2024",
+    "mentor_id": 2,
+    "nombre": "Competitividad de los productores de Mezcal de Etúcuaro, Michoacán",
+    "descripcion": "Competitividad de los productores de Mezcal de Etúcuaro, Michoacán",
+    "ano": 2024,
+    "poster": true
+  },
+  {
+    "student_id": "8_2024",
+    "mentor_id": 7,
+    "nombre": "Etnopiscicultura de Algansea lacustris y Chirostoma estor, especies nativas del Lago de Pátzcuaro en la comunidad de Santa Fe de la Laguna",
+    "descripcion": "Etnopiscicultura de Algansea lacustris y Chirostoma estor, especies nativas del Lago de Pátzcuaro en la comunidad de Santa Fe de la Laguna",
+    "ano": 2024,
+    "poster": true
+  },
+  {
+    "student_id": "9_2024",
+    "mentor_id": 39,
+    "nombre": "Análisis interseccional sobre el derecho de acceso e impartición de justicia en mujeres indígenas de Sinaloa",
+    "descripcion": "Análisis interseccional sobre el derecho de acceso e impartición de justicia en mujeres indígenas de Sinaloa",
+    "ano": 2024,
+    "poster": true
+  },
+  {
+    "student_id": "10_2024",
+    "mentor_id": 5,
+    "nombre": "Napawika, investigación sobre la mejora del ámbito laboral indígena",
+    "descripcion": "Napawika, investigación sobre la mejora del ámbito laboral indígena",
+    "ano": 2024,
+    "poster": true
+  },
+  {
+    "student_id": "11_2024",
+    "mentor_id": 28,
+    "nombre": "Intervención 'bue-espera' para una conducta anticonceptiva en adolescentes ralámuli de asentamientos urbanos de la ciudad de Chihuahua",
+    "descripcion": "Intervención 'bue-espera' para una conducta anticonceptiva en adolescentes ralámuli de asentamientos urbanos de la ciudad de Chihuahua",
+    "ano": 2024,
+    "poster": true
+  },
+  {
+    "student_id": "12_2024",
+    "mentor_id": 5,
+    "nombre": "Educación transformadora para la equidad: desigualdad económica, movilidad y diversidad algorítmica en comunidades marginadas",
+    "descripcion": "Educación transformadora para la equidad: desigualdad económica, movilidad y diversidad algorítmica en comunidades marginadas",
+    "ano": 2024,
+    "poster": true
+  },
+  {
+    "student_id": "13_2024",
+    "mentor_id": 18,
+    "nombre": "Proceso de transición lingüística en niños rarámuri",
+    "descripcion": "Proceso de transición lingüística en niños rarámuri",
+    "ano": 2024,
+    "poster": true
+  },
+  {
+    "student_id": "14_2024",
+    "mentor_id": 3,
+    "nombre": "La educación virtual o a distancia en estudiantes de población vulnerable",
+    "descripcion": "La educación virtual o a distancia en estudiantes de población vulnerable",
+    "ano": 2024,
+    "poster": true
+  },
+  {
+    "student_id": "15_2024",
+    "mentor_id": 41,
+    "nombre": "Nivel de conocimientos de los adolescentes indígenas Tének sobre el Virus del Papiloma Humano",
+    "descripcion": "Nivel de conocimientos de los adolescentes indígenas Tének sobre el Virus del Papiloma Humano",
+    "ano": 2024,
+    "poster": true
+  },
+  {
+    "student_id": "16_2024",
+    "mentor_id": 29,
+    "nombre": "Modelo integral para la restauración ecológica y prevención de incendios en comunidades Mazatecas de Oaxaca",
+    "descripcion": "Modelo integral para la restauración ecológica y prevención de incendios en comunidades Mazatecas de Oaxaca",
+    "ano": 2024,
+    "poster": true
+  },
+  {
+    "student_id": "17_2024",
+    "mentor_id": 4,
+    "nombre": "El acceso a la educación superior de las mujeres indígenas de la Zona Huasteca en la región Tének, SLP",
+    "descripcion": "El acceso a la educación superior de las mujeres indígenas de la Zona Huasteca en la región Tének, SLP",
+    "ano": 2024,
+    "poster": true
+  },
+  {
+    "student_id": "18_2024",
+    "mentor_id": 4,
+    "nombre": "Percepción de la salud mental en adultos mayores de una comunidad indígena",
+    "descripcion": "Percepción de la salud mental en adultos mayores de una comunidad indígena",
+    "ano": 2024,
+    "poster": true
+  },
+  {
+    "student_id": "19_2024",
+    "mentor_id": 7,
+    "nombre": "Desigualdades educacionales: factores que impactan el rendimiento académico",
+    "descripcion": "Desigualdades educacionales: factores que impactan el rendimiento académico",
+    "ano": 2024,
+    "poster": true
+  },
+  {
+    "student_id": "20_2024",
+    "mentor_id": 35,
+    "nombre": "Rutinas y funcionalidad de familias con algún integrante con diabetes tipo 2",
+    "descripcion": "Rutinas y funcionalidad de familias con algún integrante con diabetes tipo 2",
+    "ano": 2024,
+    "poster": true
+  },
+  {
+    "student_id": "21_2024",
+    "mentor_id": 40,
+    "nombre": "Estrategias para la eficacia en los procesos de recaudación del H. Ayuntamiento de Xilitla, San Luis Potosí",
+    "descripcion": "Estrategias para la eficacia en los procesos de recaudación del H. Ayuntamiento de Xilitla, San Luis Potosí",
+    "ano": 2024,
+    "poster": true
+  },
+  {
+    "student_id": "22_2024",
+    "mentor_id": 38,
+    "nombre": "Voces silenciadas: Cómo las barreras culturales, lingüísticas y económicas afectan el acceso a la salud mental en jóvenes indígenas",
+    "descripcion": "Voces silenciadas: Cómo las barreras culturales, lingüísticas y económicas afectan el acceso a la salud mental en jóvenes indígenas",
+    "ano": 2024,
+    "poster": true
+  },
+  {
+    "student_id": "23_2024",
+    "mentor_id": 19,
+    "nombre": "Creación de una Aplicación Educativa-Interactiva para mejorar la comprensión matemática de los alumnos de Telesecundaria Melchor Ocampo",
+    "descripcion": "Creación de una Aplicación Educativa-Interactiva para mejorar la comprensión matemática de los alumnos de Telesecundaria Melchor Ocampo",
+    "ano": 2024,
+    "poster": true
+  },
+  {
+    "student_id": "24_2024",
+    "mentor_id": 3,
+    "nombre": "Embarazo adolescente en una comunidad indígena",
+    "descripcion": "Embarazo adolescente en una comunidad indígena",
+    "ano": 2024,
+    "poster": true
+  },
+  {
+    "student_id": "25_2024",
+    "mentor_id": 44,
+    "nombre": "Nivel de conocimientos sobre el VPH en una población indígena hablante de lengua Náhuatl posterior a una intervención educativa",
+    "descripcion": "Nivel de conocimientos sobre el VPH en una población indígena hablante de lengua Náhuatl posterior a una intervención educativa",
+    "ano": 2024,
+    "poster": true
+  },
+  {
+    "student_id": "26_2024",
+    "mentor_id": 43,
+    "nombre": "Agroemprendimiento Comunitario",
+    "descripcion": "Agroemprendimiento Comunitario",
+    "ano": 2024,
+    "poster": true
+  },
+  {
+    "student_id": "27_2024",
+    "mentor_id": 25,
+    "nombre": "Xipano no chaj: lengua nativa en internet",
+    "descripcion": "Xipano no chaj: lengua nativa en internet",
+    "ano": 2024,
+    "poster": true
+  },
+  {
+    "student_id": "28_2024",
+    "mentor_id": 34,
+    "nombre": "Gastronomía y tradiciones de la Huasteca Hidalguense",
+    "descripcion": "Gastronomía y tradiciones de la Huasteca Hidalguense",
+    "ano": 2024,
+    "poster": true
+  },
+  {
+    "student_id": "29_2024",
+    "mentor_id": 33,
+    "nombre": "El machismo como factor limitante en el libre desarrollo de la mujer",
+    "descripcion": "El machismo como factor limitante en el libre desarrollo de la mujer",
+    "ano": 2024,
+    "poster": true
+  },
+  {
+    "student_id": "30_2024",
+    "mentor_id": 16,
+    "nombre": "Relación del apoyo social y estilos de vida del adulto mayor con y sin deterioro cognitivo",
+    "descripcion": "Relación del apoyo social y estilos de vida del adulto mayor con y sin deterioro cognitivo",
+    "ano": 2024,
+    "poster": true
+  },
+  {
+    "student_id": "31_2024",
+    "mentor_id": 42,
+    "nombre": "Condiciones que potencian la vulnerabilidad de las mujeres Nahuas frente a la violencia obstétrica",
+    "descripcion": "Condiciones que potencian la vulnerabilidad de las mujeres Nahuas frente a la violencia obstétrica",
+    "ano": 2024,
+    "poster": true
+  },
+  {
+    "student_id": "32_2024",
+    "mentor_id": 24,
+    "nombre": "Percepción socioambiental del proyecto Corredor Interoceánico del Istmo de Tehuantepec en el tramo Ubero a Mogoñe, Oaxaca",
+    "descripcion": "Percepción socioambiental del proyecto Corredor Interoceánico del Istmo de Tehuantepec en el tramo Ubero a Mogoñe, Oaxaca",
+    "ano": 2024,
+    "poster": true
+  },
+  {
+    "student_id": "1_2025",
+    "mentor_id": 58,
+    "nombre": "Diseño de una estrategia educativa preoperatoria intercultural para pacientes indígenas náhuatl en un hospital público",
+    "descripcion": "Diseño de estrategia educativa preoperatoria con materiales en náhuatl y español para reducir barreras lingüísticas y ansiedad quirúrgica en pacientes indígenas",
+    "ano": 2025,
+    "poster": true
+  },
+  {
+    "student_id": "2_2025",
+    "mentor_id": 60,
+    "nombre": "Relación de la inseguridad alimentaria y la calidad de vida de población indígena de zonas urbanas y rurales del norte de México",
+    "descripcion": "Análisis comparativo de niveles de inseguridad alimentaria y calidad de vida en comunidades indígenas urbanas y rurales del norte de México",
+    "ano": 2025,
+    "poster": true
+  },
+  {
+    "student_id": "3_2025",
+    "mentor_id": 64,
+    "nombre": "Prevalencia de depresión, ansiedad y estrés en población indígena urbana del estado de Nuevo León",
+    "descripcion": "Análisis de prevalencia de síntomas de depresión, ansiedad y estrés en población indígena urbana usando la escala DASS-21, con enfoque intercultural y de género",
+    "ano": 2025,
+    "poster": true
+  },
+  {
+    "student_id": "4_2025",
+    "mentor_id": 40,
+    "nombre": "Diseñar estrategias para el desarrollo de turismo sustentable en las comunidades de Uranden y Tzentzenguaro",
+    "descripcion": "Promoción del turismo sustentable evaluando el impacto económico, social y ambiental del desarrollo turístico en comunidades purépechas",
+    "ano": 2025,
+    "poster": true
+  },
+  {
+    "student_id": "5_2025",
+    "mentor_id": 30,
+    "nombre": "Comunidades indígenas expuestas a riesgo hidrogeomorfológico",
+    "descripcion": "Evaluación del riesgo por fenómenos hidrogeomorfológicos en asentamientos indígenas de la Reserva de la Biosfera Mariposa Monarca, Michoacán",
+    "ano": 2025,
+    "poster": true
+  },
+  {
+    "student_id": "6_2025",
+    "mentor_id": 62,
+    "nombre": "Asesoría y mentoría para fomentar la participación de las mujeres y estudiantes indígenas en las Ciencias de la Tierra y las Ciencias Espaciales",
+    "descripcion": "Difusión de ciencias de la Tierra y el Espacio en comunidades purépechas mediante actividades escolares, mentorías y asesorías vocacionales con perspectiva de género",
+    "ano": 2025,
+    "poster": true
+  },
+  {
+    "student_id": "7_2025",
+    "mentor_id": 67,
+    "nombre": "Fuego y territorio: Análisis exploratorio de la vulnerabilidad socioecológica al fuego en comunidades indígenas de Michoacán",
+    "descripcion": "Exploración de la relación entre marginación social, gestión comunitaria e incendios forestales en la Meseta Purépecha usando datos históricos 2011–2024",
+    "ano": 2025,
+    "poster": true
+  },
+  {
+    "student_id": "8_2025",
+    "mentor_id": 39,
+    "nombre": "Modelo de intervención intercultural para el desarrollo de la autonomía del aprendizaje en estudiantes de contextos rurales e indígenas",
+    "descripcion": "Desarrollo, implementación y evaluación de un modelo de intervención intercultural para fortalecer la autonomía del aprendizaje, autoeficacia y motivación académica",
+    "ano": 2025,
+    "poster": true
+  },
+  {
+    "student_id": "9_2025",
+    "mentor_id": 12,
+    "nombre": "Incentivar carreras STEAM en alumnas de educación media superior en San Francisco Pichátaro, Michoacán",
+    "descripcion": "Programa integral con enfoque de género e interculturalidad para fomentar el interés de jóvenes purépechas en carreras STEAM y reducir barreras estructurales",
+    "ano": 2025,
+    "poster": true
+  },
+  {
+    "student_id": "10_2025",
+    "mentor_id": 52,
+    "nombre": "Impacto socio-ambiental en la construcción del puente en la Comunidad Indígena de Jarácuaro, Michoacán",
+    "descripcion": "Análisis de impactos socioambientales a largo plazo derivados de la construcción del puente que conecta Arocutín con la Isla de Jarácuaro",
+    "ano": 2025,
+    "poster": true
+  },
+  {
+    "student_id": "11_2025",
+    "mentor_id": 38,
+    "nombre": "Piscicultura participativa de Chirostoma estor y Algansea lacustris, especies endémicas del Lago de Pátzcuaro",
+    "descripcion": "Modelo experimental de policultivo en estanques con especies nativas del Lago de Pátzcuaro como alternativa de desarrollo económico y conservación biocultural purépecha",
+    "ano": 2025,
+    "poster": true
+  },
+  {
+    "student_id": "12_2025",
+    "mentor_id": 66,
+    "nombre": "Estrategias para el fortalecimiento de la cadena productiva del mezcal en la comunidad de Oponguio, Michoacán",
+    "descripcion": "Diagnóstico socioeconómico y propuesta de estrategias para fortalecer el desarrollo económico local y proteger los conocimientos tradicionales de los maestros mezcaleros",
+    "ano": 2025,
+    "poster": true
+  },
+  {
+    "student_id": "13_2025",
+    "mentor_id": 7,
+    "nombre": "Registro de Saberes y Técnicas Artesanales del Exhibidor Sesi Jagnari de Erongarícuaro",
+    "descripcion": "Documentación sistemática de saberes y técnicas tradicionales del Exhibidor Artesanal Sesi Jagnari para fortalecer el reconocimiento cultural",
+    "ano": 2025,
+    "poster": true
+  },
+  {
+    "student_id": "14_2025",
+    "mentor_id": 61,
+    "nombre": "Mejorar la gobernanza comunitaria y las prácticas archivísticas en los pueblos P'urhépecha de Michoacán",
+    "descripcion": "Investigación sobre la toma de decisiones y participación política en San Jerónimo Purenchécuaro, con análisis del impacto de la digitalización del archivo histórico",
+    "ano": 2025,
+    "poster": true
+  },
+  {
+    "student_id": "15_2025",
+    "mentor_id": 51,
+    "nombre": "El agua dentro del chuchutsipij desde la visión de los totonacos de Ecatlán, Puebla",
+    "descripcion": "Análisis antropológico de la relación agua-persona en la cosmovisión del pueblo totonaco de Ecatlán a través del concepto de chuchutsipij",
+    "ano": 2025,
+    "poster": true
+  },
+  {
+    "student_id": "16_2025",
+    "mentor_id": 47,
+    "nombre": "Efecto de una Intervención en Náhuatl sobre la Autoeficacia del Uso del Condón en Adolescentes de Pueblos Originarios",
+    "descripcion": "Evaluación del efecto de una intervención educativa de salud sexual adaptada al náhuatl en adolescentes indígenas",
+    "ano": 2025,
+    "poster": true
+  },
+  {
+    "student_id": "17_2025",
+    "mentor_id": 57,
+    "nombre": "Estudio de campo de la medicina tradicional de la población Totonakú de Ahuacatlán, Puebla",
+    "descripcion": "Documentación de saberes ancestrales sobre plantas medicinales en Ahuacatlán con elaboración de catálogo bilingüe Totonakú-español",
+    "ano": 2025,
+    "poster": true
+  },
+  {
+    "student_id": "18_2025",
+    "mentor_id": 56,
+    "nombre": "Cooperación voluntaria y ayuda mutua en la economía social y solidaria en los pueblos originarios de Puebla",
+    "descripcion": "Análisis con perspectiva de género sobre el funcionamiento de empresas de Economía Social y Solidaria lideradas por grupos indígenas en Puebla",
+    "ano": 2025,
+    "poster": true
+  },
+  {
+    "student_id": "19_2025",
+    "mentor_id": 5,
+    "nombre": "Participación Comunitaria y Economía Social y Solidaria: Estrategias para Promover el Buen Vivir Rural en Comunidades Totonacas",
+    "descripcion": "Estrategias de Economía Social y Solidaria para promover el Buen Vivir en San Felipe Tepatlán y Hermenegildo Galeana",
+    "ano": 2025,
+    "poster": true
+  },
+  {
+    "student_id": "20_2025",
+    "mentor_id": 41,
+    "nombre": "Políticas públicas y trayectorias en educación superior y posgrado de mujeres indígenas",
+    "descripcion": "Análisis del impacto de políticas públicas educativas en el acceso y egreso de mujeres indígenas en educación superior desde una perspectiva interseccional",
+    "ano": 2025,
+    "poster": true
+  },
+  {
+    "student_id": "21_2025",
+    "mentor_id": 16,
+    "nombre": "Validación de materiales para toma de decisiones basadas en redes sociales en adolescencia tardía",
+    "descripcion": "Validación de contenido y construcción de materiales educativos para fortalecer la toma de decisiones críticas en redes sociales entre adolescentes",
+    "ano": 2025,
+    "poster": true
+  },
+  {
+    "student_id": "22_2025",
+    "mentor_id": 65,
+    "nombre": "Tecnología accesible para la salud: desarrollo de biosensores LIG de bajo costo para comunidades con acceso médico limitado",
+    "descripcion": "Desarrollo de biosensores portátiles basados en grafeno inducido por láser (LIG) para detectar biomarcadores en comunidades indígenas",
+    "ano": 2025,
+    "poster": true
+  },
+  {
+    "student_id": "23_2025",
+    "mentor_id": 53,
+    "nombre": "Prevención de la trata de personas en comunidades indígenas en México",
+    "descripcion": "Revisión del alcance de políticas públicas de prevención de trata con énfasis en explotación laboral en comunidades indígenas de Sinaloa",
+    "ano": 2025,
+    "poster": true
+  },
+  {
+    "student_id": "24_2025",
+    "mentor_id": 35,
+    "nombre": "Identificación de recursos con potencialidad para fomentar el turismo comunitario en Xochistlahuaca, Guerrero",
+    "descripcion": "Evaluación de recursos naturales y culturales de Xochistlahuaca para determinar su potencial turístico comunitario",
+    "ano": 2025,
+    "poster": true
+  },
+  {
+    "student_id": "25_2025",
+    "mentor_id": 4,
+    "nombre": "Impacto psicosocial de la migración en mujeres jornaleras",
+    "descripcion": "Intervención psicosocial con mujeres jornaleras migrantes en albergue temporal, promoviendo su autonomía, derechos laborales y entornos seguros",
+    "ano": 2025,
+    "poster": true
+  },
+  {
+    "student_id": "26_2025",
+    "mentor_id": 37,
+    "nombre": "Desigualdad Educativa existente en las Comunidades Indígenas",
+    "descripcion": "Investigación sobre causas de desigualdad educativa en Las Lomas, Tanquián de Escobedo, SLP",
+    "ano": 2025,
+    "poster": true
+  },
+  {
+    "student_id": "27_2025",
+    "mentor_id": 18,
+    "nombre": "Los desafíos que enfrentan las comunidades marginadas: preservar la cultura y el arte del bordado náhuatl",
+    "descripcion": "Rescate y revalorización de la vestimenta tradicional y el arte del bordado náhuatl en comunidades marginadas de la región huasteca sur de SLP",
+    "ano": 2025,
+    "poster": true
+  },
+  {
+    "student_id": "28_2025",
+    "mentor_id": 50,
+    "nombre": "Derechos humanos que tienen los pueblos y comunidades indígenas",
+    "descripcion": "Difusión de derechos humanos e indígenas en Ixtlapalaco Vega Larga, Tamazunchale, SLP, mediante talleres y pláticas",
+    "ano": 2025,
+    "poster": true
+  },
+  {
+    "student_id": "29_2025",
+    "mentor_id": 54,
+    "nombre": "Preservación y Difusión de la Lengua Materna desde los Saberes y Prácticas Ancestrales",
+    "descripcion": "Preservación de la lengua materna en Tezapotla mediante documentación lingüística, talleres intergeneracionales y alianzas con líderes y educadores",
+    "ano": 2025,
+    "poster": true
+  },
+  {
+    "student_id": "30_2025",
+    "mentor_id": 2,
+    "nombre": "Diagnóstico comunitario del impacto socioambiental en poblaciones mazatecas afectadas por incendios forestales",
+    "descripcion": "Diagnóstico participativo del impacto socioambiental de los incendios de junio 2024 en Xochitonalco y Río Santiago, Huautla de Jiménez",
+    "ano": 2025,
+    "poster": true
+  },
+  {
+    "student_id": "31_2025",
+    "mentor_id": 68,
+    "nombre": "Acceso a la salud: Un sueño para las personas indígenas",
+    "descripcion": "Análisis cualitativo y documental de las condiciones que vulneran el derecho a la salud en la comunidad nahua de Atehuac, Tamazunchale",
+    "ano": 2025,
+    "poster": true
+  },
+  {
+    "student_id": "32_2025",
+    "mentor_id": 6,
+    "nombre": "Fortalecimiento de la educación financiera y estrategias de ahorro en una comunidad indígena de SLP",
+    "descripcion": "Talleres culturalmente adaptados en lenguas originarias para capacitar a mujeres, jóvenes y microempresarios en El Crucerito, Tancanhuitz",
+    "ano": 2025,
+    "poster": true
+  },
+  {
+    "student_id": "33_2025",
+    "mentor_id": 55,
+    "nombre": "Mujeres que crean futuro: visibilización y fortalecimiento del emprendimiento indígena en Tancanhuitz",
+    "descripcion": "Diagnóstico participativo de emprendimientos de mujeres indígenas en Tancanhuitz y propuesta de acompañamiento económico y organizativo",
+    "ano": 2025,
+    "poster": true
+  },
+  {
+    "student_id": "34_2025",
+    "mentor_id": 63,
+    "nombre": "Nivel de conocimientos sobre el VPH en mujeres indígenas vs no indígenas en SLP: estudio comparativo",
+    "descripcion": "Evaluación comparativa del impacto de intervención educativa sobre VPH entre mujeres indígenas hablantes de náhuatl y mujeres no indígenas en SLP",
+    "ano": 2025,
+    "poster": true
+  },
+  {
+    "student_id": "35_2025",
+    "mentor_id": 3,
+    "nombre": "El impacto de la cultura tributaria en jóvenes de la comunidad indígena Las Víboras",
+    "descripcion": "Estrategias educativas para fortalecer la cultura tributaria en jóvenes de la comunidad indígena Las Víboras",
+    "ano": 2025,
+    "poster": true
+  },
+  {
+    "student_id": "36_2025",
+    "mentor_id": 49,
+    "nombre": "Factores que influyen en la deserción escolar en comunidades indígenas de la Huasteca Potosina",
+    "descripcion": "Análisis intercultural y participativo de factores socioeconómicos, culturales y escolares que causan deserción escolar en El Bazuche",
+    "ano": 2025,
+    "poster": true
+  },
+  {
+    "student_id": "37_2025",
+    "mentor_id": 24,
+    "nombre": "Percepción social sobre los conflictos socioambientales del Corredor Interoceánico del Istmo de Tehuantepec",
+    "descripcion": "Análisis cualitativo de redes de actores y percepciones sobre los conflictos socioambientales del CIIT en comunidades mixes de Oaxaca",
+    "ano": 2025,
+    "poster": true
+  },
+  {
+    "student_id": "38_2025",
+    "mentor_id": 43,
+    "nombre": "Cihuameh Tlachiualeh: Modelos Cooperativos Sostenibles para la Dignificación de Mujeres Indígenas en Veracruz",
+    "descripcion": "Modelo cooperativo comunitario para el empoderamiento económico de mujeres indígenas en la región de las Altas Montañas de Veracruz",
+    "ano": 2025,
+    "poster": true
+  },
+  {
+    "student_id": "39_2025",
+    "mentor_id": 48,
+    "nombre": "Mapeo estratégico de actividades económicas y sociales para el desarrollo comunitario en comunidades indígenas",
+    "descripcion": "Diagnóstico participativo en Tonalapan, Veracruz, para sistematizar actividades económicas y sociales e identificar estrategias de desarrollo comunitario sostenible",
+    "ano": 2025,
+    "poster": true
+  },
+  {
+    "student_id": "40_2025",
+    "mentor_id": 32,
+    "nombre": "Identificación de áreas de oportunidad para la mejora de la gobernanza de datos en una institución de educación superior",
+    "descripcion": "Diagnóstico del nivel de madurez en la gestión de datos institucional en una institución de educación superior en Tlaxiaco, Oaxaca",
+    "ano": 2025,
+    "poster": true
+  },
+  {
+    "student_id": "41_2025",
+    "mentor_id": 5,
+    "nombre": "Evaluación de proyectos destinados a la sostenibilidad en la Isla de Janitzio (2016–2024)",
+    "descripcion": "Evaluación de proyectos de sostenibilidad en Janitzio analizando su alineación con necesidades comunitarias purépechas",
+    "ano": 2025,
+    "poster": true
+  },
+  {
+    "student_id": "42_2025",
+    "mentor_id": 3,
+    "nombre": "Gestión de conocimientos agrícolas sostenibles en infancias de Ihuatzio a través de un huerto educativo",
+    "descripcion": "Implementación de un huerto educativo para recuperar y transmitir conocimientos agrícolas ancestrales a las infancias de Ihuatzio",
+    "ano": 2025,
+    "poster": true
+  },
+  {
+    "student_id": "43_2025",
+    "mentor_id": 1,
+    "nombre": "Formación docente desde una perspectiva epistemológica nativa y plural",
+    "descripcion": "Propuesta educativa que integra epistemologías mayas y plurales en la formación docente del Centro Regional de Educación Normal de Bacalar, Quintana Roo",
+    "ano": 2025,
+    "poster": true
+  },
+  {
+    "student_id": "44_2025",
+    "mentor_id": 25,
+    "nombre": "Acceso a la información pública con pertinencia cultural y su impacto en el buen vivir de los pueblos indígenas",
+    "descripcion": "Estudio de caso en tres comunidades de Chiapas sobre el impacto del acceso a información pública culturalmente pertinente en el buen vivir",
+    "ano": 2025,
+    "poster": true
+  }
 ]

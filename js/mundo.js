@@ -16,6 +16,7 @@ const PAIS_COORDS = {
   'India': { x: 647.5, y: 196.3 },
   'Italia': { x: 481.2, y: 132.4 },
   'Serbia': { x: 500, y: 120 },
+  'Ecuador': { x: 340, y: 255 },
 };
 
 const EEUU_REGION_COORDS = {
@@ -47,6 +48,10 @@ const ESTADO_OFFSETS = {
   'Guerrero': { x: 200.2, y: 205.6 },
   'Chiapas': { x: 217.2, y: 207.6 },
   'Estado de México': { x: 202, y: 198 },
+  'Nuevo León': { x: 298, y: 175 },
+  'Colima': { x: 192, y: 197 },
+  'Morelos': { x: 204, y: 199 },
+  'Quintana Roo': { x: 232, y: 192 },
 };
 
 let worldSvgLoaded = false;
@@ -393,6 +398,7 @@ function paisToEnglish(pais) {
     'Chile': 'Chile',
     'Holanda': 'Netherlands',
     'Serbia': 'Serbia',
+    'Ecuador': 'Ecuador',
     'Japón': 'Japan',
     'Australia': 'Australia',
     'India': 'India',

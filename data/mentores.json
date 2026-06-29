@@ -1,48 +1,518 @@
 [
-  { "id": 1, "nombre": "Francisco Marmolejo Cossío", "institucion": "Universidad de Harvard", "pais": "EEUU", "region": "northeast", "disciplina": "Mecanismos de diseño, economía" },
-  { "id": 2, "nombre": "Tilsa Ore Monago", "institucion": "Rice University", "pais": "EEUU", "region": "southeast", "disciplina": "Economía, equidad y acceso" },
-  { "id": 3, "nombre": "Imelda Flores Vazquez", "institucion": "Econometrica Inc.", "pais": "EEUU", "region": "southwest", "disciplina": "Econometría, políticas públicas" },
-  { "id": 4, "nombre": "Michelle González Amador", "institucion": "UNU-MERIT / Universidad de Maastricht", "pais": "Holanda", "disciplina": "Economía del desarrollo, educación" },
-  { "id": 5, "nombre": "Rubén Martínez Cárdenas", "institucion": "Universidad de York", "pais": "UK", "disciplina": "Ciencias sociales, políticas públicas" },
-  { "id": 6, "nombre": "Alejandro Robinson-Cortés", "institucion": "Universidad de Exeter", "pais": "UK", "disciplina": "Economía" },
-  { "id": 7, "nombre": "Salvador Ruiz Correa", "institucion": "IPICYT", "pais": "México", "disciplina": "Ciencias computacionales" },
-  { "id": 8, "nombre": "Alicia Prieto Langarica", "institucion": "Universidad Estatal de Youngstown", "pais": "EEUU", "region": "midwest", "disciplina": "Matemáticas aplicadas, biología matemática" },
-  { "id": 9, "nombre": "Diego M. Macall", "institucion": "Universitat Autònoma de Barcelona", "pais": "España", "disciplina": "Economía, medio ambiente" },
-  { "id": 10, "nombre": "Areli Vázquez Juárez", "institucion": "UNAM", "pais": "México", "disciplina": "Ciencias de la salud" },
-  { "id": 11, "nombre": "Agnes Medinaceli", "institucion": "Universidad de Oxford", "pais": "UK", "disciplina": "Desarrollo internacional, género" },
-  { "id": 12, "nombre": "Jorge Garcia Ponce", "institucion": "Universidad de Harvard", "pais": "EEUU", "region": "northeast", "disciplina": "Ciencias sociales" },
-  { "id": 13, "nombre": "Egidio Tentori", "institucion": "Universidad Cornell", "pais": "EEUU", "region": "northeast", "disciplina": "Gestión del agua, medio ambiente" },
-  { "id": 14, "nombre": "Flor Gerardou", "institucion": "Universidad de Falmouth", "pais": "UK", "disciplina": "Educación, género" },
-  { "id": 15, "nombre": "Blanca Guizar Moran", "institucion": "Universidad de Sunderland", "pais": "UK", "disciplina": "Ciencias sociales, género" },
-  { "id": 16, "nombre": "Angel Urbina Garcia", "institucion": "Universidad de Hull", "pais": "UK", "disciplina": "Educación, psicología" },
-  { "id": 17, "nombre": "Eleanor Brown", "institucion": "Universidad de York", "pais": "UK", "disciplina": "Educación" },
-  { "id": 18, "nombre": "María Ana Chavana Villalobos", "institucion": "Universidad de York", "pais": "UK", "disciplina": "Estudios interculturales, lenguas" },
-  { "id": 19, "nombre": "Santiago Correa Cardona", "institucion": "Universidad de Massachusetts", "pais": "EEUU", "region": "northeast", "disciplina": "Ciencias de la computación, salud" },
-  { "id": 20, "nombre": "Cristina Gorrostieta", "institucion": "Cogito", "pais": "EEUU", "region": "northeast", "disciplina": "Inteligencia artificial, salud mental" },
-  { "id": 21, "nombre": "Alejandro Quiroz", "institucion": "Universidad de Essex", "pais": "UK", "disciplina": "Ciencias políticas" },
-  { "id": 22, "nombre": "Lucas Gomez Tobon", "institucion": "Quantil", "pais": "Colombia", "disciplina": "Estadística, ciencia de datos" },
-  { "id": 23, "nombre": "Paula Rodriguez Diaz", "institucion": "Harvard", "pais": "EEUU", "region": "northeast", "disciplina": "No especificada" },
-  { "id": 24, "nombre": "Ivonne Cruz", "institucion": "Rice University's Baker Institute for Public Policy", "pais": "EEUU", "region": "southeast", "disciplina": "No especificada" },
-  { "id": 25, "nombre": "Rudy Corona", "institucion": "UC Berkeley", "pais": "EEUU", "region": "northwest", "disciplina": "No especificada" },
-  { "id": 26, "nombre": "Maria Jose Lozano", "institucion": "Baker Hughes", "pais": "EEUU", "region": "southeast", "disciplina": "No especificada" },
-  { "id": 27, "nombre": "Ricardo Skewes", "institucion": "Harvard College", "pais": "EEUU", "region": "northeast", "disciplina": "No especificada" },
-  { "id": 28, "nombre": "Gabriel Pensamiento Calderon", "institucion": "University of Pittsburgh", "pais": "EEUU", "region": "northeast", "disciplina": "No especificada" },
-  { "id": 29, "nombre": "Jose Marmolejo Cossio", "institucion": "UMASS Amherst", "pais": "EEUU", "region": "northeast", "disciplina": "No especificada" },
-  { "id": 30, "nombre": "Ollin Demian Langle Chimal", "institucion": "UC Berkeley", "pais": "EEUU", "region": "northwest", "disciplina": "No especificada" },
-  { "id": 31, "nombre": "Sandro Radovanovic", "institucion": "University of Belgrade", "pais": "Serbia", "disciplina": "No especificada" },
-  { "id": 32, "nombre": "Saiph Savage", "institucion": "Northeastern University", "pais": "EEUU", "region": "northeast", "disciplina": "No especificada" },
-  { "id": 33, "nombre": "Bernardo Perez Orozco", "institucion": "MindFoundry", "pais": "UK", "disciplina": "No especificada" },
-  { "id": 34, "nombre": "Hugo Nava Kopp", "institucion": "University of Oxford", "pais": "UK", "disciplina": "No especificada" },
-  { "id": 35, "nombre": "Raul Astudillo", "institucion": "Caltech", "pais": "EEUU", "region": "southwest", "disciplina": "No especificada" },
-  { "id": 36, "nombre": "Gabriel Maxemin", "institucion": "Harvard College", "pais": "EEUU", "region": "northeast", "disciplina": "No especificada" },
-  { "id": 37, "nombre": "Jerry Sevillano", "institucion": "Harvard College", "pais": "EEUU", "region": "northeast", "disciplina": "No especificada" },
-  { "id": 38, "nombre": "Yula Moll Rocek", "institucion": "Harvard", "pais": "EEUU", "region": "northeast", "disciplina": "No especificada" },
-  { "id": 39, "nombre": "Natali Alcala Moreno", "institucion": "Harvard", "pais": "EEUU", "region": "northeast", "disciplina": "No especificada" },
-  { "id": 40, "nombre": "Beatriz Calzada Olvera", "institucion": "Rotterdam University", "pais": "Holanda", "disciplina": "No especificada" },
-  { "id": 41, "nombre": "Eriko Padron", "institucion": "", "pais": "", "disciplina": "No especificada" },
-  { "id": 42, "nombre": "Daniela Zapata", "institucion": "American Institutes for Research", "pais": "EEUU", "region": "northeast", "disciplina": "No especificada" },
-  { "id": 43, "nombre": "Salvador Meneses Requena", "institucion": "Arizona State University", "pais": "EEUU", "region": "southwest", "disciplina": "No especificada" },
-  { "id": 44, "nombre": "Karen Medina", "institucion": "Harvard College", "pais": "EEUU", "region": "northeast", "disciplina": "No especificada" },
-  { "id": 45, "nombre": "Anthony Miguel Bonilla", "institucion": "Harvard College", "pais": "EEUU", "region": "northeast", "disciplina": "No especificada" },
-  { "id": 46, "nombre": "Roy Santiago Herrera Guerrero", "institucion": "Harvard College", "pais": "EEUU", "region": "northeast", "disciplina": "No especificada" }
+  {
+    "id": 1,
+    "nombre": "Francisco Marmolejo Cossío",
+    "institucion": "Universidad de Harvard",
+    "pais": "EEUU",
+    "region": "northeast",
+    "disciplina": "Mecanismos de diseño, economía"
+  },
+  {
+    "id": 2,
+    "nombre": "Tilsa Ore Monago",
+    "institucion": "Rice University",
+    "pais": "EEUU",
+    "region": "southeast",
+    "disciplina": "Economía, equidad y acceso"
+  },
+  {
+    "id": 3,
+    "nombre": "Imelda Flores Vazquez",
+    "institucion": "Econometrica Inc.",
+    "pais": "EEUU",
+    "region": "southwest",
+    "disciplina": "Econometría, políticas públicas"
+  },
+  {
+    "id": 4,
+    "nombre": "Michelle González Amador",
+    "institucion": "UNU-MERIT / Universidad de Maastricht",
+    "pais": "Holanda",
+    "disciplina": "Economía del desarrollo, educación"
+  },
+  {
+    "id": 5,
+    "nombre": "Rubén Martínez Cárdenas",
+    "institucion": "Universidad de York",
+    "pais": "UK",
+    "disciplina": "Ciencias sociales, políticas públicas"
+  },
+  {
+    "id": 6,
+    "nombre": "Alejandro Robinson-Cortés",
+    "institucion": "Universidad de Exeter",
+    "pais": "UK",
+    "disciplina": "Economía"
+  },
+  {
+    "id": 7,
+    "nombre": "Salvador Ruiz Correa",
+    "institucion": "IPICYT",
+    "pais": "México",
+    "disciplina": "Ciencias computacionales"
+  },
+  {
+    "id": 8,
+    "nombre": "Alicia Prieto Langarica",
+    "institucion": "Universidad Estatal de Youngstown",
+    "pais": "EEUU",
+    "region": "midwest",
+    "disciplina": "Matemáticas aplicadas, biología matemática"
+  },
+  {
+    "id": 9,
+    "nombre": "Diego M. Macall",
+    "institucion": "Universitat Autònoma de Barcelona",
+    "pais": "España",
+    "disciplina": "Economía, medio ambiente"
+  },
+  {
+    "id": 10,
+    "nombre": "Areli Vázquez Juárez",
+    "institucion": "UNAM",
+    "pais": "México",
+    "disciplina": "Ciencias de la salud"
+  },
+  {
+    "id": 11,
+    "nombre": "Agnes Medinaceli",
+    "institucion": "Universidad de Oxford",
+    "pais": "UK",
+    "disciplina": "Desarrollo internacional, género"
+  },
+  {
+    "id": 12,
+    "nombre": "Jorge Garcia Ponce",
+    "institucion": "Universidad de Harvard",
+    "pais": "EEUU",
+    "region": "northeast",
+    "disciplina": "Ciencias sociales"
+  },
+  {
+    "id": 13,
+    "nombre": "Egidio Tentori",
+    "institucion": "Universidad Cornell",
+    "pais": "EEUU",
+    "region": "northeast",
+    "disciplina": "Gestión del agua, medio ambiente"
+  },
+  {
+    "id": 14,
+    "nombre": "Flor Gerardou",
+    "institucion": "Universidad de Falmouth",
+    "pais": "UK",
+    "disciplina": "Educación, género"
+  },
+  {
+    "id": 15,
+    "nombre": "Blanca Guizar Moran",
+    "institucion": "Universidad de Sunderland",
+    "pais": "UK",
+    "disciplina": "Ciencias sociales, género"
+  },
+  {
+    "id": 16,
+    "nombre": "Angel Urbina Garcia",
+    "institucion": "Universidad de Hull",
+    "pais": "UK",
+    "disciplina": "Educación, psicología"
+  },
+  {
+    "id": 17,
+    "nombre": "Eleanor Brown",
+    "institucion": "Universidad de York",
+    "pais": "UK",
+    "disciplina": "Educación"
+  },
+  {
+    "id": 18,
+    "nombre": "María Ana Chavana Villalobos",
+    "institucion": "Universidad de York",
+    "pais": "UK",
+    "disciplina": "Estudios interculturales, lenguas"
+  },
+  {
+    "id": 19,
+    "nombre": "Santiago Correa Cardona",
+    "institucion": "Universidad de Massachusetts",
+    "pais": "EEUU",
+    "region": "northeast",
+    "disciplina": "Ciencias de la computación, salud"
+  },
+  {
+    "id": 20,
+    "nombre": "Cristina Gorrostieta",
+    "institucion": "Cogito",
+    "pais": "EEUU",
+    "region": "northeast",
+    "disciplina": "Inteligencia artificial, salud mental"
+  },
+  {
+    "id": 21,
+    "nombre": "Alejandro Quiroz",
+    "institucion": "Universidad de Essex",
+    "pais": "UK",
+    "disciplina": "Ciencias políticas"
+  },
+  {
+    "id": 22,
+    "nombre": "Lucas Gomez Tobon",
+    "institucion": "Quantil",
+    "pais": "Colombia",
+    "disciplina": "Estadística, ciencia de datos"
+  },
+  {
+    "id": 23,
+    "nombre": "Paula Rodriguez Diaz",
+    "institucion": "Harvard",
+    "pais": "EEUU",
+    "region": "northeast",
+    "disciplina": "No especificada"
+  },
+  {
+    "id": 24,
+    "nombre": "Ivonne Cruz",
+    "institucion": "Rice University's Baker Institute for Public Policy",
+    "pais": "EEUU",
+    "region": "southeast",
+    "disciplina": "No especificada"
+  },
+  {
+    "id": 25,
+    "nombre": "Rudy Corona",
+    "institucion": "UC Berkeley",
+    "pais": "EEUU",
+    "region": "northwest",
+    "disciplina": "No especificada"
+  },
+  {
+    "id": 26,
+    "nombre": "Maria Jose Lozano",
+    "institucion": "Baker Hughes",
+    "pais": "EEUU",
+    "region": "southeast",
+    "disciplina": "No especificada"
+  },
+  {
+    "id": 27,
+    "nombre": "Ricardo Skewes",
+    "institucion": "Harvard College",
+    "pais": "EEUU",
+    "region": "northeast",
+    "disciplina": "No especificada"
+  },
+  {
+    "id": 28,
+    "nombre": "Gabriel Pensamiento Calderon",
+    "institucion": "University of Pittsburgh",
+    "pais": "EEUU",
+    "region": "northeast",
+    "disciplina": "No especificada"
+  },
+  {
+    "id": 29,
+    "nombre": "Jose Marmolejo Cossio",
+    "institucion": "UMASS Amherst",
+    "pais": "EEUU",
+    "region": "northeast",
+    "disciplina": "No especificada"
+  },
+  {
+    "id": 30,
+    "nombre": "Ollin Demian Langle Chimal",
+    "institucion": "UC Berkeley",
+    "pais": "EEUU",
+    "region": "northwest",
+    "disciplina": "No especificada"
+  },
+  {
+    "id": 31,
+    "nombre": "Sandro Radovanovic",
+    "institucion": "University of Belgrade",
+    "pais": "Serbia",
+    "disciplina": "No especificada"
+  },
+  {
+    "id": 32,
+    "nombre": "Saiph Savage",
+    "institucion": "Northeastern University",
+    "pais": "EEUU",
+    "region": "northeast",
+    "disciplina": "No especificada"
+  },
+  {
+    "id": 33,
+    "nombre": "Bernardo Perez Orozco",
+    "institucion": "MindFoundry",
+    "pais": "UK",
+    "disciplina": "No especificada"
+  },
+  {
+    "id": 34,
+    "nombre": "Hugo Nava Kopp",
+    "institucion": "University of Oxford",
+    "pais": "UK",
+    "disciplina": "No especificada"
+  },
+  {
+    "id": 35,
+    "nombre": "Raul Astudillo",
+    "institucion": "Caltech",
+    "pais": "EEUU",
+    "region": "southwest",
+    "disciplina": "No especificada"
+  },
+  {
+    "id": 36,
+    "nombre": "Gabriel Maxemin",
+    "institucion": "Harvard College",
+    "pais": "EEUU",
+    "region": "northeast",
+    "disciplina": "No especificada"
+  },
+  {
+    "id": 37,
+    "nombre": "Jerry Sevillano",
+    "institucion": "Harvard College",
+    "pais": "EEUU",
+    "region": "northeast",
+    "disciplina": "No especificada"
+  },
+  {
+    "id": 38,
+    "nombre": "Yula Moll Rocek",
+    "institucion": "Harvard",
+    "pais": "EEUU",
+    "region": "northeast",
+    "disciplina": "No especificada"
+  },
+  {
+    "id": 39,
+    "nombre": "Natali Alcala Moreno",
+    "institucion": "Harvard",
+    "pais": "EEUU",
+    "region": "northeast",
+    "disciplina": "No especificada"
+  },
+  {
+    "id": 40,
+    "nombre": "Beatriz Calzada Olvera",
+    "institucion": "Rotterdam University",
+    "pais": "Holanda",
+    "disciplina": "No especificada"
+  },
+  {
+    "id": 41,
+    "nombre": "Eriko Padron",
+    "institucion": "",
+    "pais": "",
+    "disciplina": "No especificada"
+  },
+  {
+    "id": 42,
+    "nombre": "Daniela Zapata",
+    "institucion": "American Institutes for Research",
+    "pais": "EEUU",
+    "region": "northeast",
+    "disciplina": "No especificada"
+  },
+  {
+    "id": 43,
+    "nombre": "Salvador Meneses Requena",
+    "institucion": "Arizona State University",
+    "pais": "EEUU",
+    "region": "southwest",
+    "disciplina": "No especificada"
+  },
+  {
+    "id": 44,
+    "nombre": "Karen Medina",
+    "institucion": "Harvard College",
+    "pais": "EEUU",
+    "region": "northeast",
+    "disciplina": "No especificada"
+  },
+  {
+    "id": 45,
+    "nombre": "Anthony Miguel Bonilla",
+    "institucion": "Harvard College",
+    "pais": "EEUU",
+    "region": "northeast",
+    "disciplina": "No especificada"
+  },
+  {
+    "id": 46,
+    "nombre": "Roy Santiago Herrera Guerrero",
+    "institucion": "Harvard College",
+    "pais": "EEUU",
+    "region": "northeast",
+    "disciplina": "No especificada"
+  },
+  {
+    "id": 47,
+    "nombre": "Adrián Villadeñor",
+    "institucion": "University of York",
+    "pais": "UK",
+    "disciplina": "Economía de la salud, medio ambiente, desigualdad"
+  },
+  {
+    "id": 48,
+    "nombre": "Ivan Ochoa Moreno",
+    "institucion": "University of York",
+    "pais": "UK",
+    "disciplina": "Economía de la salud, evaluaciones de impacto"
+  },
+  {
+    "id": 49,
+    "nombre": "Victor Avila Torres",
+    "institucion": "University of Lincoln",
+    "pais": "UK",
+    "disciplina": "Medios digitales, sociología de la cultura"
+  },
+  {
+    "id": 50,
+    "nombre": "Federico Bobbio",
+    "institucion": "Northwestern University",
+    "pais": "EEUU",
+    "disciplina": "No especificada",
+    "region": "midwest"
+  },
+  {
+    "id": 51,
+    "nombre": "Leticia Tituaña",
+    "institucion": "Warmi-STEM",
+    "pais": "Ecuador",
+    "disciplina": "STEM, química"
+  },
+  {
+    "id": 52,
+    "nombre": "Nathalia Ramírez",
+    "institucion": "UNU-MERIT",
+    "pais": "Holanda",
+    "disciplina": "Economía del desarrollo"
+  },
+  {
+    "id": 53,
+    "nombre": "Roberto Tello Ayala",
+    "institucion": "Harvard",
+    "pais": "EEUU",
+    "disciplina": "Ciencias de la computación",
+    "region": "northeast"
+  },
+  {
+    "id": 54,
+    "nombre": "Luis Mercado Campos",
+    "institucion": "CU Boulder",
+    "pais": "EEUU",
+    "disciplina": "Ciencias de la computación",
+    "region": "southwest"
+  },
+  {
+    "id": 55,
+    "nombre": "Solomon Rodd",
+    "institucion": "Harvard",
+    "pais": "EEUU",
+    "disciplina": "Políticas públicas",
+    "region": "northeast"
+  },
+  {
+    "id": 56,
+    "nombre": "Julia Smith Coyoli",
+    "institucion": "Harvard / Strathclyde",
+    "pais": "EEUU",
+    "disciplina": "No especificada",
+    "region": "northeast"
+  },
+  {
+    "id": 57,
+    "nombre": "Valeria Ruiz",
+    "institucion": "Harvard Medical School",
+    "pais": "EEUU",
+    "disciplina": "Salud",
+    "region": "northeast"
+  },
+  {
+    "id": 58,
+    "nombre": "Dea Oviedo",
+    "institucion": "Harvard Chan School of Public Health",
+    "pais": "EEUU",
+    "disciplina": "Salud pública",
+    "region": "northeast"
+  },
+  {
+    "id": 59,
+    "nombre": "Diego Berdeja Suarez",
+    "institucion": "Oxford Department of Mathematics",
+    "pais": "UK",
+    "disciplina": "Matemáticas"
+  },
+  {
+    "id": 60,
+    "nombre": "Alejandro Coyoli",
+    "institucion": "",
+    "pais": "EEUU",
+    "disciplina": "Matemáticas",
+    "region": "northeast"
+  },
+  {
+    "id": 61,
+    "nombre": "Margarita Sordo",
+    "institucion": "Bcognizant",
+    "pais": "EEUU",
+    "disciplina": "No especificada",
+    "region": "northeast"
+  },
+  {
+    "id": 62,
+    "nombre": "Andrea Fernández Soto",
+    "institucion": "",
+    "pais": "México",
+    "disciplina": "No especificada"
+  },
+  {
+    "id": 63,
+    "nombre": "Betzael Bravo",
+    "institucion": "Harvard School of Public Health",
+    "pais": "EEUU",
+    "disciplina": "Salud pública",
+    "region": "northeast"
+  },
+  {
+    "id": 64,
+    "nombre": "Jesús David Martínez Hernández",
+    "institucion": "",
+    "pais": "México",
+    "disciplina": "No especificada"
+  },
+  {
+    "id": 65,
+    "nombre": "Eunice Fabian Morales",
+    "institucion": "Harvard Medical School",
+    "pais": "EEUU",
+    "disciplina": "Medicina",
+    "region": "northeast"
+  },
+  {
+    "id": 66,
+    "nombre": "Pablo Salamanca Cobos",
+    "institucion": "Northeastern University",
+    "pais": "EEUU",
+    "disciplina": "No especificada",
+    "region": "northeast"
+  },
+  {
+    "id": 67,
+    "nombre": "Álvaro Hopkins Barriga",
+    "institucion": "Wageningen University",
+    "pais": "Holanda",
+    "disciplina": "Economía del desarrollo, agricultura"
+  },
+  {
+    "id": 68,
+    "nombre": "Luis Fernando González González",
+    "institucion": "Johns Hopkins University",
+    "pais": "EEUU",
+    "disciplina": "No especificada",
+    "region": "northeast"
+  }
 ]
