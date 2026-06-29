@@ -170,8 +170,13 @@ function abrirPosterModal(url) {
   if (isImage) {
     body.innerHTML = `<img src="${url}" alt="Póster">`;
   } else {
-    const viewerUrl = 'https://docs.google.com/gview?url=' + encodeURIComponent(fullUrl) + '&embedded=true';
-    body.innerHTML = `<iframe src="${viewerUrl}"></iframe>`;
+    body.innerHTML = `<iframe src="${fullUrl}" type="application/pdf"></iframe>
+      <div style="position:absolute;bottom:12px;left:50%;transform:translateX(-50%);z-index:5">
+        <a href="${fullUrl}" target="_blank" rel="noopener"
+           style="background:#2a7ab5;color:#fff;padding:6px 16px;border-radius:6px;font-size:0.85rem;text-decoration:none;box-shadow:0 2px 6px rgba(0,0,0,0.2)">
+          Abrir en nueva pestaña
+        </a>
+      </div>`;
   }
 
   modal.classList.add('open');
