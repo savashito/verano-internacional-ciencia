@@ -674,6 +674,41 @@ section {
   opacity: 1;
 }
 
+.footer-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+  background: var(--color-white);
+  margin: 0 -1.5rem 1.5rem;
+  padding: 1.25rem 2rem;
+  flex-wrap: wrap;
+}
+
+.footer-logos a {
+  opacity: 0.85;
+  transition: opacity 0.15s;
+}
+
+.footer-logos a:hover {
+  opacity: 1;
+}
+
+.footer-logo {
+  height: 40px;
+  max-width: 160px;
+  width: auto;
+  object-fit: contain;
+}
+
+.footer-logo-text {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--color-primary) !important;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
 .footer-links {
   display: flex;
   justify-content: center;
