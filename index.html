@@ -16,8 +16,9 @@
         <a href="#about">Acerca de</a>
         <a href="#temas">Temas</a>
         <a href="#mapa">Mapa</a>
+        <a href="#testimonios">Voces</a>
         <a href="#prensa">Prensa</a>
-        
+
       </nav>
     </div>
   </header>
@@ -193,6 +194,71 @@
     </div>
   </section>
 
+  <section id="testimonios">
+    <h2 class="section-title">Voces del Programa</h2>
+    <p class="section-desc">Reflexiones de estudiantes y mentores que han participado en el Verano Internacional de la Ciencia (2022–2025).</p>
+    <div class="testimonios-tabs">
+      <button class="testimonios-tab active" data-group="estudiantes" onclick="cambiarTestimonioTab('estudiantes')">Estudiantes</button>
+      <button class="testimonios-tab" data-group="mentores" onclick="cambiarTestimonioTab('mentores')">Mentores</button>
+    </div>
+    <div class="testimonios-group active" id="testimonios-estudiantes">
+      <div class="testimonios-grid">
+        <blockquote class="testimonio-card">
+          <p>"Participar en este programa para mí, significa poder, y no hablo de dominio, hablo de que como mujer indígena podemos lograr lo que nos proponemos, podemos cumplir nuestros sueños, podemos participar y hacer ciencia, podemos hablar..."</p>
+          <cite>— Estudiante Purépecha, Michoacán</cite>
+        </blockquote>
+        <blockquote class="testimonio-card">
+          <p>"La ciencia solo tiene sentido cuando mantiene un vínculo real con las personas a quienes busca beneficiar. Reforcé la importancia de integrar el conocimiento local y las perspectivas comunitarias en cada etapa del proyecto."</p>
+          <cite>— Estudiante Purépecha, Michoacán</cite>
+        </blockquote>
+        <blockquote class="testimonio-card">
+          <p>"El programa nos permite ser un 'puente' entre el conocimiento científico occidental y la sabiduría indígena. Al integrar estas perspectivas, se genera una ciencia más holística, ética y socialmente responsable."</p>
+          <cite>— Estudiante Purépecha, Michoacán</cite>
+        </blockquote>
+        <blockquote class="testimonio-card">
+          <p>"El ver lejano tener acceso a conferencias internacionales, universidades de prestigio y presentaciones de investigación en otros países, ya es de impacto en lo personal, y esto da testimonio a otras personas."</p>
+          <cite>— Estudiante Zapoteca, Oaxaca</cite>
+        </blockquote>
+        <blockquote class="testimonio-card">
+          <p>"Quisiera destacar que el acompañamiento de mentoras y mentores con experiencia es un elemento fundamental del programa... valoro profundamente el componente humano de la mentoría. Conocer de cerca la realidad de una persona científica con trayectoria brinda una perspectiva honesta y motivadora."</p>
+          <cite>— Estudiante Triqui, Oaxaca</cite>
+        </blockquote>
+        <blockquote class="testimonio-card">
+          <p>"Es el segundo año que colaboro y me asesora mi mentora, ella ha sido un gran apoyo además de interesarse mucho en mi trabajo de investigación, hemos hecho un buen equipo y amistad."</p>
+          <cite>— Estudiante Zapoteca, Oaxaca</cite>
+        </blockquote>
+      </div>
+    </div>
+    <div class="testimonios-group" id="testimonios-mentores">
+      <div class="testimonios-grid">
+        <blockquote class="testimonio-card">
+          <p>"Estas colaboraciones, estas mentorías, realmente son más colaboraciones que mentorías — yo termino aprendiendo mucho más de ellas de lo que ellas aprenden de mí."</p>
+          <cite>— Mentor con múltiples cohortes</cite>
+        </blockquote>
+        <blockquote class="testimonio-card">
+          <p>"Ha sido una alegría ver cómo las estudiantes evolucionan con el tiempo. Ya he interactuado con algunas de las mismas estudiantes durante varios años, y uno puede ver el impacto que tiene en ellas, la forma en que empiezan a imaginarse a sí mismas en estos espacios académicos."</p>
+          <cite>— Mentor con múltiples cohortes</cite>
+        </blockquote>
+        <blockquote class="testimonio-card">
+          <p>"No podría imaginar un lugar de investigación más apropiado para este tipo de trabajo interdisciplinario, con un enfoque fundamental en mejorar el acceso a oportunidades para comunidades marginadas — y qué forma más significativa de lograrlo que elevar a miembros de la propia comunidad como científicas en espacios que normalmente no habitarían."</p>
+          <cite>— Mentor con múltiples cohortes</cite>
+        </blockquote>
+        <blockquote class="testimonio-card">
+          <p>"Es un trabajo muy valioso, en ambos sentidos."</p>
+          <cite>— Mentor con múltiples cohortes, Reino Unido</cite>
+        </blockquote>
+        <blockquote class="testimonio-card">
+          <p>"Este año fue en el que trabajé más de cerca con la estudiante... logró hacer un proyecto y dado su experiencia anterior creo que es un super logro."</p>
+          <cite>— Mentor con múltiples cohortes, Reino Unido</cite>
+        </blockquote>
+        <blockquote class="testimonio-card">
+          <p>"El aprendizaje va en todas las direcciones."</p>
+          <cite>— Organizador principal y mentor</cite>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
   <section id="prensa">
     <h2 class="section-title">Prensa y Publicaciones</h2>
     <p class="section-desc">Cobertura del programa en medios académicos e internacionales.</p>
@@ -216,6 +282,11 @@
         <span class="press-source">EAAMO 2022</span>
         <span class="press-title">COPOCYT en EAAMO '22</span>
         <span class="press-summary">Participación de estudiantes indígenas potosinas en la conferencia EAAMO 2022.</span>
+      </a>
+      <a href="https://www.eaamo.org/projects/rednacecyt-2025-summer-of-science-program" target="_blank" rel="noopener" class="press-card">
+        <span class="press-source">EAAMO 2025</span>
+        <span class="press-title">REDNACECYT en EAAMO '25</span>
+        <span class="press-summary">Participación de estudiantes indígenas en la conferencia EAAMO 2025.</span>
       </a>
       <a href="https://www.merit.unu.edu/summer-of-science-program/" target="_blank" rel="noopener" class="press-card">
         <span class="press-source">UNU-MERIT</span>
@@ -284,6 +355,13 @@
         document.getElementById('map-wrap').innerHTML = svg;
         inicializarMapa();
       });
+
+    function cambiarTestimonioTab(group) {
+      document.querySelectorAll('.testimonios-tab').forEach(t => t.classList.remove('active'));
+      document.querySelector(`.testimonios-tab[data-group="${group}"]`).classList.add('active');
+      document.querySelectorAll('.testimonios-group').forEach(g => g.classList.remove('active'));
+      document.getElementById(`testimonios-${group}`).classList.add('active');
+    }
 
     async function cambiarTab(tab) {
       document.querySelectorAll('.map-tab').forEach(t => t.classList.remove('active'));
